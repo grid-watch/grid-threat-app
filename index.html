@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sydney Grid Threat Rating</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a roadside rating sign up top, then a wall of colour-coded report tiles,
+   then working lists (prep checklist, emergency power build) down the page. */
+:root{
+  --bg:#eef0ec; --surface:#ffffff; --ink:#1d2320; --muted:#5d665f; --line:#cfd5cf; --accent:#1f5f8b;
+  --lv-green:#5fae3e; --lv-yellow:#f2cf1d; --lv-orange:#ee7d10; --lv-red:#b3141b;
+  --sign-face:#ffffff; --sign-ink:#111; --post:#8a8f93;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151a18; --surface:#1f2522; --ink:#e6ebe7; --muted:#9aa49d; --line:#36403b; --accent:#6fb0dc;
+    --post:#5b6166; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151a18; --surface:#1f2522; --ink:#e6ebe7; --muted:#9aa49d; --line:#36403b; --accent:#6fb0dc;
+  --post:#5b6166; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);padding:16px 16px 48px}
+main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:32px}
+h1,h2,h3{font-family:var(--display);letter-spacing:.02em;text-wrap:balance;margin:0;line-height:1.1}
+h2{font-size:1.9rem;text-transform:uppercase}
+h3{font-size:1.25rem;text-transform:uppercase}
+a{color:var(--accent)}
+.lead{color:var(--muted);margin:6px 0 0;max-width:65ch}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.sync{font-size:.85rem;color:var(--muted)}
+
+/* ---------- Sign ---------- */
+.sign-wrap{display:flex;flex-direction:column;align-items:center}
+.sign{background:var(--sign-face);color:var(--sign-ink);border:6px solid #111;border-radius:14px;
+  width:min(100%,560px);padding:14px 16px 0;box-shadow:0 0 0 3px #fff, 0 6px 18px rgba(0,0,0,.25);overflow:hidden}
+.sign .band{font-family:var(--display);font-weight:800;text-transform:uppercase;text-align:center;
+  font-size:clamp(1.5rem,6vw,2.2rem);letter-spacing:.04em;line-height:1}
+.sign .sub{font-family:var(--display);font-weight:700;text-align:center;font-size:1rem;letter-spacing:.12em;margin-top:2px}
+.sign svg{display:block;width:100%;height:auto;margin-top:6px}
+.sign .today{margin:0 -16px;padding:10px 16px;text-align:center;font-family:var(--display);font-weight:800;
+  font-size:clamp(1.4rem,5.5vw,2rem);text-transform:uppercase;letter-spacing:.05em;border-top:4px solid #111}
+.posts{display:flex;gap:min(40%,220px);height:46px}
+.posts span{width:16px;background:var(--post);border-radius:0 0 3px 3px}
+#needle{transition:transform .9s cubic-bezier(.3,1.4,.5,1);transform-origin:160px 168px}
+@media (prefers-reduced-motion: reduce){#needle{transition:none}}
+.status-note{max-width:560px;text-align:center;margin:10px auto 0}
+.status-note .headline{font-weight:700}
+.status-note .action{color:var(--muted)}
+.ov{margin-top:12px;display:flex;flex-direction:column;gap:6px;align-items:center}
+.ov-btns{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.ovb{border:2px solid transparent;border-radius:6px;padding:5px 10px;font-weight:700;cursor:pointer;font-family:var(--display);letter-spacing:.05em;text-transform:uppercase;background:var(--surface);color:var(--ink);opacity:.7}
+.ovb[aria-pressed="true"]{border-color:var(--ink);opacity:1;box-shadow:0 0 0 2px var(--bg) inset}
+
+/* ---------- Reports ---------- */
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.legend button{border:2px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;
+  display:flex;align-items:center;gap:8px;font-weight:600}
+.legend button[aria-pressed="true"]{border-color:var(--ink)}
+.dot{width:14px;height:14px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.25)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.tile{border:0;border-radius:8px;padding:12px;text-align:left;cursor:pointer;min-height:132px;display:flex;flex-direction:column;gap:4px;
+  box-shadow:inset 0 -5px 0 rgba(0,0,0,.18);transition:transform .12s}
+.tile:hover{transform:translateY(-2px)}
+.tile .d{font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1}
+.tile .l{font-family:var(--display);font-weight:700;letter-spacing:.1em;font-size:.85rem}
+.tile .h{font-size:.92rem;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tile .more{margin-top:auto;font-size:.8rem;font-weight:700;opacity:.8}
+.on-green{background:var(--lv-green);color:#0e1a08}
+.on-yellow{background:var(--lv-yellow);color:#231d00}
+.on-orange{background:var(--lv-orange);color:#1f0e00}
+.on-red{background:var(--lv-red);color:#fff}
+.empty{color:var(--muted);font-style:italic}
+
+/* modal */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:flex-start;justify-content:center;padding:24px 12px;overflow:auto;z-index:10}
+.overlay.open{display:flex}
+.modal{background:var(--surface);color:var(--ink);border-radius:10px;max-width:640px;width:100%;overflow:hidden}
+.modal header{padding:14px 16px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.modal header h3{font-size:1.5rem}
+.modal .x{background:rgba(0,0,0,.15);border:0;border-radius:6px;padding:4px 10px;cursor:pointer;font-weight:700;color:inherit}
+.modal .content{padding:16px;display:flex;flex-direction:column;gap:12px}
+.modal ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.modal .src{font-size:.85rem}
+.modal .act{background:var(--bg);border-left:5px solid var(--ink);padding:8px 12px;border-radius:4px}
+
+/* ---------- Cards / lists ---------- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.group h3{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.group h3 small{white-space:nowrap;font-family:var(--body);font-size:.85rem;color:var(--muted);text-transform:none;letter-spacing:0;font-variant-numeric:tabular-nums}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin:8px 0 10px}
+.bar i{display:block;height:100%;background:var(--lv-green);width:0;transition:width .3s}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.checks label{display:flex;gap:10px;align-items:flex-start;cursor:pointer;padding:4px 0}
+.checks input{width:20px;height:20px;margin-top:2px;flex:none;accent-color:var(--lv-green)}
+.checks input:checked + span{color:var(--muted);text-decoration:line-through}
+.hh{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.autotag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:4px;border:1px solid var(--accent);color:var(--accent);vertical-align:middle}
+.checks .why{display:block;font-size:.82rem;color:var(--muted);text-decoration:none}
+.checks input:disabled{cursor:default}
+.checks label.is-auto{cursor:default}
+.checks label.is-auto input:checked + span{text-decoration:none;color:var(--ink)}
+.checks label.is-auto input:checked + span .t{color:var(--muted);text-decoration:line-through}
+.overall{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px}
+.overall .bar{flex:1;min-width:160px;margin:0;height:12px}
+.overall b{font-variant-numeric:tabular-nums}
+
+/* ---------- Power ---------- */
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0;background:var(--surface);display:flex;flex-direction:column;gap:10px}
+legend{font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:1.1rem;padding:0 6px}
+.f{display:flex;flex-direction:column;gap:3px}
+.f label{font-size:.85rem;font-weight:600;color:var(--muted)}
+.f input,.f select,.f textarea{border:1px solid var(--line);border-radius:6px;padding:7px 9px;background:var(--bg);width:100%}
+.f textarea{min-height:90px;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.est{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.stat{background:var(--bg);border-radius:8px;padding:10px 12px;border-left:6px solid var(--line)}
+.stat .k{font-size:.8rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.stat .v{font-family:var(--display);font-weight:800;font-size:1.8rem;font-variant-numeric:tabular-nums;line-height:1.1}
+.loads{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.loads th,.loads td{padding:6px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.loads th{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.loads input[type=number]{width:72px;border:1px solid var(--line);border-radius:5px;padding:4px 6px;background:var(--bg)}
+.loads input[type=text]{width:100%;min-width:110px;border:1px solid var(--line);border-radius:5px;padding:4px 6px;background:var(--bg)}
+.loads td.num{text-align:right}
+.tablewrap{overflow-x:auto}
+.btn{border:2px solid var(--ink);background:transparent;border-radius:6px;padding:6px 12px;cursor:pointer;font-weight:700}
+.warn{border-left:6px solid var(--lv-orange);background:var(--surface);padding:10px 14px;border-radius:6px;font-size:.95rem}
+.fine{font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+
+  <section aria-labelledby="sign-title">
+    <div class="sign-wrap">
+      <div class="sign" role="img" aria-labelledby="sign-title sign-today">
+        <div class="band" id="sign-title">Grid Threat Rating</div>
+        <div class="sub">CYBER · SYDNEY / NSW</div>
+        <svg id="gauge" viewBox="0 0 320 184" aria-hidden="true"></svg>
+        <div class="today on-green" id="sign-today">Today: Normal</div>
+      </div>
+      <div class="posts" aria-hidden="true"><span></span><span></span></div>
+    </div>
+    <div class="status-note">
+      <div class="headline" id="cur-headline">Loading latest report…</div>
+      <div class="action" id="cur-action"></div>
+      <div class="sync" id="cur-date"></div>
+      <div class="ov" role="group" aria-label="Set the rating yourself"><div id="ov-btns" class="ov-btns"></div><div class="sync" id="ov-note"></div></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="rep-title">
+    <h2 id="rep-title">Daily reports</h2>
+    <p class="lead">One tile per day, coloured by that day's rating. An automatic check reads official alerts (ASD's ACSC, AEMO) and news headlines twice a day and applies fixed rules; no AI. It can raise false alarms, so read the items before acting. Tap a tile to read it.</p>
+    <div class="legend" id="legend" role="group" aria-label="Filter reports by rating"></div>
+    <div class="tiles" id="tiles"></div>
+    <p class="sync" id="rep-sync"></p>
+  </section>
+
+  <section aria-labelledby="prep-title">
+    <h2 id="prep-title">Home preparedness</h2>
+    <p class="lead">Target: 7 days without power, NBN, reliable mobile or open shops, with supplies that stretch to 14. Everything you enter is saved on this phone only.</p>
+    <div class="card" style="margin-top:14px">
+      <h3>Household stock</h3>
+      <p class="fine" style="margin:4px 0 10px">Enter what you have. Items marked <span class="autotag">Auto</span> tick themselves from these figures and from the power section below.</p>
+      <div class="hh">
+        <div class="f"><label for="h_people">People in the house</label><input id="h_people" data-h="people" type="number" min="1" step="1" inputmode="numeric" placeholder="2"></div>
+        <div class="f"><label for="h_water">Water stored (litres)</label><input id="h_water" data-h="water" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
+        <div class="f"><label for="h_food">Shelf-stable food (days)</label><input id="h_food" data-h="food" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
+        <div class="f"><label for="h_meds">Spare medicines (days)</label><input id="h_meds" data-h="meds" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
+        <div class="f"><label for="h_banks">Charged power banks</label><input id="h_banks" data-h="banks" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
+        <div class="f"><label for="h_cash">Cash on hand ($)</label><input id="h_cash" data-h="cash" type="number" min="0" step="10" inputmode="numeric" placeholder="0"></div>
+      </div>
+    </div>
+    <div class="overall"><span>Overall</span><div class="bar"><i id="overall-bar"></i></div><b id="overall-count">0 / 0</b></div>
+    <div class="groups" id="prep-groups" style="margin-top:14px"></div>
+  </section>
+
+  <section aria-labelledby="pwr-title">
+    <h2 id="pwr-title">Emergency power supply</h2>
+    <p class="lead">Rebuilt Powerwall 1 (6.4 kWh) with a JK BMS, plus solar panels on a timber frame on the verandah. Record the build details here; they save on this phone as you type.</p>
+
+    <form id="spec" class="spec" autocomplete="off" style="margin-top:14px">
+      <fieldset>
+        <legend>Battery</legend>
+        <div class="f"><label for="b_model">Pack</label><input id="b_model" data-k="b_model" placeholder="Tesla Powerwall 1, rebuilt"></div>
+        <div class="row2">
+          <div class="f"><label for="b_nominal">Rated capacity (kWh)</label><input id="b_nominal" data-k="b_nominal" inputmode="decimal" placeholder="6.4"></div>
+          <div class="f"><label for="b_usable">Usable after rebuild (kWh)</label><input id="b_usable" data-k="b_usable" inputmode="decimal" placeholder="measure on capacity test"></div>
+        </div>
+        <div class="row2">
+          <div class="f"><label for="b_series">Series config (e.g. 14S)</label><input id="b_series" data-k="b_series"></div>
+          <div class="f"><label for="b_voltage">Nominal pack voltage (V)</label><input id="b_voltage" data-k="b_voltage" inputmode="decimal"></div>
+        </div>
+        <div class="f"><label for="b_chem">Cell chemistry / module notes</label><input id="b_chem" data-k="b_chem" placeholder="e.g. NCA 18650 modules, condition"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>JK BMS</legend>
+        <div class="f"><label for="m_model">Model</label><input id="m_model" data-k="m_model" placeholder="JK BMS model number"></div>
+        <div class="row2">
+          <div class="f"><label for="m_chg">Max charge (A)</label><input id="m_chg" data-k="m_chg" inputmode="decimal"></div>
+          <div class="f"><label for="m_dis">Max discharge (A)</label><input id="m_dis" data-k="m_dis" inputmode="decimal"></div>
+        </div>
+        <div class="row2">
+          <div class="f"><label for="m_ovp">Cell over-voltage (V)</label><input id="m_ovp" data-k="m_ovp" inputmode="decimal"></div>
+          <div class="f"><label for="m_uvp">Cell under-voltage (V)</label><input id="m_uvp" data-k="m_uvp" inputmode="decimal"></div>
+        </div>
+        <div class="row2">
+          <div class="f"><label for="m_bal">Active balance (A)</label><input id="m_bal" data-k="m_bal" inputmode="decimal"></div>
+          <div class="f"><label for="m_temp">Temp cut-offs (°C)</label><input id="m_temp" data-k="m_temp" placeholder="charge / discharge"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Solar on the verandah</legend>
+        <div class="row2">
+          <div class="f"><label for="s_count">Panels (count)</label><input id="s_count" data-k="s_count" inputmode="numeric"></div>
+          <div class="f"><label for="s_watts">Watts per panel</label><input id="s_watts" data-k="s_watts" inputmode="numeric"></div>
+        </div>
+        <div class="row2">
+          <div class="f"><label for="s_voc">Panel Voc (V)</label><input id="s_voc" data-k="s_voc" inputmode="decimal"></div>
+          <div class="f"><label for="s_isc">Panel Isc (A)</label><input id="s_isc" data-k="s_isc" inputmode="decimal"></div>
+        </div>
+        <div class="f"><label for="s_wiring">String wiring</label><input id="s_wiring" data-k="s_wiring" placeholder="e.g. 2S2P"></div>
+        <div class="row2">
+          <div class="f"><label for="s_facing">Facing</label><input id="s_facing" data-k="s_facing" placeholder="e.g. north"></div>
+          <div class="f"><label for="s_tilt">Tilt (°)</label><input id="s_tilt" data-k="s_tilt" inputmode="numeric"></div>
+        </div>
+        <div class="f"><label for="s_frame">Timber frame notes (fixing, wind bracing)</label><input id="s_frame" data-k="s_frame"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Charge, inverter and protection</legend>
+        <div class="f"><label for="c_mppt">MPPT charge controller (model, max PV V, A)</label><input id="c_mppt" data-k="c_mppt"></div>
+        <div class="f"><label for="i_model">Inverter (model, continuous W / surge W)</label><input id="i_model" data-k="i_model" placeholder="pure sine wave"></div>
+        <div class="row2">
+          <div class="f"><label for="p_fuse">Main DC fuse (A, type)</label><input id="p_fuse" data-k="p_fuse"></div>
+          <div class="f"><label for="p_cable">Battery cable (mm²)</label><input id="p_cable" data-k="p_cable"></div>
+        </div>
+        <div class="f"><label for="p_iso">DC isolators / breakers</label><input id="p_iso" data-k="p_iso"></div>
+        <div class="f"><label for="p_encl">Enclosure and location</label><input id="p_encl" data-k="p_encl" placeholder="material, ventilation, distance from exits"></div>
+      </fieldset>
+
+      <fieldset style="grid-column:1/-1">
+        <legend>Build notes</legend>
+        <div class="f"><label for="n_notes">Notes, settings, links</label><textarea id="n_notes" data-k="n_notes" placeholder="JK BMS settings, wiring notes, test results…"></textarea></div>
+      </fieldset>
+    </form>
+    <p class="sync" id="pwr-sync"></p>
+
+    <div class="card" style="margin-top:16px">
+      <h3>How long will it last?</h3>
+      <p class="fine" style="margin:4px 0 10px">Estimates only. Sun hours are rough Sydney averages, and 75% of panel rating is assumed after heat, dust, angle and controller losses. Replace the defaults with your measured figures.</p>
+      <div class="row2" style="max-width:560px">
+        <div class="f"><label for="e_usable">Usable battery (kWh)</label><input id="e_usable" type="number" step="0.1" min="0" value="5.4"></div>
+        <div class="f"><label for="e_season">Sun conditions</label>
+          <select id="e_season">
+            <option value="6">Summer, clear (~6 sun-hours)</option>
+            <option value="4.5" selected>Spring / autumn (~4.5)</option>
+            <option value="3">Winter, clear (~3)</option>
+            <option value="1">Overcast / storm (~1)</option>
+          </select></div>
+      </div>
+      <div class="tablewrap" style="margin-top:12px">
+        <table class="loads">
+          <thead><tr><th>Use</th><th>Load</th><th>Watts</th><th>Hours/day</th><th class="num">Wh/day</th></tr></thead>
+          <tbody id="loads"></tbody>
+        </table>
+      </div>
+      <button class="btn" id="add-load" type="button" style="margin-top:8px">Add a load</button>
+      <div class="est" id="est"></div>
+    </div>
+
+    <div class="warn" style="margin-top:16px">A rebuilt pack has no factory protection, so the fusing, BMS limits, temperature cut-offs and enclosure are what keep it safe. Run it as a standalone system with its own sockets. Any connection to the house wiring, such as an inlet or changeover switch, must be installed by a licensed electrician.</div>
+  </section>
+
+  <section aria-labelledby="bk-title">
+    <h2 id="bk-title">Backup</h2>
+    <p class="lead">Your ticks, stock and power details live only on this phone. Save a backup file now and then, and use it to move your data to another phone.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+      <button class="btn" id="bk-export" type="button">Save backup file</button>
+      <label class="btn" for="bk-file" style="display:inline-flex;align-items:center">Restore from file</label>
+      <input id="bk-file" type="file" accept="application/json,.json" style="position:absolute;left:-9999px">
+    </div>
+    <p class="sync" id="bk-msg"></p>
+  </section>
+
+</main>
+
+<div class="overlay" id="ov" role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="modal">
+    <header id="m-head"><h3 id="m-title"></h3><button class="x" id="m-close" type="button">Close</button></header>
+    <div class="content" id="m-body"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+const LV = {
+  green:{name:"Normal", i:0, mean:"No material change. Keep supplies rotated."},
+  yellow:{name:"Watch", i:1, mean:"Strategic warning sign. Top up and rotate home supplies."},
+  orange:{name:"Prepare", i:2, mean:"Operational warning sign. Fill water, charge devices, fuel the car, get cash."},
+  red:{name:"Act", i:3, mean:"Widespread outage under way. Switch to the household plan and tune to ABC Radio Sydney 702 AM."}
+};
+const ORDER = ["green","yellow","orange","red"];
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(String(u||"")) ? String(u) : null;
+const $ = id => document.getElementById(id);
+const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)); } catch(e){ return null; } };
+const lsSet = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
+
+/* ---------- Gauge ---------- */
+function drawGauge(){
+  const cx=160, cy=168, R=150, r=62, svg=$("gauge");
+  const cols=["var(--lv-green)","var(--lv-yellow)","var(--lv-orange)","var(--lv-red)"];
+  const pt=(rad,a)=>[cx+rad*Math.cos(a*Math.PI/180), cy-rad*Math.sin(a*Math.PI/180)];
+  let out="";
+  for(let i=0;i<4;i++){
+    const a0=180-45*i, a1=180-45*(i+1);
+    const [x0,y0]=pt(R,a0),[x1,y1]=pt(R,a1),[x2,y2]=pt(r,a1),[x3,y3]=pt(r,a0);
+    out+=`<path d="M${x0} ${y0} A${R} ${R} 0 0 1 ${x1} ${y1} L${x2} ${y2} A${r} ${r} 0 0 0 ${x3} ${y3}Z" fill="${cols[i]}" stroke="#111" stroke-width="3"/>`;
+    const am=(a0+a1)/2, [lx,ly]=pt(R-23,am), rot=90-am;
+    const fill = i===3 ? "#fff" : "#111";
+    out+=`<text x="${lx}" y="${ly}" transform="rotate(${rot} ${lx} ${ly})" text-anchor="middle" dominant-baseline="middle" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5" fill="${fill}">${ORDER[i]==="green"?"NORMAL":LV[ORDER[i]].name.toUpperCase()}</text>`;
+  }
+  out+=`<g id="needle"><polygon points="${cx-9},${cy} ${cx},${cy-r-36} ${cx+9},${cy}" fill="#111"/></g>`;
+  out+=`<circle cx="${cx}" cy="${cy}" r="16" fill="#111"/><circle cx="${cx}" cy="${cy}" r="6" fill="#fff"/>`;
+  svg.innerHTML=out;
+}
+function setGauge(level){
+  const lv=LV[level]||LV.green;
+  const rot=-67.5+45*lv.i;
+  const n=document.getElementById("needle"); if(n) n.style.transform=`rotate(${rot}deg)`;
+  const t=$("sign-today"); t.className="today on-"+(LV[level]?level:"green"); t.textContent="Today: "+lv.name;
+}
+
+/* ---------- Reports ---------- */
+const BASELINE = {
+  id:"2026-11-07-baseline", date:"2026-11-07", level:"green",
+  headline:"Baseline assessment: about 1–5% chance of a 3+ day cyber blackout in Sydney over 10 years.",
+  items:[
+    {text:"No country has had a confirmed multi-day cyber-caused blackout. Ukraine's 2015 and 2016 outages lasted 1–6 hours; the attacks on Ukraine in 2022 and Poland in Dec 2025 were stopped.", url:"https://www.risidata.com/Database/Detail/poland-sandworm-electrum-energy-wiper-2025", source:"RISI"},
+    {text:"In Nov 2025, ASIO said Chinese state hackers (Volt Typhoon) were probing Australian power, water and transport networks to pre-position for sabotage.", url:"https://securityaffairs.com/184540/intelligence/australias-spy-chief-warns-of-china-linked-threats-to-critical-infrastructure.html", source:"Security Affairs"},
+    {text:"Most of the risk sits in a China–US/Taiwan conflict scenario. Weather is still the more likely cause of a multi-day outage for a given household.", url:"https://claude.ai/artifact/9T6DLkvJ5LJeZEih32Z7if", source:"Full assessment"}
+  ],
+  action:"Build up to 7 days of supplies. Tick off the preparedness list below."
+};
+let reports=[BASELINE], filter=null; // replaced by data/history.json once loaded
+
+function fmtDate(d){
+  const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(d||""); if(!m) return esc(d);
+  const dt=new Date(+m[1],+m[2]-1,+m[3]);
+  return dt.toLocaleDateString("en-AU",{weekday:"short",day:"numeric",month:"short"});
+}
+function renderLegend(){
+  const counts={}; ORDER.forEach(k=>counts[k]=0); reports.forEach(r=>{ if(counts[r.level]!=null) counts[r.level]++; });
+  let h=`<button type="button" data-f="" aria-pressed="${filter===null}">All <span>${reports.length}</span></button>`;
+  ORDER.forEach(k=>{ h+=`<button type="button" data-f="${k}" aria-pressed="${filter===k}" title="${esc(LV[k].mean)}"><span class="dot on-${k}"></span>${LV[k].name} <span>${counts[k]}</span></button>`; });
+  $("legend").innerHTML=h;
+}
+function renderTiles(){
+  const list=reports.filter(r=>!filter||r.level===filter);
+  if(!list.length){ $("tiles").innerHTML=`<p class="empty">No reports at this rating yet.</p>`; return; }
+  $("tiles").innerHTML=list.map((r,ix)=>{
+    const lv=LV[r.level]?r.level:"green";
+    const n=(r.items||[]).length;
+    return `<button type="button" class="tile on-${lv}" data-id="${esc(r.id)}">
+      <span class="d">${fmtDate(r.date)}</span><span class="l">${LV[lv].name.toUpperCase()}</span>
+      <span class="h">${esc(r.headline||"No notable releases.")}</span>
+      <span class="more">${n? n+" item"+(n>1?"s":"")+" · " : ""}Read</span></button>`;
+  }).join("");
+}
+function renderCurrent(){
+  const r=reports[0]; if(!r) return;
+  setGauge(effectiveLevel());
+  $("cur-headline").textContent=r.headline||"";
+  $("cur-action").textContent=r.action||(LV[r.level]||LV.green).mean;
+  $("cur-date").textContent="Latest report: "+fmtDate(r.date).replace(/<[^>]+>/g,"");
+}
+function renderReports(){ renderLegend(); renderTiles(); renderCurrent(); }
+function openReport(id){
+  const r=reports.find(x=>x.id===id); if(!r) return;
+  const lv=LV[r.level]?r.level:"green";
+  $("m-head").className="on-"+lv;
+  $("m-title").textContent=fmtDate(r.date).replace(/<[^>]+>/g,"")+" · "+LV[lv].name;
+  const items=(r.items||[]).map(it=>{
+    const u=safeUrl(it.url);
+    const why=it.why?`<br><span class="src" style="color:var(--muted)">Rule: ${esc(it.why)}</span>`:"";
+    return `<li>${esc(it.text)}${why}${u?` <span class="src"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(it.source||"source")}</a></span>`:(it.source?` <span class="src">(${esc(it.source)})</span>`:"")}</li>`;
+  }).join("");
+  $("m-body").innerHTML=`<p style="margin:0;font-weight:700">${esc(r.headline||"")}</p>
+    ${items?`<div><b>Noticed or released</b><ul>${items}</ul></div>`:`<p class="empty">Nothing notable was noticed or released.</p>`}
+    <div class="act"><b>Household action:</b> ${esc(r.action||LV[lv].mean)}</div>
+    ${r.auto?`<p class="fine" style="margin:0">Automatic rule-based check${r.checkedAt?", "+esc(new Date(r.checkedAt).toLocaleString("en-AU")):""}.${Array.isArray(r.sourceErrors)&&r.sourceErrors.length?" Some sources couldn't be reached: "+esc(r.sourceErrors.join(", "))+".":""}</p>`:""}`;
+  $("ov").classList.add("open"); $("m-close").focus();
+}
+function closeReport(){ $("ov").classList.remove("open"); }
+$("legend").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return; filter=b.dataset.f||null; renderLegend(); renderTiles(); });
+$("tiles").addEventListener("click",e=>{ const b=e.target.closest(".tile"); if(b) openReport(b.dataset.id); });
+$("m-close").addEventListener("click",closeReport);
+$("ov").addEventListener("click",e=>{ if(e.target===$("ov")) closeReport(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeReport(); });
+
+/* ---------- Checklist ---------- */
+const GROUPS=[
+  {t:"Core: first 72 hours", items:[
+    ["c-water","Water: about 4 L per person per day, at least 12 L each"],
+    ["c-food","Food that needs no fridge, enough for 3 days"],
+    ["c-stove","Gas camping stove and spare canisters (outdoor use)"],
+    ["c-radio","Battery or wind-up AM/FM radio, tuned to 702 AM"],
+    ["c-light","Torches or headlamps, plus spare batteries"],
+    ["c-banks","Power banks for every phone, kept charged"],
+    ["c-car","Car phone charger"],
+    ["c-meds","Two weeks of prescription medicines"],
+    ["c-life","Life-support or medical devices registered with your retailer"],
+    ["c-cash","Cash in small notes"]]},
+  {t:"Depth: 7 to 14 days", items:[
+    ["d-water","Water scaled to 7–14 days, plus tablets or a filter"],
+    ["d-food","Pantry food for 7–14 days, rotated"],
+    ["d-fuel","Car kept above half a tank as a habit"],
+    ["d-heat","Heat plan: battery fan, shade, a cool room"],
+    ["d-san","Sanitation: bin bags, bucket, hand sanitiser"],
+    ["d-contact","Paper contact list and a family meeting point"],
+    ["d-docs","Copies of IDs, insurance and medical details"],
+    ["d-neigh","Check-in plan with vulnerable neighbours"]]},
+  {t:"Emergency power: build and safety", items:[
+    ["p-cells","Cell group voltages checked and matched before fitting the BMS"],
+    ["p-sense","JK BMS balance leads checked in order before connecting"],
+    ["p-settings","BMS limits set (cell OV/UV, charge/discharge current, temperatures)"],
+    ["p-temp","Temperature sensors fitted on the pack"],
+    ["p-fuse","Main DC fuse at the battery terminal, sized to the cable"],
+    ["p-iso","DC isolator fitted between battery and inverter"],
+    ["p-encl","Enclosure non-combustible, ventilated and kept off the exit path"],
+    ["p-weather","Pack and electronics protected from rain and sun on the verandah"],
+    ["p-frame","Panel frame fixed and braced for wind"],
+    ["p-captest","Full capacity test done; usable kWh recorded above"],
+    ["p-fridge","Backup supply runs the fridge for at least 24 hours"],
+    ["p-lights","Backup supply runs lights and phone charging"],
+    ["p-week","Battery plus solar lasts 7 days in winter sun"],
+    ["p-loads","Real-load test: fridge, lights, fan and phones for 24 hours"],
+    ["p-monthly","Monthly check: cell balance, connections, a short run"],
+    ["p-elec","Any link to house wiring done by a licensed electrician"]]}
+];
+let checked=lsGet("gtr-checked")||{};
+let house=lsGet("gtr-house")||{};
+const num=v=>{ const n=parseFloat(v); return isFinite(n)?n:0; };
+const people=()=>Math.max(1, Math.round(num(house.people))||2);
+/* Auto rules: return {ok, why}. Targets are rules of thumb. */
+const AUTO={
+  "c-water":()=>{ const t=people()*4*3, w=num(house.water); return {ok:w>=t, why:`${w} L stored · 3-day target ${t} L (${people()} × 4 L × 3)`}; },
+  "d-water":()=>{ const t=people()*4*7, w=num(house.water); return {ok:w>=t, why:`${w} L stored · 7-day target ${t} L`}; },
+  "c-food":()=>{ const d=num(house.food); return {ok:d>=3, why:`${d} days of food · target 3`}; },
+  "d-food":()=>{ const d=num(house.food); return {ok:d>=7, why:`${d} days of food · target 7`}; },
+  "c-meds":()=>{ const d=num(house.meds); return {ok:d>=14, why:`${d} days spare · target 14`}; },
+  "c-banks":()=>{ const b=num(house.banks); return {ok:b>=people(), why:`${b} charged · target 1 per person`}; },
+  "c-cash":()=>{ const c=num(house.cash); return {ok:c>=200, why:`$${c} on hand · suggested $200+`}; },
+  "p-captest":()=>{ const u=num(spec.b_usable); return {ok:u>0, why:u>0?`${u} kWh usable recorded`:"Enter usable kWh in the battery section"}; },
+  "p-fridge":()=>{ const c=calc(), f=c.on.some(l=>/fridge|freezer/i.test(l.n));
+    return {ok:f&&c.battDays>=1, why: !f?"Turn on a fridge load in the calculator": `Battery runs the selected loads for ${c.battDays.toFixed(1)} days`}; },
+  "p-lights":()=>{ const c=calc(), li=c.on.some(l=>/light/i.test(l.n)), ph=c.on.some(l=>/phone|charg/i.test(l.n));
+    return {ok:li&&ph&&c.battDays>=1, why: li&&ph?`Covered for ${c.battDays.toFixed(1)} days on battery`:"Turn on lights and phone loads in the calculator"}; },
+  "p-week":()=>{ const c=calc(3); return {ok:c.arrayW>0&&c.days>=7, why: !c.arrayW?"Add panel count and watts above": c.days===Infinity?"Solar covers the daily load in winter sun":`About ${c.days.toFixed(1)} days in winter sun`}; }
+};
+function renderChecks(){
+  let total=0, done=0;
+  const isDone=id=> AUTO[id] ? AUTO[id]().ok : !!checked[id];
+  $("prep-groups").innerHTML=GROUPS.map((g,gi)=>{
+    const n=g.items.length, d=g.items.filter(it=>isDone(it[0])).length; total+=n; done+=d;
+    return `<div class="card group"><h3>${esc(g.t)} <small>${d} / ${n}</small></h3>
+      <div class="bar"><i style="width:${Math.round(d/n*100)}%"></i></div>
+      <ul class="checks">${g.items.map(it=>{
+        const a=AUTO[it[0]]&&AUTO[it[0]]();
+        if(a) return `<li><label class="is-auto"><input type="checkbox" id="${it[0]}" ${a.ok?"checked":""} disabled><span><span class="t">${esc(it[1])}</span> <span class="autotag">Auto</span><span class="why">${esc(a.why)}</span></span></label></li>`;
+        return `<li><label><input type="checkbox" id="${it[0]}" data-c="${it[0]}" ${checked[it[0]]?"checked":""}><span>${esc(it[1])}</span></label></li>`;
+      }).join("")}</ul></div>`;
+  }).join("");
+  $("overall-bar").style.width=Math.round(done/total*100)+"%";
+  $("overall-count").textContent=done+" / "+total;
+}
+$("prep-groups").addEventListener("change",e=>{
+  const c=e.target.dataset.c; if(!c) return;
+  if(e.target.checked) checked[c]=true; else delete checked[c];
+  lsSet("gtr-checked",checked); renderChecks(); queueSave("checks");
+});
+function fillHouse(){ document.querySelectorAll("[data-h]").forEach(el=>{ el.value = house[el.dataset.h]!=null ? house[el.dataset.h] : ""; }); }
+document.querySelector(".hh").addEventListener("input",e=>{
+  const k=e.target.dataset.h; if(!k) return;
+  house[k]=e.target.value; lsSet("gtr-house",house); renderChecks(); queueSave("house");
+});
+
+/* ---------- Power spec + estimator ---------- */
+let spec=lsGet("gtr-spec")||{};
+const DEFAULT_LOADS=[
+  {on:true,n:"Fridge (average draw)",w:50,h:24},
+  {on:true,n:"LED lights",w:30,h:5},
+  {on:true,n:"Phones and radio charging",w:20,h:3},
+  {on:true,n:"Fan",w:40,h:8},
+  {on:false,n:"CPAP",w:40,h:8},
+  {on:false,n:"Laptop",w:60,h:3},
+  {on:false,n:"Modem/router (if NBN still up)",w:15,h:24}
+];
+let loads=lsGet("gtr-loads")||DEFAULT_LOADS.map(x=>Object.assign({},x));
+function fillSpec(){
+  document.querySelectorAll("#spec [data-k]").forEach(el=>{ el.value = spec[el.dataset.k]!=null ? spec[el.dataset.k] : (el.dataset.k==="b_model"&&!spec.b_model?"Tesla Powerwall 1, rebuilt": el.dataset.k==="b_nominal"&&!spec.b_nominal?"6.4": el.dataset.k==="m_model"&&!spec.m_model?"JK BMS ":""); if(spec[el.dataset.k]==null && el.value) spec[el.dataset.k]=el.value; });
+  const u=parseFloat(spec.b_usable); if(u>0) $("e_usable").value=u;
+}
+$("spec").addEventListener("input",e=>{
+  const k=e.target.dataset.k; if(!k) return;
+  spec[k]=e.target.value; lsSet("gtr-spec",spec);
+  if(k==="b_usable"){ const u=parseFloat(e.target.value); if(u>0) $("e_usable").value=u; }
+  renderEst(); queueSave("power");
+});
+$("spec").addEventListener("submit",e=>e.preventDefault());
+function renderLoads(){
+  $("loads").innerHTML=loads.map((l,i)=>`<tr>
+    <td><input type="checkbox" id="l-on-${i}" data-i="${i}" data-f="on" ${l.on?"checked":""} aria-label="Use ${esc(l.n)}"></td>
+    <td><input type="text" id="l-n-${i}" data-i="${i}" data-f="n" value="${esc(l.n)}" aria-label="Load name"></td>
+    <td><input type="number" id="l-w-${i}" data-i="${i}" data-f="w" min="0" step="1" value="${+l.w||0}" aria-label="Watts"></td>
+    <td><input type="number" id="l-h-${i}" data-i="${i}" data-f="h" min="0" max="24" step="0.5" value="${+l.h||0}" aria-label="Hours per day"></td>
+    <td class="num" id="l-wh-${i}">${l.on?Math.round((+l.w||0)*(+l.h||0)):"–"}</td></tr>`).join("");
+}
+$("loads").addEventListener("input",e=>{
+  const i=+e.target.dataset.i, f=e.target.dataset.f; if(isNaN(i)||!f) return;
+  loads[i][f] = f==="on" ? e.target.checked : f==="n" ? e.target.value : parseFloat(e.target.value)||0;
+  const l=loads[i]; $("l-wh-"+i).textContent=l.on?Math.round((+l.w||0)*(+l.h||0)):"–";
+  lsSet("gtr-loads",loads); renderEst(); queueSave("power");
+});
+$("add-load").addEventListener("click",()=>{ loads.push({on:true,n:"New load",w:0,h:0}); renderLoads(); renderEst(); queueSave("power"); });
+$("e_usable").addEventListener("input",renderEst);
+$("e_season").addEventListener("change",renderEst);
+function calc(sunHours){
+  const usable=(parseFloat($("e_usable").value)||0)*1000*0.9;
+  const on=loads.filter(l=>l.on);
+  const load=on.reduce((s,l)=>s+(+l.w||0)*(+l.h||0),0);
+  const arrayW=(parseFloat(spec.s_count)||0)*(parseFloat(spec.s_watts)||0);
+  const sun = sunHours!=null ? sunHours : (parseFloat($("e_season").value)||0);
+  const solar=arrayW*sun*0.75, net=solar-load;
+  return {on, load, arrayW, battDays: load>0?usable/load:0, days: load<=0?0: net>=0?Infinity: usable/(-net)};
+}
+function renderEst(){
+  renderChecks();
+  const usable=(parseFloat($("e_usable").value)||0)*1000*0.9; // 90% inverter efficiency
+  const load=loads.filter(l=>l.on).reduce((s,l)=>s+(+l.w||0)*(+l.h||0),0);
+  const arrayW=(parseFloat(spec.s_count)||0)*(parseFloat(spec.s_watts)||0);
+  const solar=arrayW*(parseFloat($("e_season").value)||0)*0.75;
+  const battDays= load>0 ? usable/load : 0;
+  const net=solar-load;
+  let withSolar, colour;
+  if(load<=0){ withSolar="–"; colour="var(--line)"; }
+  else if(net>=0){ withSolar="Ongoing"; colour="var(--lv-green)"; }
+  else { const d=usable/(-net); withSolar=d.toFixed(1)+" days"; colour= d>=7?"var(--lv-green)": d>=3?"var(--lv-yellow)":"var(--lv-orange)"; }
+  const bc= battDays>=3?"var(--lv-green)": battDays>=1.5?"var(--lv-yellow)":"var(--lv-orange)";
+  $("est").innerHTML=`
+    <div class="stat"><div class="k">Daily load</div><div class="v">${(load/1000).toFixed(2)} kWh</div></div>
+    <div class="stat"><div class="k">Solar per day</div><div class="v">${arrayW?(solar/1000).toFixed(2)+" kWh":"Add panels"}</div></div>
+    <div class="stat" style="border-left-color:${bc}"><div class="k">Battery only</div><div class="v">${load>0?battDays.toFixed(1)+" days":"–"}</div></div>
+    <div class="stat" style="border-left-color:${colour}"><div class="k">Battery + solar</div><div class="v">${arrayW?withSolar:"–"}</div></div>`;
+}
+
+/* ---------- Local storage only (this phone) ---------- */
+function queueSave(what){ /* everything is saved to this phone as you go */ }
+
+/* ---------- Manual override of the rating ---------- */
+let override=lsGet("gtr-override"); // {level, at}
+function effectiveLevel(){ return (override&&LV[override.level])?override.level:(reports[0]?reports[0].level:"green"); }
+function renderOverride(){
+  const auto=reports[0]?reports[0].level:"green";
+  $("ov-btns").innerHTML=ORDER.map(k=>`<button type="button" class="ovb on-${k}" data-l="${k}" aria-pressed="${!!(override&&override.level===k)}">${LV[k].name}</button>`).join("")+
+    `<button type="button" class="ovb" data-l="" aria-pressed="${!override}">Auto</button>`;
+  $("ov-note").textContent= override ? `You set ${LV[override.level].name}. The automatic check says ${LV[auto].name}.` : `Following the automatic check (${LV[auto].name}). Tap a level to set your own.`;
+}
+$("ov-btns").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  override = b.dataset.l ? {level:b.dataset.l, at:new Date().toISOString()} : null;
+  lsSet("gtr-override",override); renderCurrent(); renderOverride();
+});
+
+/* ---------- Reports from the daily automatic check ---------- */
+async function loadReports(){
+  const cached=lsGet("gtr-history");
+  if(Array.isArray(cached)&&cached.length){ reports=normalise(cached); renderReports(); }
+  try{
+    const r=await fetch("data/history.json",{cache:"no-cache"});
+    if(!r.ok) throw new Error(r.status);
+    const data=await r.json();
+    if(Array.isArray(data)&&data.length){ lsSet("gtr-history",data); reports=normalise(data); renderReports(); }
+    const latest=reports[0];
+    $("rep-sync").textContent= latest&&latest.checkedAt ? `Last automatic check: ${new Date(latest.checkedAt).toLocaleString("en-AU",{weekday:"short",hour:"numeric",minute:"2-digit"})}.` : "";
+  }catch(e){
+    $("rep-sync").textContent = cached ? "Offline: showing the reports saved on this phone." : "Can't load reports right now. Check your connection.";
+  }
+}
+function normalise(list){
+  const out=list.filter(x=>x&&x.date).map(x=>({id:String(x.id||x.date),date:String(x.date),level:LV[x.level]?x.level:"green",headline:x.headline,items:Array.isArray(x.items)?x.items:[],action:x.action,checkedAt:x.checkedAt,auto:x.auto,sourceErrors:x.sourceErrors}));
+  return out.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:0);
+}
+
+/* ---------- Backup ---------- */
+function snapshot(){ return {app:"grid-threat-rating",version:1,savedAt:new Date().toISOString(),checked,house,spec,loads,override}; }
+$("bk-export").addEventListener("click",()=>{
+  const blob=new Blob([JSON.stringify(snapshot(),null,1)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download="grid-threat-backup-"+new Date().toISOString().slice(0,10)+".json";
+  document.body.appendChild(a); a.click(); a.remove();
+  $("bk-msg").textContent="Backup file saved to your downloads.";
+});
+$("bk-file").addEventListener("change",async e=>{
+  const f=e.target.files&&e.target.files[0]; if(!f) return;
+  try{
+    const d=JSON.parse(await f.text());
+    if(d.app!=="grid-threat-rating") throw new Error("not a backup");
+    checked=d.checked||{}; house=d.house||{}; spec=d.spec||{}; loads=Array.isArray(d.loads)&&d.loads.length?d.loads:loads; override=d.override||null;
+    lsSet("gtr-checked",checked); lsSet("gtr-house",house); lsSet("gtr-spec",spec); lsSet("gtr-loads",loads); lsSet("gtr-override",override);
+    fillHouse(); fillSpec(); renderLoads(); renderEst(); renderCurrent(); renderOverride();
+    $("bk-msg").textContent="Restored from "+f.name+".";
+  }catch(err){ $("bk-msg").textContent="That file isn't a Grid Threat backup."; }
+  e.target.value="";
+});
+
+/* ---------- Offline support ---------- */
+if("serviceWorker" in navigator){ window.addEventListener("load",()=>{ navigator.serviceWorker.register("sw.js").catch(()=>{}); }); }
+
+drawGauge(); renderReports(); fillHouse(); renderChecks(); fillSpec(); renderLoads(); renderEst(); renderOverride();
+requestAnimationFrame(()=>setGauge(effectiveLevel()));
+loadReports().then(()=>{ renderOverride(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "2026-11-08",
+  "date": "2026-11-08",
+  "level": "yellow",
+  "headline": "China may be running a large unannounced exercise simulating Taiwan's isolation.",
+  "items": [
+   {
+    "text": "AEI/ISW report China may be running an unannounced exercise simulating the isolation of Taiwan, larger than Justice Mission 2025.",
+    "source": "AEI",
+    "url": "https://www.aei.org/commentary/china-taiwan-update-november-6-2026/",
+    "level": "yellow"
+   },
+   {
+    "text": "Taiwan's NSC chief says more than 100 Chinese navy and coast guard vessels are operating in the western Pacific.",
+    "source": "Taipei Times",
+    "url": "https://www.taipeitimes.com/News/front/archives/2026/11/08/2003867351",
+    "level": "yellow"
+   }
+  ],
+  "action": "Top up and rotate water, food and batteries; no urgent steps needed.",
+  "auto": false
+ },
+ {
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "level": "green",
+  "headline": "Baseline assessment: about 1\u20135% chance of a 3+ day cyber blackout in Sydney over 10 years.",
+  "items": [
+   {
+    "text": "No country has had a confirmed multi-day cyber-caused blackout; Ukraine 2015/16 outages lasted 1\u20136 hours.",
+    "source": "RISI",
+    "url": "https://www.risidata.com/Database/Detail/poland-sandworm-electrum-energy-wiper-2025"
+   },
+   {
+    "text": "ASIO said in Nov 2025 that Chinese state hackers were probing Australian power, water and transport networks.",
+    "source": "Security Affairs",
+    "url": "https://securityaffairs.com/184540/intelligence/australias-spy-chief-warns-of-china-linked-threats-to-critical-infrastructure.html"
+   }
+  ],
+  "action": "Build up to 7 days of supplies.",
+  "auto": false
+ }
+]
