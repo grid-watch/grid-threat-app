@@ -196,14 +196,14 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
 
   <section aria-labelledby="pwr-title">
     <h2 id="pwr-title">Emergency power supply</h2>
-    <p class="lead">Rebuilt Powerwall 1 (6.4 kWh) with a JK BMS, plus solar panels on a timber frame on the verandah. Record the build details here; they save on this phone as you type.</p>
+    <p class="lead">Record your own backup power setup here: battery, battery management system (BMS), solar panels and inverter. Everything saves on this phone only, as you type, and is never shared.</p>
 
     <form id="spec" class="spec" autocomplete="off" style="margin-top:14px">
       <fieldset>
         <legend>Battery</legend>
-        <div class="f"><label for="b_model">Pack</label><input id="b_model" data-k="b_model" placeholder="Tesla Powerwall 1, rebuilt"></div>
+        <div class="f"><label for="b_model">Pack</label><input id="b_model" data-k="b_model" placeholder="e.g. home battery make and model"></div>
         <div class="row2">
-          <div class="f"><label for="b_nominal">Rated capacity (kWh)</label><input id="b_nominal" data-k="b_nominal" inputmode="decimal" placeholder="6.4"></div>
+          <div class="f"><label for="b_nominal">Rated capacity (kWh)</label><input id="b_nominal" data-k="b_nominal" inputmode="decimal" placeholder="e.g. 10"></div>
           <div class="f"><label for="b_usable">Usable after rebuild (kWh)</label><input id="b_usable" data-k="b_usable" inputmode="decimal" placeholder="measure on capacity test"></div>
         </div>
         <div class="row2">
@@ -214,8 +214,8 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
       </fieldset>
 
       <fieldset>
-        <legend>JK BMS</legend>
-        <div class="f"><label for="m_model">Model</label><input id="m_model" data-k="m_model" placeholder="JK BMS model number"></div>
+        <legend>Battery management (BMS)</legend>
+        <div class="f"><label for="m_model">Model</label><input id="m_model" data-k="m_model" placeholder="BMS make and model"></div>
         <div class="row2">
           <div class="f"><label for="m_chg">Max charge (A)</label><input id="m_chg" data-k="m_chg" inputmode="decimal"></div>
           <div class="f"><label for="m_dis">Max discharge (A)</label><input id="m_dis" data-k="m_dis" inputmode="decimal"></div>
@@ -231,7 +231,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
       </fieldset>
 
       <fieldset>
-        <legend>Solar on the verandah</legend>
+        <legend>Solar panels</legend>
         <div class="row2">
           <div class="f"><label for="s_count">Panels (count)</label><input id="s_count" data-k="s_count" inputmode="numeric"></div>
           <div class="f"><label for="s_watts">Watts per panel</label><input id="s_watts" data-k="s_watts" inputmode="numeric"></div>
@@ -262,7 +262,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
 
       <fieldset style="grid-column:1/-1">
         <legend>Build notes</legend>
-        <div class="f"><label for="n_notes">Notes, settings, links</label><textarea id="n_notes" data-k="n_notes" placeholder="JK BMS settings, wiring notes, test results…"></textarea></div>
+        <div class="f"><label for="n_notes">Notes, settings, links</label><textarea id="n_notes" data-k="n_notes" placeholder="BMS settings, wiring notes, test results…"></textarea></div>
       </fieldset>
     </form>
     <p class="sync" id="pwr-sync"></p>
@@ -271,7 +271,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
       <h3>How long will it last?</h3>
       <p class="fine" style="margin:4px 0 10px">Estimates only. Sun hours are rough Sydney averages, and 75% of panel rating is assumed after heat, dust, angle and controller losses. Replace the defaults with your measured figures.</p>
       <div class="row2" style="max-width:560px">
-        <div class="f"><label for="e_usable">Usable battery (kWh)</label><input id="e_usable" type="number" step="0.1" min="0" value="5.4"></div>
+        <div class="f"><label for="e_usable">Usable battery (kWh)</label><input id="e_usable" type="number" step="0.1" min="0" value="0" placeholder="e.g. 5"></div>
         <div class="f"><label for="e_season">Sun conditions</label>
           <select id="e_season">
             <option value="6">Summer, clear (~6 sun-hours)</option>
@@ -290,7 +290,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
       <div class="est" id="est"></div>
     </div>
 
-    <div class="warn" style="margin-top:16px">A rebuilt pack has no factory protection, so the fusing, BMS limits, temperature cut-offs and enclosure are what keep it safe. Run it as a standalone system with its own sockets. Any connection to the house wiring, such as an inlet or changeover switch, must be installed by a licensed electrician.</div>
+    <div class="warn" style="margin-top:16px">With a DIY or rebuilt battery pack, the fusing, BMS limits, temperature cut-offs and enclosure are what keep it safe. Run it as a standalone system with its own sockets. Any connection to the house wiring, such as an inlet or changeover switch, must be installed by a licensed electrician.</div>
   </section>
 
   <section aria-labelledby="bk-title">
@@ -445,13 +445,13 @@ const GROUPS=[
     ["d-neigh","Check-in plan with vulnerable neighbours"]]},
   {t:"Emergency power: build and safety", items:[
     ["p-cells","Cell group voltages checked and matched before fitting the BMS"],
-    ["p-sense","JK BMS balance leads checked in order before connecting"],
+    ["p-sense","BMS balance leads checked in order before connecting"],
     ["p-settings","BMS limits set (cell OV/UV, charge/discharge current, temperatures)"],
     ["p-temp","Temperature sensors fitted on the pack"],
     ["p-fuse","Main DC fuse at the battery terminal, sized to the cable"],
     ["p-iso","DC isolator fitted between battery and inverter"],
     ["p-encl","Enclosure non-combustible, ventilated and kept off the exit path"],
-    ["p-weather","Pack and electronics protected from rain and sun on the verandah"],
+    ["p-weather","Pack and electronics protected from rain and direct sun"],
     ["p-frame","Panel frame fixed and braced for wind"],
     ["p-captest","Full capacity test done; usable kWh recorded above"],
     ["p-fridge","Backup supply runs the fridge for at least 24 hours"],
@@ -521,7 +521,7 @@ const DEFAULT_LOADS=[
 ];
 let loads=lsGet("gtr-loads")||DEFAULT_LOADS.map(x=>Object.assign({},x));
 function fillSpec(){
-  document.querySelectorAll("#spec [data-k]").forEach(el=>{ el.value = spec[el.dataset.k]!=null ? spec[el.dataset.k] : (el.dataset.k==="b_model"&&!spec.b_model?"Tesla Powerwall 1, rebuilt": el.dataset.k==="b_nominal"&&!spec.b_nominal?"6.4": el.dataset.k==="m_model"&&!spec.m_model?"JK BMS ":""); if(spec[el.dataset.k]==null && el.value) spec[el.dataset.k]=el.value; });
+  document.querySelectorAll("#spec [data-k]").forEach(el=>{ el.value = spec[el.dataset.k]!=null ? spec[el.dataset.k] : ""; });
   const u=parseFloat(spec.b_usable); if(u>0) $("e_usable").value=u;
 }
 $("spec").addEventListener("input",e=>{
