@@ -1,22 +1,52 @@
 {
  "id": "2026-11-08",
  "date": "2026-11-08",
- "level": "yellow",
- "headline": "China may be running a large unannounced exercise simulating Taiwan's isolation.",
+ "level": "green",
+ "countries": {
+  "AU": "yellow",
+  "US": "yellow",
+  "JP": "yellow",
+  "TW": "yellow",
+  "PH": "yellow",
+  "KR": "yellow",
+  "NZ": "yellow"
+ },
+ "regions": {},
+ "eu": "green",
+ "headline": "Taiwan Strait escalation or major exercise",
  "items": [
   {
    "text": "AEI/ISW report China may be running an unannounced exercise simulating the isolation of Taiwan, larger than Justice Mission 2025.",
    "source": "AEI",
    "url": "https://www.aei.org/commentary/china-taiwan-update-november-6-2026/",
-   "level": "yellow"
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
   },
   {
    "text": "Taiwan's NSC chief says more than 100 Chinese navy and coast guard vessels are operating in the western Pacific.",
    "source": "Taipei Times",
    "url": "https://www.taipeitimes.com/News/front/archives/2026/11/08/2003867351",
-   "level": "yellow"
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
   }
  ],
- "action": "Top up and rotate water, food and batteries; no urgent steps needed.",
  "auto": false
 }

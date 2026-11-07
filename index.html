@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sydney Grid Threat Rating</title>
+<title>Grid Threat Rating</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#111111">
 <link rel="icon" href="icons/icon-192.png">
@@ -153,7 +153,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
     <div class="sign-wrap">
       <div class="sign" role="img" aria-labelledby="sign-title sign-today">
         <div class="band" id="sign-title">Grid Threat Rating</div>
-        <div class="sub">CYBER · SYDNEY / NSW</div>
+        <div class="sub" id="sign-sub">CYBER · SET YOUR LOCATION</div>
         <svg id="gauge" viewBox="0 0 320 184" aria-hidden="true"></svg>
         <div class="today on-green" id="sign-today">Today: Normal</div>
       </div>
@@ -167,9 +167,24 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
     </div>
   </section>
 
+  <section aria-labelledby="loc-title">
+    <h2 id="loc-title">Your location</h2>
+    <form id="loc-form" class="card" autocomplete="off" style="margin-top:10px">
+      <div class="hh">
+        <div class="f"><label for="loc-country">Country</label><select id="loc-country" data-loc="country"></select></div>
+        <div class="f" id="loc-state-wrap"><label for="loc-state">State or territory</label><select id="loc-state" data-loc="state"></select></div>
+        <div class="f"><label for="loc-city">City or town</label><input id="loc-city" data-loc="city" placeholder="Your city or town"></div>
+        <div class="f"><label for="loc-radio">Emergency radio station</label><input id="loc-radio" data-loc="radio" placeholder="Station name and frequency"></div>
+        <div class="f" style="grid-column:1/-1"><label for="loc-map">Your power company's outage map (link)</label><input id="loc-map" data-loc="map" inputmode="url" placeholder="https://"></div>
+      </div>
+      <p class="sync" id="loc-note" style="margin:8px 0 0"></p>
+      <p style="margin:6px 0 0" id="loc-maplink"></p>
+    </form>
+  </section>
+
   <section aria-labelledby="rep-title">
     <h2 id="rep-title">Daily reports</h2>
-    <p class="lead">One tile per day, coloured by that day's rating. An automatic check reads official alerts (ASD's ACSC, AEMO) and news headlines twice a day and applies fixed rules; no AI. It can raise false alarms, so read the items before acting. Tap a tile to read it.</p>
+    <p class="lead">One tile per day, coloured by that day's rating. An automatic check reads each country's national cyber agency alerts and local-language news twice a day (plus electricity market notices in Australia) and applies fixed rules; no AI. It can raise false alarms, so read the items before acting. Tap a tile to read it.</p>
     <div class="legend" id="legend" role="group" aria-label="Filter reports by rating"></div>
     <div class="tiles" id="tiles"></div>
     <p class="sync" id="rep-sync"></p>
@@ -177,7 +192,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
 
   <section aria-labelledby="prep-title">
     <h2 id="prep-title">Home preparedness</h2>
-    <p class="lead">Target: 7 days without power, NBN, reliable mobile or open shops, with supplies that stretch to 14. Everything you enter is saved on this phone only.</p>
+    <p class="lead">Target: 7 days without power, home internet, reliable mobile or open shops, with supplies that stretch to 14. Everything you enter is saved on this phone only.</p>
     <div class="card" style="margin-top:14px">
       <h3>Household stock</h3>
       <p class="fine" style="margin:4px 0 10px">Enter what you have. Items marked <span class="autotag">Auto</span> tick themselves from these figures and from the power section below.</p>
@@ -187,7 +202,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
         <div class="f"><label for="h_food">Shelf-stable food (days)</label><input id="h_food" data-h="food" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
         <div class="f"><label for="h_meds">Spare medicines (days)</label><input id="h_meds" data-h="meds" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
         <div class="f"><label for="h_banks">Charged power banks</label><input id="h_banks" data-h="banks" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></div>
-        <div class="f"><label for="h_cash">Cash on hand ($)</label><input id="h_cash" data-h="cash" type="number" min="0" step="10" inputmode="numeric" placeholder="0"></div>
+        <div class="f"><label for="h_cash">Cash on hand (local currency)</label><input id="h_cash" data-h="cash" type="number" min="0" step="10" inputmode="numeric" placeholder="0"></div>
       </div>
     </div>
     <div class="overall"><span>Overall</span><div class="bar"><i id="overall-bar"></i></div><b id="overall-count">0 / 0</b></div>
@@ -269,7 +284,7 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
 
     <div class="card" style="margin-top:16px">
       <h3>How long will it last?</h3>
-      <p class="fine" style="margin:4px 0 10px">Estimates only. Sun hours are rough Sydney averages, and 75% of panel rating is assumed after heat, dust, angle and controller losses. Replace the defaults with your measured figures.</p>
+      <p class="fine" style="margin:4px 0 10px">Estimates only. Sun hours are rough averages for a mid-latitude city; pick what fits your area, and 75% of panel rating is assumed after heat, dust, angle and controller losses. Replace the defaults with your measured figures.</p>
       <div class="row2" style="max-width:560px">
         <div class="f"><label for="e_usable">Usable battery (kWh)</label><input id="e_usable" type="number" step="0.1" min="0" value="0" placeholder="e.g. 5"></div>
         <div class="f"><label for="e_season">Sun conditions</label>
@@ -295,11 +310,12 @@ legend{font-family:var(--display);font-weight:700;text-transform:uppercase;lette
 
   <section aria-labelledby="bk-title">
     <h2 id="bk-title">Backup</h2>
-    <p class="lead">Your ticks, stock and power details live only on this phone. Save a backup file now and then, and use it to move your data to another phone.</p>
+    <p class="lead">Your ticks, stock and power details live only on this device. Save a backup file now and then to move your profile to another phone, or clear it to start fresh.</p>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
       <button class="btn" id="bk-export" type="button">Save backup file</button>
       <label class="btn" for="bk-file" style="display:inline-flex;align-items:center">Restore from file</label>
       <input id="bk-file" type="file" accept="application/json,.json" style="position:absolute;left:-9999px">
+      <button class="btn" id="bk-clear" type="button">Clear my data on this device</button>
     </div>
     <p class="sync" id="bk-msg"></p>
   </section>
@@ -320,7 +336,7 @@ const LV = {
   green:{name:"Normal", i:0, mean:"No material change. Keep supplies rotated."},
   yellow:{name:"Watch", i:1, mean:"Strategic warning sign. Top up and rotate home supplies."},
   orange:{name:"Prepare", i:2, mean:"Operational warning sign. Fill water, charge devices, fuel the car, get cash."},
-  red:{name:"Act", i:3, mean:"Widespread outage under way. Switch to the household plan and tune to ABC Radio Sydney 702 AM."}
+  red:{name:"Act", i:3, mean:"Widespread outage under way. Switch to the household plan and tune to your local emergency broadcaster."}
 };
 const ORDER = ["green","yellow","orange","red"];
 const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -354,64 +370,132 @@ function setGauge(level){
   const t=$("sign-today"); t.className="today on-"+(LV[level]?level:"green"); t.textContent="Today: "+lv.name;
 }
 
+/* ---------- Location ---------- */
+const COUNTRY_LIST=[["AU","Australia"],["NZ","New Zealand"],["US","United States"],["CA","Canada"],["GB","United Kingdom"],["IE","Ireland"],
+ ["FR","France"],["DE","Germany"],["AT","Austria"],["CH","Switzerland"],["NL","Netherlands"],["BE","Belgium"],["ES","Spain"],["PT","Portugal"],
+ ["IT","Italy"],["PL","Poland"],["UA","Ukraine"],["SE","Sweden"],["NO","Norway"],["FI","Finland"],["DK","Denmark"],["EE","Estonia"],["LT","Lithuania"],
+ ["LV","Latvia"],["CZ","Czechia"],["RO","Romania"],["GR","Greece"],["JP","Japan"],["KR","South Korea"],["TW","Taiwan"],["PH","Philippines"],
+ ["SG","Singapore"],["IN","India"],["IL","Israel"],["ZA","South Africa"],["BR","Brazil"],["MX","Mexico"],["AR","Argentina"],["CL","Chile"],["OTHER","Other / not listed"]];
+const EU_CODES=["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"];
+const AU_STATES=[["NSW","New South Wales"],["ACT","Australian Capital Territory"],["VIC","Victoria"],["QLD","Queensland"],["SA","South Australia"],["TAS","Tasmania"],["WA","Western Australia"],["NT","Northern Territory"]];
+let loc=lsGet("gtr-loc")||{};
+const countryName=c=>(COUNTRY_LIST.find(x=>x[0]===c)||[c,c])[1];
+const auRegion=()=>"AU-"+(loc.state==="ACT"?"NSW":loc.state);
+function placeTargets(){
+  const t=[]; if(!loc.country||loc.country==="OTHER") return t;
+  t.push(loc.country);
+  if(EU_CODES.includes(loc.country)) t.push("EU");
+  if(loc.country==="AU"&&loc.state) t.push(auRegion());
+  return t;
+}
+function rank(l){ return (LV[l]||LV.green).i; }
+function levelFor(r){
+  if(!r.countries) return LV[r.level]?r.level:"green"; // older reports
+  if(!loc.country||loc.country==="OTHER") return LV[r.level]?r.level:"green";
+  let l=r.countries[loc.country]||"green";
+  if(EU_CODES.includes(loc.country)&&r.eu&&rank(r.eu)>rank(l)) l=(r.eu==="red"?"orange":r.eu);
+  if(loc.country==="AU"&&loc.state&&r.regions){ const rl=r.regions[auRegion()]; if(rl&&rank(rl)>rank(l)) l=rl; }
+  return LV[l]?l:"green";
+}
+function splitItems(r){
+  const mine=[], other=[], t=placeTargets();
+  (r.items||[]).forEach(it=>{
+    if(!Array.isArray(it.targets)){ mine.push(it); return; }
+    (it.targets.some(x=>t.includes(x)) ? mine : other).push(it);
+  });
+  return {mine, other};
+}
+function placeName(){
+  if(!loc.country||loc.country==="OTHER") return loc.city||"your area";
+  return [loc.city, loc.country==="AU"&&loc.state?loc.state:"", countryName(loc.country)].filter(Boolean).join(", ");
+}
+function headlineFor(r){
+  if(!r.countries) return r.headline;
+  const {mine}=splitItems(r);
+  if(mine.length) return mine[0].text;
+  if(!loc.country||loc.country==="OTHER") return r.headline;
+  return "Nothing notable noticed or released for "+placeName()+".";
+}
+function actionFor(l){
+  const radio=loc.radio?` (${loc.radio})`:"";
+  return {green:"No material change. Keep supplies rotated.",
+    yellow:"Strategic warning sign. Top up and rotate water, food and batteries.",
+    orange:"Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+    red:"Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster"+radio+"."}[l]||"";
+}
+function renderLoc(){
+  $("loc-country").innerHTML=`<option value="">Choose your country</option>`+COUNTRY_LIST.map(c=>`<option value="${c[0]}" ${loc.country===c[0]?"selected":""}>${esc(c[1])}</option>`).join("");
+  $("loc-state").innerHTML=`<option value="">Choose your state</option>`+AU_STATES.map(c=>`<option value="${c[0]}" ${loc.state===c[0]?"selected":""}>${esc(c[1])}</option>`).join("");
+  $("loc-state-wrap").style.display= loc.country==="AU" ? "" : "none";
+  if(document.activeElement!==$("loc-city")) $("loc-city").value=loc.city||"";
+  if(document.activeElement!==$("loc-radio")) $("loc-radio").value=loc.radio||"";
+  if(document.activeElement!==$("loc-map")) $("loc-map").value=loc.map||"";
+  $("sign-sub").textContent="CYBER · "+(loc.country||loc.city ? placeName().toUpperCase() : "SET YOUR LOCATION");
+  const u=safeUrl(loc.map);
+  $("loc-maplink").innerHTML= u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Check your power company's outage map</a>` : "";
+  $("loc-note").textContent= !loc.country ? "Choose your country so the gauge shows your area. Until then it shows the worldwide level. Saved on this device only."
+    : loc.country==="OTHER" ? "Your country isn't tracked yet, so the gauge shows the worldwide level."
+    : "The gauge shows "+placeName()+". Items from elsewhere are listed separately in each report. Saved on this device only.";
+}
+$("loc-form").addEventListener("input",e=>{
+  const k=e.target.dataset.loc; if(!k) return;
+  loc[k]=e.target.value; if(k==="country"&&loc.country!=="AU") loc.state="";
+  lsSet("gtr-loc",loc); renderLoc(); renderReports(); renderOverride();
+});
+$("loc-form").addEventListener("submit",e=>e.preventDefault());
+
 /* ---------- Reports ---------- */
-const BASELINE = {
-  id:"2026-11-07-baseline", date:"2026-11-07", level:"green",
-  headline:"Baseline assessment: about 1–5% chance of a 3+ day cyber blackout in Sydney over 10 years.",
-  items:[
-    {text:"No country has had a confirmed multi-day cyber-caused blackout. Ukraine's 2015 and 2016 outages lasted 1–6 hours; the attacks on Ukraine in 2022 and Poland in Dec 2025 were stopped.", url:"https://www.risidata.com/Database/Detail/poland-sandworm-electrum-energy-wiper-2025", source:"RISI"},
-    {text:"In Nov 2025, ASIO said Chinese state hackers (Volt Typhoon) were probing Australian power, water and transport networks to pre-position for sabotage.", url:"https://securityaffairs.com/184540/intelligence/australias-spy-chief-warns-of-china-linked-threats-to-critical-infrastructure.html", source:"Security Affairs"},
-    {text:"Most of the risk sits in a China–US/Taiwan conflict scenario. Weather is still the more likely cause of a multi-day outage for a given household.", url:"https://claude.ai/artifact/9T6DLkvJ5LJeZEih32Z7if", source:"Full assessment"}
-  ],
-  action:"Build up to 7 days of supplies. Tick off the preparedness list below."
-};
+const BASELINE = { id:"start", date:"", level:"green", countries:{}, items:[], headline:"Reports appear here after the first automatic check." };
 let reports=[BASELINE], filter=null; // replaced by data/history.json once loaded
 
 function fmtDate(d){
-  const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(d||""); if(!m) return esc(d);
+  const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(d||""); if(!m) return esc(d||"");
   const dt=new Date(+m[1],+m[2]-1,+m[3]);
-  return dt.toLocaleDateString("en-AU",{weekday:"short",day:"numeric",month:"short"});
+  return dt.toLocaleDateString(undefined,{weekday:"short",day:"numeric",month:"short"});
 }
 function renderLegend(){
-  const counts={}; ORDER.forEach(k=>counts[k]=0); reports.forEach(r=>{ if(counts[r.level]!=null) counts[r.level]++; });
+  const counts={}; ORDER.forEach(k=>counts[k]=0); reports.forEach(r=>{ counts[levelFor(r)]++; });
   let h=`<button type="button" data-f="" aria-pressed="${filter===null}">All <span>${reports.length}</span></button>`;
   ORDER.forEach(k=>{ h+=`<button type="button" data-f="${k}" aria-pressed="${filter===k}" title="${esc(LV[k].mean)}"><span class="dot on-${k}"></span>${LV[k].name} <span>${counts[k]}</span></button>`; });
   $("legend").innerHTML=h;
 }
 function renderTiles(){
-  const list=reports.filter(r=>!filter||r.level===filter);
+  const list=reports.filter(r=>!filter||levelFor(r)===filter);
   if(!list.length){ $("tiles").innerHTML=`<p class="empty">No reports at this rating yet.</p>`; return; }
-  $("tiles").innerHTML=list.map((r,ix)=>{
-    const lv=LV[r.level]?r.level:"green";
-    const n=(r.items||[]).length;
+  $("tiles").innerHTML=list.map(r=>{
+    const lv=levelFor(r), n=splitItems(r).mine.length;
     return `<button type="button" class="tile on-${lv}" data-id="${esc(r.id)}">
       <span class="d">${fmtDate(r.date)}</span><span class="l">${LV[lv].name.toUpperCase()}</span>
-      <span class="h">${esc(r.headline||"No notable releases.")}</span>
+      <span class="h">${esc(headlineFor(r)||"No notable releases.")}</span>
       <span class="more">${n? n+" item"+(n>1?"s":"")+" · " : ""}Read</span></button>`;
   }).join("");
 }
 function renderCurrent(){
   const r=reports[0]; if(!r) return;
   setGauge(effectiveLevel());
-  $("cur-headline").textContent=r.headline||"";
-  $("cur-action").textContent=r.action||(LV[r.level]||LV.green).mean;
-  $("cur-date").textContent="Latest report: "+fmtDate(r.date).replace(/<[^>]+>/g,"");
+  $("cur-headline").textContent= !loc.country ? "Choose your country below to see the rating for your area." : (headlineFor(r)||"");
+  $("cur-action").textContent= r.countries ? actionFor(effectiveLevel()) : (r.action||actionFor(effectiveLevel()));
+  $("cur-date").textContent= r.date ? "Latest report: "+fmtDate(r.date).replace(/<[^>]+>/g,"") : "";
 }
 function renderReports(){ renderLegend(); renderTiles(); renderCurrent(); }
+function targetLabel(t){ return t==="EU"?"EU": t.startsWith("AU-")? t.slice(3)+", Australia" : countryName(t); }
+function itemLi(it){
+  const u=safeUrl(it.url);
+  const where=Array.isArray(it.targets)&&it.targets.length?" · "+esc(it.targets.map(targetLabel).join(", ")):"";
+  const why=it.why?`<br><span class="src" style="color:var(--muted)">Rule: ${esc(it.why)}${where}</span>`:"";
+  return `<li>${esc(it.text)}${why}${u?` <span class="src"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(it.source||"source")}</a></span>`:(it.source?` <span class="src">(${esc(it.source)})</span>`:"")}</li>`;
+}
 function openReport(id){
   const r=reports.find(x=>x.id===id); if(!r) return;
-  const lv=LV[r.level]?r.level:"green";
+  const lv=levelFor(r), {mine,other}=splitItems(r), here=loc.country&&loc.country!=="OTHER";
   $("m-head").className="on-"+lv;
-  $("m-title").textContent=fmtDate(r.date).replace(/<[^>]+>/g,"")+" · "+LV[lv].name;
-  const items=(r.items||[]).map(it=>{
-    const u=safeUrl(it.url);
-    const why=it.why?`<br><span class="src" style="color:var(--muted)">Rule: ${esc(it.why)}</span>`:"";
-    return `<li>${esc(it.text)}${why}${u?` <span class="src"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(it.source||"source")}</a></span>`:(it.source?` <span class="src">(${esc(it.source)})</span>`:"")}</li>`;
-  }).join("");
-  $("m-body").innerHTML=`<p style="margin:0;font-weight:700">${esc(r.headline||"")}</p>
-    ${items?`<div><b>Noticed or released</b><ul>${items}</ul></div>`:`<p class="empty">Nothing notable was noticed or released.</p>`}
-    <div class="act"><b>Household action:</b> ${esc(r.action||LV[lv].mean)}</div>
-    ${r.auto?`<p class="fine" style="margin:0">Automatic rule-based check${r.checkedAt?", "+esc(new Date(r.checkedAt).toLocaleString("en-AU")):""}.${Array.isArray(r.sourceErrors)&&r.sourceErrors.length?" Some sources couldn't be reached: "+esc(r.sourceErrors.join(", "))+".":""}</p>`:""}`;
+  $("m-title").textContent=(r.date?fmtDate(r.date).replace(/<[^>]+>/g,"")+" · ":"")+LV[lv].name;
+  const mineH=mine.map(itemLi).join(""), otherH=other.slice(0,8).map(itemLi).join("");
+  $("m-body").innerHTML=`<p style="margin:0;font-weight:700">${esc(headlineFor(r)||"")}</p>
+    ${mineH?`<div><b>Noticed or released${here?" for "+esc(placeName()):""}</b><ul>${mineH}</ul></div>`:`<p class="empty">Nothing notable was noticed or released${here?" for "+esc(placeName()):""}.</p>`}
+    ${otherH?`<div><b>Elsewhere in the world</b><ul>${otherH}</ul></div>`:""}
+    <div class="act"><b>Household action:</b> ${esc(r.countries?actionFor(lv):(r.action||actionFor(lv)))}</div>
+    ${r.auto?`<p class="fine" style="margin:0">Automatic rule-based check${r.checkedAt?", "+esc(new Date(r.checkedAt).toLocaleString()):""}${r.sourcesChecked?", "+r.sourcesChecked+" items read":""}.${Array.isArray(r.sourceErrors)&&r.sourceErrors.length?" Couldn't reach: "+esc(r.sourceErrors.join(", "))+".":""}</p>`:""}`;
   $("ov").classList.add("open"); $("m-close").focus();
 }
 function closeReport(){ $("ov").classList.remove("open"); }
@@ -427,7 +511,7 @@ const GROUPS=[
     ["c-water","Water: about 4 L per person per day, at least 12 L each"],
     ["c-food","Food that needs no fridge, enough for 3 days"],
     ["c-stove","Gas camping stove and spare canisters (outdoor use)"],
-    ["c-radio","Battery or wind-up AM/FM radio, tuned to 702 AM"],
+    ["c-radio","Battery or wind-up radio, tuned to your emergency broadcaster"],
     ["c-light","Torches or headlamps, plus spare batteries"],
     ["c-banks","Power banks for every phone, kept charged"],
     ["c-car","Car phone charger"],
@@ -473,7 +557,7 @@ const AUTO={
   "d-food":()=>{ const d=num(house.food); return {ok:d>=7, why:`${d} days of food · target 7`}; },
   "c-meds":()=>{ const d=num(house.meds); return {ok:d>=14, why:`${d} days spare · target 14`}; },
   "c-banks":()=>{ const b=num(house.banks); return {ok:b>=people(), why:`${b} charged · target 1 per person`}; },
-  "c-cash":()=>{ const c=num(house.cash); return {ok:c>=200, why:`$${c} on hand · suggested $200+`}; },
+  "c-cash":()=>{ const c=num(house.cash); return {ok:c>=200, why:`${c} on hand · suggested 200+ in local currency`}; },
   "p-captest":()=>{ const u=num(spec.b_usable); return {ok:u>0, why:u>0?`${u} kWh usable recorded`:"Enter usable kWh in the battery section"}; },
   "p-fridge":()=>{ const c=calc(), f=c.on.some(l=>/fridge|freezer/i.test(l.n));
     return {ok:f&&c.battDays>=1, why: !f?"Turn on a fridge load in the calculator": `Battery runs the selected loads for ${c.battDays.toFixed(1)} days`}; },
@@ -517,7 +601,7 @@ const DEFAULT_LOADS=[
   {on:true,n:"Fan",w:40,h:8},
   {on:false,n:"CPAP",w:40,h:8},
   {on:false,n:"Laptop",w:60,h:3},
-  {on:false,n:"Modem/router (if NBN still up)",w:15,h:24}
+  {on:false,n:"Modem/router (if internet still up)",w:15,h:24}
 ];
 let loads=lsGet("gtr-loads")||DEFAULT_LOADS.map(x=>Object.assign({},x));
 function fillSpec(){
@@ -582,9 +666,9 @@ function queueSave(what){ /* everything is saved to this phone as you go */ }
 
 /* ---------- Manual override of the rating ---------- */
 let override=lsGet("gtr-override"); // {level, at}
-function effectiveLevel(){ return (override&&LV[override.level])?override.level:(reports[0]?reports[0].level:"green"); }
+function effectiveLevel(){ return (override&&LV[override.level])?override.level:(reports[0]?levelFor(reports[0]):"green"); }
 function renderOverride(){
-  const auto=reports[0]?reports[0].level:"green";
+  const auto=reports[0]?levelFor(reports[0]):"green";
   $("ov-btns").innerHTML=ORDER.map(k=>`<button type="button" class="ovb on-${k}" data-l="${k}" aria-pressed="${!!(override&&override.level===k)}">${LV[k].name}</button>`).join("")+
     `<button type="button" class="ovb" data-l="" aria-pressed="${!override}">Auto</button>`;
   $("ov-note").textContent= override ? `You set ${LV[override.level].name}. The automatic check says ${LV[auto].name}.` : `Following the automatic check (${LV[auto].name}). Tap a level to set your own.`;
@@ -611,12 +695,12 @@ async function loadReports(){
   }
 }
 function normalise(list){
-  const out=list.filter(x=>x&&x.date).map(x=>({id:String(x.id||x.date),date:String(x.date),level:LV[x.level]?x.level:"green",headline:x.headline,items:Array.isArray(x.items)?x.items:[],action:x.action,checkedAt:x.checkedAt,auto:x.auto,sourceErrors:x.sourceErrors}));
+  const out=list.filter(x=>x&&x.date).map(x=>({id:String(x.id||x.date),date:String(x.date),level:LV[x.level]?x.level:"green",headline:x.headline,items:Array.isArray(x.items)?x.items:[],action:x.action,checkedAt:x.checkedAt,auto:x.auto,sourceErrors:x.sourceErrors,sourcesChecked:x.sourcesChecked,countries:(x.countries&&typeof x.countries==="object")?x.countries:null,regions:x.regions||{},eu:x.eu}));
   return out.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:0);
 }
 
 /* ---------- Backup ---------- */
-function snapshot(){ return {app:"grid-threat-rating",version:1,savedAt:new Date().toISOString(),checked,house,spec,loads,override}; }
+function snapshot(){ return {app:"grid-threat-rating",version:2,savedAt:new Date().toISOString(),checked,house,spec,loads,override,loc}; }
 $("bk-export").addEventListener("click",()=>{
   const blob=new Blob([JSON.stringify(snapshot(),null,1)],{type:"application/json"});
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
@@ -629,18 +713,29 @@ $("bk-file").addEventListener("change",async e=>{
   try{
     const d=JSON.parse(await f.text());
     if(d.app!=="grid-threat-rating") throw new Error("not a backup");
-    checked=d.checked||{}; house=d.house||{}; spec=d.spec||{}; loads=Array.isArray(d.loads)&&d.loads.length?d.loads:loads; override=d.override||null;
-    lsSet("gtr-checked",checked); lsSet("gtr-house",house); lsSet("gtr-spec",spec); lsSet("gtr-loads",loads); lsSet("gtr-override",override);
-    fillHouse(); fillSpec(); renderLoads(); renderEst(); renderCurrent(); renderOverride();
+    checked=d.checked||{}; house=d.house||{}; spec=d.spec||{}; loads=Array.isArray(d.loads)&&d.loads.length?d.loads:loads; override=d.override||null; loc=d.loc||loc;
+    lsSet("gtr-checked",checked); lsSet("gtr-house",house); lsSet("gtr-spec",spec); lsSet("gtr-loads",loads); lsSet("gtr-override",override); lsSet("gtr-loc",loc);
+    renderLoc(); renderReports(); fillHouse(); fillSpec(); renderLoads(); renderEst(); renderCurrent(); renderOverride();
     $("bk-msg").textContent="Restored from "+f.name+".";
   }catch(err){ $("bk-msg").textContent="That file isn't a Grid Threat backup."; }
   e.target.value="";
 });
 
+let clearArmed=false, clearTimer=null;
+$("bk-clear").addEventListener("click",()=>{
+  if(!clearArmed){ clearArmed=true; $("bk-clear").textContent="Tap again to clear everything"; $("bk-msg").textContent="This removes your ticks, stock and power details from this device.";
+    clearTimer=setTimeout(()=>{ clearArmed=false; $("bk-clear").textContent="Clear my data on this device"; $("bk-msg").textContent=""; },6000); return; }
+  clearTimeout(clearTimer); clearArmed=false;
+  ["gtr-checked","gtr-house","gtr-spec","gtr-loads","gtr-override","gtr-loc"].forEach(k=>{ try{ localStorage.removeItem(k); }catch(e){} });
+  checked={}; house={}; spec={}; loads=DEFAULT_LOADS.map(x=>Object.assign({},x)); override=null; loc={}; renderLoc(); renderReports();
+  fillHouse(); fillSpec(); renderLoads(); renderEst(); renderCurrent(); renderOverride();
+  $("bk-clear").textContent="Clear my data on this device"; $("bk-msg").textContent="Cleared. This device now has a blank profile.";
+});
+
 /* ---------- Offline support ---------- */
 if("serviceWorker" in navigator){ window.addEventListener("load",()=>{ navigator.serviceWorker.register("sw.js").catch(()=>{}); }); }
 
-drawGauge(); renderReports(); fillHouse(); renderChecks(); fillSpec(); renderLoads(); renderEst(); renderOverride();
+drawGauge(); renderLoc(); renderReports(); fillHouse(); renderChecks(); fillSpec(); renderLoads(); renderEst(); renderOverride();
 requestAnimationFrame(()=>setGauge(effectiveLevel()));
 loadReports().then(()=>{ renderOverride(); });
 })();
