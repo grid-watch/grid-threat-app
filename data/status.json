@@ -1,13 +1,18 @@
 {
- "id": "2026-11-08",
- "date": "2026-11-08",
+ "id": "2026-11-09",
+ "date": "2026-11-09",
  "auto": true,
  "level": "yellow",
  "countries": {
   "GB": "yellow",
   "ES": "yellow",
   "FI": "yellow",
+  "US": "yellow",
   "AU": "yellow",
+  "JP": "yellow",
+  "TW": "yellow",
+  "PH": "yellow",
+  "KR": "yellow",
   "NZ": "yellow",
   "DE": "orange",
   "UA": "yellow",
@@ -69,30 +74,35 @@
    ]
   },
   {
-   "text": "CYFIRMA Maps Edge-Focused Cyber Threats to Australian and New Zealand Government · cyber.hendryadrian.com - Howl.Link",
-   "source": "Howl.Link",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1EU3paQ0FWNXF5QnlzWUZBcmgyN2hDS0UyX1N5RWN5U0JHaFZoT0JiOW8yY19GSkNmS01F?oc=5",
+   "text": "Matsu troops hold Yuntai live-fire exercise - Taiwan News",
+   "source": "Taiwan News",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBaFo1cUs2VWg5VEZ2VVZjN01QVG9BemlQQ01GNm13TzRrLW9acDRiQmx5aWwyV3NIVTJuMzZfd2dzMnJDcVlLMy0temg5Tmo5aEJrcXVZVUo?oc=5",
    "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
+   "why": "Taiwan Strait escalation or major exercise",
    "targets": [
     "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
     "NZ"
    ]
   },
   {
-   "text": "AI-enabled cyberthreats may target financial services, critical infrastructure such banks, utility providers - Dawn",
-   "source": "Dawn",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOGZwQzVfTWt5c0JXOE5iYTlMSmNFdTRRT1pOQzVrYi1NRTlUcWtyTmNQOG5ndy1LX0QwUnljSzMyQ3d3amZIVG1sNnFOMVRKS3pFQll2ZXVqVU8xWWctbm02Q0Vhbll3dllxUm0zYjdnNmpPWXpLelpEWjNOR2lyWmhDSzBnNXhXM3pPdUs2bVZfUGs3ZjJhYldJWVBrdG44dEVjejc4UFhDbkt2NFNwT1V0Vi1CU0Zjek9HQjQxeUt0T2VMOXlfbGQ2R3lmRWkyWFozS2RaZw?oc=5",
+   "text": "Cyber Attacks Against Water Systems on Agenda for State Utility Regulators (Nov 6, 2026) - VitalLaw.com",
+   "source": "VitalLaw.com",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ214dGg0MmpHWFZFdlkxUVg0aG4zZGpqTWpTUTFpMDRybEtZeFl0Z0J1ejVmYmxSSWJiSTVpMFVQci0xRWFDMDJrMUVOempiNzVnay1rUDlFR1lOMTdvbUNzOVVLNTFvc1h6LV9KdGhNTzRWek9pQ2F5QjJ5anpyRC1XTEpaMzlqaE56LXFWYlRQRzFGV1c2UHAxdENyeEdNMG1KejZ2Y1o4a1FIYlluYjlmUkRTMm9IOEpMdWx3RVVFMnd2eUdoa1pkbjJweGkxaUlsMEwyWF83UWs?oc=5",
    "level": "yellow",
    "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "AU"
+    "US"
    ]
   },
   {
-   "text": "Australia & New Zealand Government Sector Cyber Threat Landscape (2025–2026) - Cyfirma",
-   "source": "Cyfirma",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUJBazhlRjZoQlc1M1JQcUtxUUZ5OWdwSFJ0ZEhSeVlaRjZudlhpUU9ZX1VIdGdHNjh0TV9Nd1lpMURyQ2FpUFNkVENjQ2FPZzY0aWp1bkMza3habU5uSjR4WFRrR2NLek1tU296MExlTG5KWnFWbWVoZU5oTFFocFBrZk4zNFd2S21JT01KNFBnZy1GcjdvY1M4a2ZrMVFISWRsXzAzVllfQQ?oc=5",
+   "text": "CYFIRMA Maps Edge-Focused Cyber Threats to Australian and New Zealand Government · cyber.hendryadrian.com - Howl.Link",
+   "source": "Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1EU3paQ0FWNXF5QnlzWUZBcmgyN2hDS0UyX1N5RWN5U0JHaFZoT0JiOW8yY19GSkNmS01F?oc=5",
    "level": "yellow",
    "why": "State hacking group linked to infrastructure in this country",
    "targets": [
@@ -227,8 +237,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-08T08:56+00:00",
- "sourcesChecked": 804,
+ "checkedAt": "2026-11-08T20:38+00:00",
+ "sourcesChecked": 793,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
