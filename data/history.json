@@ -1,5 +1,231 @@
 [
  {
+  "id": "2026-11-10",
+  "date": "2026-11-10",
+  "auto": true,
+  "level": "green",
+  "countries": {
+   "GB": "yellow",
+   "ES": "yellow",
+   "FI": "yellow",
+   "TW": "yellow",
+   "AU": "yellow",
+   "US": "yellow",
+   "JP": "yellow",
+   "PH": "yellow",
+   "KR": "yellow",
+   "NZ": "yellow",
+   "IT": "yellow",
+   "IL": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Reported cyber disruption of the power grid",
+  "items": [
+   {
+    "text": "Exclusive: Cyber Blackout Risks Mount as Chinese Inverters Dominate Grid - 조선일보",
+    "source": "조선일보",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUxqRU01T0o2WWd4N3lJcE1kZ1Axclc2aTJ0UVhJLUNERlVOeDBGeW14djdrY0UzOXozQUZsSGFZY3NzVXh2M24xNzBsZTFpTU80YUg5R1ZyejVZVVI1V1VBUHVBTlZKX1pWMC11MGtKWjJKY01IampPLW5JT0p5Z2c1c3lqQ21x?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Blackout in Alto Adige, escluso l'attacco hacker - Trentino TV",
+    "source": "Trentino TV",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yQjNJb1pBekU4QTlydXhxOWN6OUhrbm01S0ZwRU1mZGNCc3ViTkJxYVh2VWJQTmFsRzRrZDZLLW84c29TSUw2cUVuQkhSZjdIYTBzWGJpV0RNN3hjdnNDUjNHT1pYTDg?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "IT"
+    ]
+   },
+   {
+    "text": "Widespread blackout caused by drone attack on Khor Mor gas field, exposing Iraqi vulnerabilities - The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQzJRdEpicEVOZUE2Nkd4ekl2Z1Fsb2hXbmNzZFBCZjZfZlphLUVHandNNGxFSzNOUTFkd0d1Qm9seXRFYWRzR3FHMmVUN3R2TjRlSjFXR3VScW5W?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "IL"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
+    "source": "https://cyberq.tw/",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "TW"
+    ]
+   },
+   {
+    "text": "U.S. sees Chinese invasion of Taiwan unlikely despite 2027 timeline, sources say - 朝日新聞",
+    "source": "朝日新聞",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ReU1nTGxMNW95QUF2RnFsVjRtQUZjQnZ5RC1pdWFuMlItS3dQaE1CUGtTZk4yZ3AzeUJBT2dTUkVob1J1MzZ4ZjhuRWdsWXJjQ2lWZXBHWHYwUWlxbmc?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/recuperacion-insegura-de-contrasenas-en-building-cloud-services-de-wago",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-contact-9",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Escritura fuera de límites en Advanced Batch Management de ABB",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-advanced-batch-management-de-abb",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Welotec",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+    "source": "UK NCSC",
+    "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+    "level": "yellow",
+    "why": "UK NCSC: alert on critical infrastructure",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Escritura fuera de límites en productos de Johnson Controls",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de ABB",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "IoT- ja OT-ympäristöjen tietoturva alkaa laitteiden suojaamisesta",
+    "source": "NCSC-FI",
+    "url": "https://www.kyberturvallisuuskeskus.fi/fi/uutiset/iot-ja-ot-ymparistojen-tietoturva-alkaa-laitteiden-suojaamisesta?mtm_campaign=rss&mtm_source=rss&mtm_medium=rss",
+    "level": "yellow",
+    "why": "NCSC-FI: critical infrastructure advisory",
+    "targets": [
+     "FI"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-09T20:54+00:00",
+  "sourcesChecked": 789,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError",
+   "CISA advisories: HTTPError",
+   "CISA ICS advisories: HTTPError",
+   "INCIBE-CERT avisos: URLError"
+  ]
+ },
+ {
   "id": "2026-11-09",
   "date": "2026-11-09",
   "auto": true,

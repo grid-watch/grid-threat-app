@@ -1,21 +1,56 @@
 {
- "id": "2026-11-09",
- "date": "2026-11-09",
+ "id": "2026-11-10",
+ "date": "2026-11-10",
  "auto": true,
- "level": "yellow",
+ "level": "green",
  "countries": {
-  "GB": "orange",
+  "GB": "yellow",
   "ES": "yellow",
   "FI": "yellow",
   "TW": "yellow",
-  "DE": "orange",
-  "UA": "yellow",
-  "IN": "yellow"
+  "AU": "yellow",
+  "US": "yellow",
+  "JP": "yellow",
+  "PH": "yellow",
+  "KR": "yellow",
+  "NZ": "yellow",
+  "IT": "yellow",
+  "IL": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Widespread blackout reported",
+ "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Exclusive: Cyber Blackout Risks Mount as Chinese Inverters Dominate Grid - 조선일보",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUxqRU01T0o2WWd4N3lJcE1kZ1Axclc2aTJ0UVhJLUNERlVOeDBGeW14djdrY0UzOXozQUZsSGFZY3NzVXh2M24xNzBsZTFpTU80YUg5R1ZyejVZVVI1V1VBUHVBTlZKX1pWMC11MGtKWjJKY01IampPLW5JT0p5Z2c1c3lqQ21x?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "US"
+   ]
+  },
+  {
+   "text": "Blackout in Alto Adige, escluso l'attacco hacker - Trentino TV",
+   "source": "Trentino TV",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yQjNJb1pBekU4QTlydXhxOWN6OUhrbm01S0ZwRU1mZGNCc3ViTkJxYVh2VWJQTmFsRzRrZDZLLW84c29TSUw2cUVuQkhSZjdIYTBzWGJpV0RNN3hjdnNDUjNHT1pYTDg?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "Widespread blackout caused by drone attack on Khor Mor gas field, exposing Iraqi vulnerabilities - The Jerusalem Post",
+   "source": "The Jerusalem Post",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQzJRdEpicEVOZUE2Nkd4ekl2Z1Fsb2hXbmNzZFBCZjZfZlphLUVHandNNGxFSzNOUTFkd0d1Qm9seXRFYWRzR3FHMmVUN3R2TjRlSjFXR3VScW5W?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "IL"
+   ]
+  },
   {
    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
    "source": "Herald.Wales",
@@ -27,47 +62,6 @@
    ]
   },
   {
-   "text": "UK blackout fears: Brits warned of power cut risks as cyberattack concerns grow - Euro Weekly News",
-   "source": "Euro Weekly News",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPXzZLbDhKb1lIWUQ3T3BiSG1lTDRaVzVwT1dWbldhamxtcTdXb1Vka1JEc1h0bnU0dk1fTGNJUTl0ZTR6aWozNVkzSVFCeVhnZUlTaEVDcUdyZ1FmTXdpU2cyVWpkS2V5UTdYRDR4Wmd4cy1wNWRRQ0RhUnNiZ0xoZjBGRUp4QjZWZGZ1QTMzcEhKRHo2elNKV2c0X1prNkNBOE9MRlFzcFBHMTZYVmxydk1ZZkhPUDJr?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "GB"
-   ]
-  },
-  {
-   "text": "Frankreich: Cyberangriff auf Blutbank – Hacker manipulieren Kühlanlagen auf 110 Grad - Blackout News",
-   "source": "Blackout News",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbHpHQzNrMnZLbTVzcXJPeENFb2ZHLXVxcUx1eE1KOUNsTTdiTGpyUm43SEVobUd2U2p1RjFKVnlSVU14RnZTRkt5U2cyMHY5VVBjV2laR3dZU1NuSmQwcHFsT3A2WXRaSzhaQVdDemJqWndHOUpveU5HNWxiSUFrQldHMzEyc1NiMUlyT0FRSjhDVWRUN05qdV9rbWlTa3BIeENSaksyVTBWN0pZTjlNbXU3Z3lqMUpPc0E?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "DE"
-   ]
-  },
-  {
-   "text": "Schon wieder Cyberangriff auf Supermärkte – Hacker manipulieren Kühlanlagen in ganz Europa - Blackout News",
-   "source": "Blackout News",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVprcUg5NzE1bGlkT0pJRGdNcnRIUUpXVjVNZmVZSFJSdlhURDNId0ZxcC1ta3BsdVoxbWtQZF9fQlVzTU04RERyVnhGd0tkeGg4dnBhcDhVeldpZjFBWVZlLWthc2NBQnRPUllSSHJtSXROa2c3UklxbGlZN3I2aWhjTjl5UWR0d0VCZURaQ2J4aUFacG1zeFRQMFlBVXZQRm5JMGVEVU5XQVpHTEpmT3BjVmhuZGVYMGFRUC1HV3NaUE1M?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "DE"
-   ]
-  },
-  {
-   "text": "Putin's Devastating Energy War On Kyiv; Ukraine Capital Paralysis Amid Widespread Blackout - The Times of India",
-   "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRi15OHZQcWZqODNvVUY3dGlSTHlKQ0JoVWg4a3B5NXlFUU04LVRjcUZ2eUFLUGxuaEZUWmpKMDVEc2pVZVJmeVNyRnVIWVJnT2Y0Sy04bXNnUmtqVXVJTjhOaldLbG5Jck16akE5bFU3aGF1aVdaUGl3QVJzc2lETW1meGFscndUNFJJNllyVUlXci16ekhZUU53NWZlNTVydl90UENUZW1ia2NURGM4Nk96Vnk4SnlzNy1hbGhWWDM5cHNZcFRuUEMwb1FkNm5pZWJMV3hyYXFnMVNBeDU4Q1Ata1RTalEydVkxMWtpU3EyMDFvRVNnOXprenROQdIBgwJBVV95cUxNV3R0dmVZaG5yTUllVUZTZE1qRENhZWhmNlgwbnpZU280OTY3NUNTaHRoa2JGSi1YcUg3ZmxFRlo4RVowa184R2w2bzN5N0ZtTjR3NFUwaVMtX09KMXVrbWNlcWpJV0hsV2xEUk8wc1A4MDNKYlFsUEJ5RFh5UHNKbWxCSjgxaGhsQzVHeW1aWlBhcjlqN180N2dHZWtjTXhfbk1OUHQ0Zkh0ZFRERHlSZVgyS280RG5NcnE4SS1ockw2cmxpcXBvOVU4MWJOWVV0ODJrbXJySGZ1dFk5N0VldFEycXVSNDZGTmVXVDFPSnNtWURvcmJselEyTF8zTElkMVVz?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "UA",
-    "IN"
-   ]
-  },
-  {
    "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
    "source": "https://cyberq.tw/",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
@@ -75,6 +69,22 @@
    "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
     "TW"
+   ]
+  },
+  {
+   "text": "U.S. sees Chinese invasion of Taiwan unlikely despite 2027 timeline, sources say - 朝日新聞",
+   "source": "朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ReU1nTGxMNW95QUF2RnFsVjRtQUZjQnZ5RC1pdWFuMlItS3dQaE1CUGtTZk4yZ3AzeUJBT2dTUkVob1J1MzZ4ZjhuRWdsWXJjQ2lWZXBHWHYwUWlxbmc?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
    ]
   },
   {
@@ -168,7 +178,7 @@
    ]
   },
   {
-   "text": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Siemens",
+   "text": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
    "source": "INCIBE-CERT avisos SCI",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
    "level": "yellow",
@@ -204,12 +214,13 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-09T09:18+00:00",
- "sourcesChecked": 792,
+ "checkedAt": "2026-11-09T20:54+00:00",
+ "sourcesChecked": 789,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
   "CISA advisories: HTTPError",
-  "CISA ICS advisories: HTTPError"
+  "CISA ICS advisories: HTTPError",
+  "INCIBE-CERT avisos: URLError"
  ]
 }
