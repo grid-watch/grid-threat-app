@@ -5,16 +5,10 @@
   "auto": true,
   "level": "yellow",
   "countries": {
-   "GB": "yellow",
+   "GB": "orange",
    "ES": "yellow",
    "FI": "yellow",
-   "US": "yellow",
-   "AU": "yellow",
-   "JP": "yellow",
    "TW": "yellow",
-   "PH": "yellow",
-   "KR": "yellow",
-   "NZ": "yellow",
    "DE": "orange",
    "UA": "yellow",
    "IN": "yellow"
@@ -29,6 +23,16 @@
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
     "level": "orange",
     "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "UK blackout fears: Brits warned of power cut risks as cyberattack concerns grow - Euro Weekly News",
+    "source": "Euro Weekly News",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPXzZLbDhKb1lIWUQ3T3BiSG1lTDRaVzVwT1dWbldhamxtcTdXb1Vka1JEc1h0bnU0dk1fTGNJUTl0ZTR6aWozNVkzSVFCeVhnZUlTaEVDcUdyZ1FmTXdpU2cyVWpkS2V5UTdYRDR4Wmd4cy1wNWRRQ0RhUnNiZ0xoZjBGRUp4QjZWZGZ1QTMzcEhKRHo2elNKV2c0X1prNkNBOE9MRlFzcFBHMTZYVmxydk1ZZkhPUDJr?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
     "targets": [
      "GB"
     ]
@@ -65,50 +69,13 @@
     ]
    },
    {
-    "text": "Ciberataque: Japón restablece 128 bancos tras un apagón que paralizó 3.430 oficinas - Negocios.com",
-    "source": "Negocios.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaUM1MGVjX1RYZHFnNjFhaWpJM213RHBJTUxDY2tzVkJXUGYtTjR3S3lTdnNETmVMRkRXc2s5QV9ZMFlicGlWTnZYOXlKS2JyWGF4LWtyOS1zdTA0WXFwTnFVQjBPQjVvMXJUSkZ2SFBQMUhsckE5VGthdkx6MmVfaFE1bmNBV29sVVhPX2hqNUNXclAwVnR4c2xZY0c4eHBvUlBvdUEwaWZwc0xnekk0MjR0b2xEcTdLR3c1Zi1R0gHDAUFVX3lxTFB0d3Rsckp0NHRaWF9MekV0bVF3U2ZqNWhKZWVUOUdyTmxsUC1OOTlCTmhpQzBvZXdWb0xFQ3RwbGtDc19oN1h5WjA5OXkxaURPVG92RGhrbnVPUGpZaHlTajItMmN6dmkwN29yd09LajVJQl9pZU0yNmJDbWs2TWdjQjJKako5WFp0UFR3TjZnc1JPcEhBc05yUE9aRmh1eXNUSEZCdkJOaW5uZHE0WkZENkpoSzdVNEZGM0otckJMdVpaVQ?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "ES"
-    ]
-   },
-   {
-    "text": "Matsu troops hold Yuntai live-fire exercise - Taiwan News",
-    "source": "Taiwan News",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBaFo1cUs2VWg5VEZ2VVZjN01QVG9BemlQQ01GNm13TzRrLW9acDRiQmx5aWwyV3NIVTJuMzZfd2dzMnJDcVlLMy0temg5Tmo5aEJrcXVZVUo?oc=5",
-    "level": "yellow",
-    "why": "Taiwan Strait escalation or major exercise",
-    "targets": [
-     "AU",
-     "US",
-     "JP",
-     "TW",
-     "PH",
-     "KR",
-     "NZ"
-    ]
-   },
-   {
-    "text": "Cyber Attacks Against Water Systems on Agenda for State Utility Regulators (Nov 6, 2026) - VitalLaw.com",
-    "source": "VitalLaw.com",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ214dGg0MmpHWFZFdlkxUVg0aG4zZGpqTWpTUTFpMDRybEtZeFl0Z0J1ejVmYmxSSWJiSTVpMFVQci0xRWFDMDJrMUVOempiNzVnay1rUDlFR1lOMTdvbUNzOVVLNTFvc1h6LV9KdGhNTzRWek9pQ2F5QjJ5anpyRC1XTEpaMzlqaE56LXFWYlRQRzFGV1c2UHAxdENyeEdNMG1KejZ2Y1o4a1FIYlluYjlmUkRTMm9IOEpMdWx3RVVFMnd2eUdoa1pkbjJweGkxaUlsMEwyWF83UWs?oc=5",
+    "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
+    "source": "https://cyberq.tw/",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
     "level": "yellow",
     "why": "Cyber attack attempt on energy infrastructure reported",
     "targets": [
-     "US"
-    ]
-   },
-   {
-    "text": "CYFIRMA Maps Edge-Focused Cyber Threats to Australian and New Zealand Government · cyber.hendryadrian.com - Howl.Link",
-    "source": "Howl.Link",
-    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1EU3paQ0FWNXF5QnlzWUZBcmgyN2hDS0UyX1N5RWN5U0JHaFZoT0JiOW8yY19GSkNmS01F?oc=5",
-    "level": "yellow",
-    "why": "State hacking group linked to infrastructure in this country",
-    "targets": [
-     "AU",
-     "NZ"
+     "TW"
     ]
    },
    {
@@ -238,8 +205,8 @@
    "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
    "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
   },
-  "checkedAt": "2026-11-08T20:38+00:00",
-  "sourcesChecked": 793,
+  "checkedAt": "2026-11-09T09:18+00:00",
+  "sourcesChecked": 792,
   "sourceErrors": [
    "ASD's ACSC alerts: TimeoutError",
    "ASD's ACSC advisories: TimeoutError",
