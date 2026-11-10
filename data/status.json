@@ -1,25 +1,57 @@
 {
- "id": "2026-11-10",
- "date": "2026-11-10",
+ "id": "2026-11-11",
+ "date": "2026-11-11",
  "auto": true,
- "level": "green",
+ "level": "yellow",
  "countries": {
-  "GB": "yellow",
+  "FR": "yellow",
   "ES": "yellow",
+  "NL": "yellow",
+  "KR": "yellow",
   "TW": "yellow",
   "AU": "yellow",
   "US": "yellow",
   "JP": "yellow",
   "PH": "yellow",
-  "KR": "yellow",
   "NZ": "yellow",
-  "IT": "yellow",
+  "IN": "yellow",
+  "IT": "orange",
   "IL": "yellow"
  },
  "regions": {},
  "eu": "green",
  "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Grosse panne informatique ce mardi à l’UZ Brussel : des opérations annulées et les urgences redirigées vers d’autres hôpitaux, « aucune indication d’une éventuelle cyberattaque » - Sudinfo",
+   "source": "Sudinfo",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeTdWNUNlNkgxV3FjNy1Kc0FNRzREeUFPd0dpZnBUUG4xY3B0eUFvajRYVHpFMmN2YzJtWGcwTzJTZXBWZ0RmcmFKMGNJXzZQTVZwSC1yYUh1ZTJwSjNJbWlXcWQ2b0kwcFFyaGlHZm9mU012cHhWRFhrVU5NLWVBWkJMWk9pc1hRSUdMXzV5WlFxeTV2YjZhYzdTRmJRMDJBelpJT3I2RUw0bXA4dlNsTU9WOFQyR2FpUTBWMEItUi1xZ3lIZGpfTg?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Attacchi hacker, blackout e guerre: Francia, Svezia, Gb e Olanda diffondono le guide per le emergenze - Tgcom24",
+   "source": "Tgcom24",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdFBDYjJMRkt4d0NaU1FRWXNUQ05ES0dSV0tTbUYxOWlhZzk4ZXBxbGwyLWROX1M1SlJQTFhzaGQxcXhmUTFGcXpkUWo4UjhBS2FSaXY5V3owZ2dpc3JwV0lxX1AwcFk3RTVXcmhuM0JOclp4OG9CTU56c2x4WGNYMXRzQXMxMHJvMHd6c0ZBcVpCMGtFWjFOSkw4TnJJSFFfdVFENGdJeUZnc1lnbDAzdjB3?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "L blackout del strom nia leà ai ataches cyber al Prener - RaiNews",
+   "source": "RaiNews",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMi1kSWhpMVFlSkZkY2NxdVhKOG9ralZnb2M5aGI5dm1LamNSQlZiUmNwR3VRaC12Zks4cGhRTTBzcWZUZVBsd0tzaWRSMGFBb3k2NnM5YW5xN3BHSS1jX2lrc19hUnJOV3AxLUFoa1E3OWhFVWtyMGVtQ0RaV0Fodk9xTTdBQ212OXJfYW4wUXRSRWpwMXV3RjljZmFjLUhZNmJNRkFjQXFrNG9fY1dmM21wcHBLc0x4UGZlR3FXUk9Hc3RvOWFuWEhFakhUOVBhNDZNRGVnSzU1U25UMmEzSWhSSVRrUdIB5gFBVV95cUxNMi1kSWhpMVFlSkZkY2NxdVhKOG9ralZnb2M5aGI5dm1LamNSQlZiUmNwR3VRaC12Zks4cGhRTTBzcWZUZVBsd0tzaWRSMGFBb3k2NnM5YW5xN3BHSS1jX2lrc19hUnJOV3AxLUFoa1E3OWhFVWtyMGVtQ0RaV0Fodk9xTTdBQ212OXJfYW4wUXRSRWpwMXV3RjljZmFjLUhZNmJNRkFjQXFrNG9fY1dmM21wcHBLc0x4UGZlR3FXUk9Hc3RvOWFuWEhFakhUOVBhNDZNRGVnSzU1U25UMmEzSWhSSVRrUQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
   {
    "text": "Exclusive: Cyber Blackout Risks Mount as Chinese Solar Inverters Dominate Market - 조선일보",
    "source": "조선일보",
@@ -41,7 +73,7 @@
    ]
   },
   {
-   "text": "Widespread blackout caused by drone attack on Khor Mor gas field, exposing Iraqi vulnerabilities - The Jerusalem Post",
+   "text": "Drone strike on Iraqi Kurdistan's Khor Mor gas field causes widespread blackout - The Jerusalem Post",
    "source": "The Jerusalem Post",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZQzJRdEpicEVOZUE2Nkd4ekl2Z1Fsb2hXbmNzZFBCZjZfZlphLUVHandNNGxFSzNOUTFkd0d1Qm9seXRFYWRzR3FHMmVUN3R2TjRlSjFXR3VScW5W?oc=5",
    "level": "orange",
@@ -51,23 +83,81 @@
    ]
   },
   {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
+   "text": "Slimme apparaten maken stroomnet kwetsbaar voor hackers - Head Topics",
+   "source": "Head Topics",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObHVONkgydXJxeWhwZk1waXVYS00yM194YU1Zb2xLekk3YkwtQUNTeGRrREJQMHlYbXB3NzlrS1JOT3o3Rms5ajRkRnIzdGcyVW1RdmwyS3BRN3FET2x3N1BrNGJkSHhkQnNGbkZnalY4Qk13OGR3UVJ5c2JxT19qZEF6TVZaSXU1bjNuQV9teldIYkEtcTA4LXo0UQ?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "GB"
+    "NL"
    ]
   },
   {
-   "text": "Japanese arcades suffer week-long blackout following Sega server hack — Bandai Namco titles resume trial operations as Sega games remain offline - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZXM1ZjNuN0RYYXN5VDJXdnExRXNYWUZQMFQ0T2ZhQTV4akhmb0M5LTNJRnRiYWhfX18xc0JLUEhnY2NhVkZTZ25pV3hsZ1RxU3RXMERZY1l0OGZoNDk5V3JhaGNyQ3lpdjNKSHJsM3BBX0s5dXJDUktwNE95NlJMYXhHZ3EtaUJ5NTJabTBJeTdrMmJaemZIRjBMU1JBczNjUFVaSTEwanpSeWJtTXVHeTcxMm5URzNPTmFCeGl4Z0txR1M3TnZZekRxMUFXd3IxMzVTZTM2bU5ra3F0NVdub0piVXBXV05Tcmg2LTU5bHZvaUZKUFBWVzI4WHZ5MGJhWVVTLWUtUXBlMXhnUjRSMA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Slimme apparaten maken stroomnet kwetsbaar voor hackers - NPO Radio 1",
+   "source": "NPO Radio 1",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbEdkRU1wZVNuRVRfbXRpU2V0MzQ1R2JKSDUzOFRlbWYydGdiNGRjNWwwX0ZxMUI3Vldfd0lHYzUtQ0pUTk5hMF9OUkZEeUM0YXVrdHJPM1c5UndVMURpT2NrYnJYMGo3Wjk4MXdGNEhNV1NFZ1N4bTBSMVdwMjVtSGxDWG05dmtDMU1MWW9kT0ExRGNvN09iQ3BfMmFHNFZFOGRhWVJ3NVhyZkwxSmp6dzZsRk5McWhqS3VpZFMtdkdGYVhiVGhIS1ZQWjg2dDFLTHA2TmRNVWlSeFh2bllwVE5UVS12N2hkYmZZWXZPcjRrbW1HSlNGTEttZkp1Tzlma0hWOTZ3?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "JP"
+    "NL"
+   ]
+  },
+  {
+   "text": "Before Nvidia: A Timeline Of Chinese Espionage Allegations That Rattled The West - Outlook India",
+   "source": "Outlook India",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbGtrN1Q3WFNsVVBVM053bHotNnRrOGx6enU1ZlctVFZqdWk4OEk2VVhzN000Mmk0LXNpWW1YX2llM3BaN2NNOWlIVVp6YkVabk5xS1IwNzlJWGZFN1M4dXlRVmJXd1ExMlY3ZmJ3N0xjWHhQbTEzYWNjN0YtVEhTeHRORjhCdGdvV04xbzZHUXVub2FBZzlhZ2k1Tk1EREhCTEp4YzFfeEs0U1VQRW8tX2xycVRlTTFLZTFUdFdlMFoyV3hlTC00VHJYTFVjSXl0ZDV2U3BMb2tid9IB5wFBVV95cUxPZV9vOTR4WTN2M3QzTnduMk56NGxkaFFPS3YtUUdGY09EM25VZXNwRUpUWDNjaUVDa1hxTnNkd2psOWZiYXEyaHE5Z0xhLWdSeGMyYXhQbU4tcnFfNGx4dFhidFBOcGJnb0l4SnkzTW9Tb2VEWWZ0U1hvY21HREtxWDVRZnZWcVhXd1owTHYtcmctdEU1MVU1WTNKa3Q5ZEhYXzQ5S3JoSjR6YUdmZnd0UDVwN1VmbTdGRVlpaUdHR2RWSUhOcDFnZld4RUI0WkxuTjBZOGREeGc0SEYybl9DQXNydmdWNkE?oc=5",
+   "level": "yellow",
+   "why": "State hacking group linked to infrastructure in this country",
+   "targets": [
+    "IN"
+   ]
+  },
+  {
+   "text": "China conducts ‘silent’ military exercise around Taiwan larger than 2025 Justice Mission - Rti 中央廣播電臺",
+   "source": "Rti 中央廣播電臺",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVT0pKY2Q0S3B5UVBFalFmdXBrbUZBWk1nQzRuYmpBaU5hUnhCZmpsTkJIS3d0M1pxcUhuRnJuLXU3RUhwQ3IzdzJGSUUxazRsdzVvMk8wYndvOHJV?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "China has begun military exercises off the coast of Taiwan - UkrMedia News",
+   "source": "UkrMedia News",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwOFp6ZU9EaWJLM1BESGh5NGRhS1F2bm9GUGRZU0hTM1AyRVkwZFg1MHZYeGFSVkYtR3VaY3hOQ0RHWEliRl9lMUhsbGxpNHBUeE9KMTN5czlDTXJYc2pUZFBxYVhTanFnRHhrT0VRNkF4YXVObDVSSTBJc3o?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "G7 diplomats speak out on Taiwan as China ramps up military drills - The Japan Times",
+   "source": "The Japan Times",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOejA3QWNKeVdMSHh0a3V1WC1GUzRQMVVVWVlwa1Z1aVFxWTBFTzFoMktsOE9DMGx3YzRpNmF3TEgxODFIenJfclpxcWRrcjg0bFBoYTRNSDlPOVc2aDhiWmszVTVCY2lENzhGU08zTlNQRnJ4SkhVN2dXRUY4VXdmTWJTaHFOR2Zka3FvbDBic0xCNGZRaXc?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
    ]
   },
   {
@@ -100,6 +190,26 @@
     "PH",
     "KR",
     "NZ"
+   ]
+  },
+  {
+   "text": "중국산 태양광 인버터 96%…전력망 해킹 우려 커져 - 부산경남대표방송 KNN 뉴스",
+   "source": "부산경남대표방송 KNN 뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CV21UZ2tFSVlablBjVERkbmZtSE1OZzZCQ0JUZV9yeXNLcTBCTE53Nk1XbWc4SS16YjFNbGNsZVU5U0R4Ql9uaWNXREZQYkdUY1JiOHUzTQ?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
+   "targets": [
+    "KR"
+   ]
+  },
+  {
+   "text": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
+   "source": "CERT-FR SCADA",
+   "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
+   "level": "yellow",
+   "why": "CERT-FR SCADA: critical infrastructure advisory",
+   "targets": [
+    "FR"
    ]
   },
   {
@@ -161,66 +271,6 @@
    "targets": [
     "ES"
    ]
-  },
-  {
-   "text": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
-   "source": "UK NCSC",
-   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
-   "level": "yellow",
-   "why": "UK NCSC: alert on critical infrastructure",
-   "targets": [
-    "GB"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en REGARD 7000 OPC UA Server de Dräger",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-regard-7000-opc-ua-server-de-drager",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Escritura fuera de límites en productos de Johnson Controls",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/escritura-fuera-de-limites-en-productos-de-johnson-controls",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en productos de ABB",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-abb-9",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "[Actualización 09/11/2026] Múltiples vulnerabilidades en productos de Siemens",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-siemens-1",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "[Actualización 06/11/2026] Múltiples vulnerabilidades en productos de Festo",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-festo-0",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
   }
  ],
  "actions": {
@@ -229,8 +279,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-10T08:58+00:00",
- "sourcesChecked": 801,
+ "checkedAt": "2026-11-10T20:46+00:00",
+ "sourcesChecked": 825,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
