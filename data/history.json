@@ -7,7 +7,6 @@
   "countries": {
    "GB": "yellow",
    "ES": "yellow",
-   "FI": "yellow",
    "TW": "yellow",
    "AU": "yellow",
    "US": "yellow",
@@ -23,7 +22,7 @@
   "headline": "Reported cyber disruption of the power grid",
   "items": [
    {
-    "text": "Exclusive: Cyber Blackout Risks Mount as Chinese Inverters Dominate Grid - 조선일보",
+    "text": "Exclusive: Cyber Blackout Risks Mount as Chinese Solar Inverters Dominate Market - 조선일보",
     "source": "조선일보",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUxqRU01T0o2WWd4N3lJcE1kZ1Axclc2aTJ0UVhJLUNERlVOeDBGeW14djdrY0UzOXozQUZsSGFZY3NzVXh2M24xNzBsZTFpTU80YUg5R1ZyejVZVVI1V1VBUHVBTlZKX1pWMC11MGtKWjJKY01IampPLW5JT0p5Z2c1c3lqQ21x?oc=5",
     "level": "orange",
@@ -63,19 +62,19 @@
     ]
    },
    {
-    "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
-    "source": "https://cyberq.tw/",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
-    "level": "yellow",
-    "why": "Cyber attack attempt on energy infrastructure reported",
+    "text": "Japanese arcades suffer week-long blackout following Sega server hack — Bandai Namco titles resume trial operations as Sega games remain offline - Tom's Hardware",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZXM1ZjNuN0RYYXN5VDJXdnExRXNYWUZQMFQ0T2ZhQTV4akhmb0M5LTNJRnRiYWhfX18xc0JLUEhnY2NhVkZTZ25pV3hsZ1RxU3RXMERZY1l0OGZoNDk5V3JhaGNyQ3lpdjNKSHJsM3BBX0s5dXJDUktwNE95NlJMYXhHZ3EtaUJ5NTJabTBJeTdrMmJaemZIRjBMU1JBczNjUFVaSTEwanpSeWJtTXVHeTcxMm5URzNPTmFCeGl4Z0txR1M3TnZZekRxMUFXd3IxMzVTZTM2bU5ra3F0NVdub0piVXBXV05Tcmg2LTU5bHZvaUZKUFBWVzI4WHZ5MGJhWVVTLWUtUXBlMXhnUjRSMA?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
     "targets": [
-     "TW"
+     "JP"
     ]
    },
    {
-    "text": "U.S. sees Chinese invasion of Taiwan unlikely despite 2027 timeline, sources say - 朝日新聞",
+    "text": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific - 朝日新聞",
     "source": "朝日新聞",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ReU1nTGxMNW95QUF2RnFsVjRtQUZjQnZ5RC1pdWFuMlItS3dQaE1CUGtTZk4yZ3AzeUJBT2dTUkVob1J1MzZ4ZjhuRWdsWXJjQ2lWZXBHWHYwUWlxbmc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93RnlwekhlRVNjdThhWVdLQ0VmVldRV3VVOEVnNzNsMGxnV1c1c1NSSlhpUXBUZjhVcFlHZC1MaEVXX1puaHpjaWxyV1kzRk4wU0ZwSVl3?oc=5",
     "level": "yellow",
     "why": "Taiwan Strait escalation or major exercise",
     "targets": [
@@ -86,6 +85,32 @@
      "PH",
      "KR",
      "NZ"
+    ]
+   },
+   {
+    "text": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific - Internazionale",
+    "source": "Internazionale",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWFBMM3VNM2RIRG1kT1k1M0pjLXRDUDQtUUV3WXhDVzFWaE5Ddm0wT3ZCZG1IOUpScFh3MWJhd2l4dlQ3clZVYnk1bDN5VHVsM0UxbjUwUWJRaEs1Q3pGeUdBZmxmUTJSZ2VSVlJ1TFU5WFVuQWZiUzhfVWhyR1BkbGhxc0Z6VkdRSFhjYmNlR0VKNFozZDF4enJZRGhGSEF5NG5wYjRqdUU2cUxvN2xNXzJkcjFtM3Y5TFpmVUg0X1J1SkpXenBodS1adnZtUQ?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
+    "source": "https://cyberq.tw/",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "TW"
     ]
    },
    {
@@ -197,16 +222,6 @@
     "targets": [
      "ES"
     ]
-   },
-   {
-    "text": "IoT- ja OT-ympäristöjen tietoturva alkaa laitteiden suojaamisesta",
-    "source": "NCSC-FI",
-    "url": "https://www.kyberturvallisuuskeskus.fi/fi/uutiset/iot-ja-ot-ymparistojen-tietoturva-alkaa-laitteiden-suojaamisesta?mtm_campaign=rss&mtm_source=rss&mtm_medium=rss",
-    "level": "yellow",
-    "why": "NCSC-FI: critical infrastructure advisory",
-    "targets": [
-     "FI"
-    ]
    }
   ],
   "actions": {
@@ -215,14 +230,13 @@
    "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
    "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
   },
-  "checkedAt": "2026-11-09T20:54+00:00",
-  "sourcesChecked": 789,
+  "checkedAt": "2026-11-10T08:58+00:00",
+  "sourcesChecked": 801,
   "sourceErrors": [
    "ASD's ACSC alerts: TimeoutError",
    "ASD's ACSC advisories: TimeoutError",
    "CISA advisories: HTTPError",
-   "CISA ICS advisories: HTTPError",
-   "INCIBE-CERT avisos: URLError"
+   "CISA ICS advisories: HTTPError"
   ]
  },
  {
