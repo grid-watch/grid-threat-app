@@ -8,20 +8,31 @@
   "ES": "yellow",
   "NL": "yellow",
   "KR": "yellow",
-  "TW": "yellow",
   "AU": "yellow",
   "US": "yellow",
   "JP": "yellow",
+  "TW": "yellow",
   "PH": "yellow",
   "NZ": "yellow",
   "IN": "yellow",
   "IT": "orange",
+  "BR": "yellow",
   "IL": "yellow"
  },
  "regions": {},
  "eu": "green",
  "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Ataque hacker ao Porto de Santos é confirmado e apagão digital já dura mais de 96 horas - A Tribuna",
+   "source": "A Tribuna",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcmdiRGhSd0t3ZkdDTno4LTMzUElESE5aVkh6dTE2dXJyZDROSE9LNlJ4dEtEZUhWTXVWU083aXNDbVZDeXBGZjF2aDNQa0dZM0FzRGRyUmpqempfZGFmTXJFQWhxVDNfTnZ5YlplUnMtYk5NUHdNaWViY0ZQbDV5bkZ1U2NBdm9YeUZ1NE5GdTFNV3VKZzdVQkQxb1JaaHUtNU1JYzVicU5qVWpVZDVfZHB1cVlKMmRQaDduVzBLY3ZDNFcwZ2lvVFBvSkVUWmZXM2UwMy1fMjhBUQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BR"
+   ]
+  },
   {
    "text": "Grosse panne informatique ce mardi à l’UZ Brussel : des opérations annulées et les urgences redirigées vers d’autres hôpitaux, « aucune indication d’une éventuelle cyberattaque » - Sudinfo",
    "source": "Sudinfo",
@@ -36,16 +47,6 @@
    "text": "Attacchi hacker, blackout e guerre: Francia, Svezia, Gb e Olanda diffondono le guide per le emergenze - Tgcom24",
    "source": "Tgcom24",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdFBDYjJMRkt4d0NaU1FRWXNUQ05ES0dSV0tTbUYxOWlhZzk4ZXBxbGwyLWROX1M1SlJQTFhzaGQxcXhmUTFGcXpkUWo4UjhBS2FSaXY5V3owZ2dpc3JwV0lxX1AwcFk3RTVXcmhuM0JOclp4OG9CTU56c2x4WGNYMXRzQXMxMHJvMHd6c0ZBcVpCMGtFWjFOSkw4TnJJSFFfdVFENGdJeUZnc1lnbDAzdjB3?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "IT"
-   ]
-  },
-  {
-   "text": "L blackout del strom nia leà ai ataches cyber al Prener - RaiNews",
-   "source": "RaiNews",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMi1kSWhpMVFlSkZkY2NxdVhKOG9ralZnb2M5aGI5dm1LamNSQlZiUmNwR3VRaC12Zks4cGhRTTBzcWZUZVBsd0tzaWRSMGFBb3k2NnM5YW5xN3BHSS1jX2lrc19hUnJOV3AxLUFoa1E3OWhFVWtyMGVtQ0RaV0Fodk9xTTdBQ212OXJfYW4wUXRSRWpwMXV3RjljZmFjLUhZNmJNRkFjQXFrNG9fY1dmM21wcHBLc0x4UGZlR3FXUk9Hc3RvOWFuWEhFakhUOVBhNDZNRGVnSzU1U25UMmEzSWhSSVRrUdIB5gFBVV95cUxNMi1kSWhpMVFlSkZkY2NxdVhKOG9ralZnb2M5aGI5dm1LamNSQlZiUmNwR3VRaC12Zks4cGhRTTBzcWZUZVBsd0tzaWRSMGFBb3k2NnM5YW5xN3BHSS1jX2lrc19hUnJOV3AxLUFoa1E3OWhFVWtyMGVtQ0RaV0Fodk9xTTdBQ212OXJfYW4wUXRSRWpwMXV3RjljZmFjLUhZNmJNRkFjQXFrNG9fY1dmM21wcHBLc0x4UGZlR3FXUk9Hc3RvOWFuWEhFakhUOVBhNDZNRGVnSzU1U25UMmEzSWhSSVRrUQ?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -83,6 +84,22 @@
    ]
   },
   {
+   "text": "Beyond a Taiwan Blockade: The Strategic Implications Behind the PLA’s ‘Silent Military Exercise’ - The Diplomat – Asia-Pacific Current Affairs Magazine",
+   "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaDJhZHhMd3M4cGR5MWItSDQxc2FlRWlEYjdXVTNmYy1CZjhDdVRmbmdncG5YVWxFeXpJQmxTZ1ZOeXdYeWNnX3JiQ05SRGd5WEFqSklWeFlsU3ZlUm1DdnBtT00yd1JzSUNKVlp1QlVCMFY3VjJRV2owbWV6Ni1sQmpKbjF3amN2d3NPNVB6cGNPUHNvNmFSTmtWUVJiY1AyWmtCNmtuMFZiRjNkTnVXU2laUnVDZlpyUmRLendrNG10MHc?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
    "text": "Slimme apparaten maken stroomnet kwetsbaar voor hackers - Head Topics",
    "source": "Head Topics",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObHVONkgydXJxeWhwZk1waXVYS00yM194YU1Zb2xLekk3YkwtQUNTeGRrREJQMHlYbXB3NzlrS1JOT3o3Rms5ajRkRnIzdGcyVW1RdmwyS3BRN3FET2x3N1BrNGJkSHhkQnNGbkZnalY4Qk13OGR3UVJ5c2JxT19qZEF6TVZaSXU1bjNuQV9teldIYkEtcTA4LXo0UQ?oc=5",
@@ -110,22 +127,6 @@
    "why": "State hacking group linked to infrastructure in this country",
    "targets": [
     "IN"
-   ]
-  },
-  {
-   "text": "China conducts ‘silent’ military exercise around Taiwan larger than 2025 Justice Mission - Rti 中央廣播電臺",
-   "source": "Rti 中央廣播電臺",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVT0pKY2Q0S3B5UVBFalFmdXBrbUZBWk1nQzRuYmpBaU5hUnhCZmpsTkJIS3d0M1pxcUhuRnJuLXU3RUhwQ3IzdzJGSUUxazRsdzVvMk8wYndvOHJV?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
    ]
   },
   {
@@ -213,16 +214,6 @@
    ]
   },
   {
-   "text": "黃仁勳遭爆與疑似中國間諜往來｜全球電網同步擾動謎團，德國團隊找出元兇｜產業精選 11.09 - https://cyberq.tw/",
-   "source": "https://cyberq.tw/",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kY3hOUTh3NHpLZ1M3cnN1MnFXSmpRbGgxckFjRWRUczg0WGNNUWJQS3VPTGMyQ0liWEdIZWR4QW9TVnl6b1RnTHdKS2ZHMWFxRW9pLU5UODJtZjc1YmhEbGkyZHRLZHg3MWdCZ2hseEJfVkhn?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "TW"
-   ]
-  },
-  {
    "text": "Recuperación insegura de contraseñas en Building Cloud Services de WAGO",
    "source": "INCIBE-CERT avisos SCI",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/recuperacion-insegura-de-contrasenas-en-building-cloud-services-de-wago",
@@ -251,26 +242,6 @@
    "targets": [
     "ES"
    ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en PowerSYSTEM Center de Subnet Solutions",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-powersystem-center-de-subnet-2",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en productos de Welotec",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-welotec",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
   }
  ],
  "actions": {
@@ -279,8 +250,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-10T20:46+00:00",
- "sourcesChecked": 825,
+ "checkedAt": "2026-11-11T09:01+00:00",
+ "sourcesChecked": 833,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
