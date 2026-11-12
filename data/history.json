@@ -1,5 +1,222 @@
 [
  {
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "auto": true,
+  "level": "yellow",
+  "countries": {
+   "FR": "orange",
+   "ES": "yellow",
+   "AU": "orange",
+   "US": "yellow",
+   "JP": "yellow",
+   "TW": "yellow",
+   "PH": "yellow",
+   "KR": "yellow",
+   "NZ": "yellow",
+   "DE": "yellow",
+   "PT": "yellow",
+   "BE": "yellow",
+   "BR": "yellow",
+   "GB": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Widespread blackout reported",
+  "items": [
+   {
+    "text": "France Moves Up Its Nationwide Blackout Exercise to November 2026 - energynews.pro",
+    "source": "energynews.pro",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHY3NXIwV05jUUVxbVBpMTE1X29weEI4U3FETEdXZl8xYmQ0ZXZ3QXhmYTRZakRqMkphRmZlTXF0UWE3eFJUMS1RVW9vZUxodGEwNUlWOVJLV3hIVjVZcnRUM21mMTFPbnZaY3Y3eUJXakFKSk04NUQyVDVUSkgwOU14R0dQVEZLcXY0MnFOQldvM1Z0bnc?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Casablanca : Une panne d’électricité géante plonge plusieurs quartiers dans le noir, l’hypothèse d’une cyberattaque fait surface - Maroc Hebdo",
+    "source": "Maroc Hebdo",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONFdscURRS015endneWZNbERIQkZTajRsckR2aVZ5LWwtemZBRlhzRk1WQjV5SGt0T09JNy1LeUtid2U0dlhmTVdRZ3lLQjBYNXJQYVlSSm1uVHpvU0o1WmFsaGp5S1k2MG5fZU1GdGRhV2NERndyNFJob09QbWFPRUVrZEUtT0RLY0x2NU5pajdVNTBSNFdJY0NkYlptZWRWbzdaY3JhaGNidnh4T1ZFMU4wU0N5OEU?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Panne de réseaux dans les hôpitaux belges : \"il ne s'agit pas d'une cyberattaque\", assure l'UZ Brussel - DHnet",
+    "source": "DHnet",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOemVHRHNMOFBrMXYzNnlneGRiUGJaSXpzWV82VW1qeFRyU0o0MHpvenJpb2FsbDAwcmpBZVM3Q2JnZXVwUnpMOEFRQUZtejlvREhEUEZ4NHBiSzdDYVJTa0tJc0FJTFlVQ1RTdXhCZXEyTjlpX2hEMjBTeldydUtnTFRNenVqYm1zVHJwWUFSek8wM3FtZkVFdEFhOUZ5TkIzekEyMnU5dHBZUHhUb3JMdV9YNzhkOGUzSjNPdkVYVHZnY0RmMzJQUFhLZy1PMTdyTjh5SXc4dVphSkdscVBQdzRubHNyTURabDZGQkhZZDBfQzZlaUpHcQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Blackout e attacchi hacker, Bruxelles: ogni famiglia sappia resistere 72 ore - Europa Today",
+    "source": "Europa Today",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdmpLSmdWWkVyamp2VC1jUDdlX1NuRldDNkQtcS1qWk1mRW9wVUotRFpzWHJlaUFwSktVQ1U2NFNLblB4OXJSVTlEM2FmSUJsRXRqOTFEdkZFaHNZbHJCNzRGR045YkNEWHEtRHBQYkVvekd2TldTa3RGYlozZWxaNUx4Yy1rNGtiT1c1TtIBkgFBVV95cUxNLUpKWTF3YXpXcU1SX21XQ0FCNURZRFlsQVByMF9GVXVGVk9FOWZmY0tNempTN2pjN1ZMSTIxWUtKbFIxZGp3cEF6VEltQ2Jlb08zNmo0bzlpOTFoaEFpV0RwVjZKUnVtdlp1N2JVc2hxdXB2NVBkeTNyMnNYVVF2VURDdnZWQktUcVNjcHp4a0VnUQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "BE"
+    ]
+   },
+   {
+    "text": "La panne de réseau à l'UZ Brussel et dans les hôpitaux affiliés résolue après 24 heures, \"aucune cyberattaque en cause\" - VRT",
+    "source": "VRT",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdVhxNDlNcVJZai10NHB1dHM5dmI3bVE3MVEwd21oTElER1BmX0xqdDVKa3lCRktrdzIzaXJLR0dNbXBzZkNtZDBmUTNyWFlfS0ZWSDRud3Z6NHVqcDJhRnEyN3hZaHhjSVg3c3hkcXlHbDRQQlZKaTdPNWlUQTJMbkJ4dFVKQi1BSE9jYmN5RVl3RHhsV3JZM1JNSWFVSzUwTUtnYWcwWQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Blackout, Cyberangriff, Krieg: Der Notfallplan für die Hotellerie - Hotel Inside",
+    "source": "Hotel Inside",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTl81UV9Xbm1yT1djOWYzMUVwbUFTV2x2RlYyQms2a2JsWkdNSy14TWd4bXVVNjI4VXJBMm8waDZCbE1vQVFZenNERlJVaXNObUk1ek5mU09CYUFfbE9ObXFLalE2U2tvZ0FROVJjNUIwc05uVjZIYThURFdVM3djYUU5bmlIYU5xdnlydEFTTlQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Ataque hacker no Porto de Santos: apagão digital passa de 96 horas; PF investiga o caso - TudoCelular.com",
+    "source": "TudoCelular.com",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN2FvMDhCS1pUV0NEbE1qalVCZ3NicnMwM0Y5dC1CaGlrcTE0SDVfaTdxaHNYSTItTTBpcmpkYjlyS1EtbjRUZzh4OE5kbWNNRnJIR2U2T2JRY21GcGJFdUpWMzlmckpoODlBRHd0NnM2c0thd3lVd1Q3MkJBSWhFRUFWV2FES0hGOG1uU3ItM1cxRDVpSkkxamN5djI3X2JMY3FteE1TcU1IOWRabzhB?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "Ataque hacker ao Porto de Santos é confirmado e apagão digital já dura mais de 96 horas - A Tribuna",
+    "source": "A Tribuna",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcmdiRGhSd0t3ZkdDTno4LTMzUElESE5aVkh6dTE2dXJyZDROSE9LNlJ4dEtEZUhWTXVWU083aXNDbVZDeXBGZjF2aDNQa0dZM0FzRGRyUmpqempfZGFmTXJFQWhxVDNfTnZ5YlplUnMtYk5NUHdNaWViY0ZQbDV5bkZ1U2NBdm9YeUZ1NE5GdTFNV3VKZzdVQkQxb1JaaHUtNU1JYzVicU5qVWpVZDVfZHB1cVlKMmRQaDduVzBLY3ZDNFcwZ2lvVFBvSkVUWmZXM2UwMy1fMjhBUQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "BR"
+    ]
+   },
+   {
+    "text": "Non-credible contingency event - SA region - 12/11/2026 [POWER SYSTEM EVENTS]",
+    "source": "AEMO",
+    "url": "https://nemweb.com.au/Reports/CURRENT/Market_Notice/NEMITWEB1_MKTNOTICE_20261112.R146290",
+    "level": "orange",
+    "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
+    "targets": [
+     "AU"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Helmholz",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de MB connect line",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de B&R",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Boletín de seguridad de Siemens de noviembre de 2026",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/boletin-de-seguridad-de-siemens-de-noviembre-de-2026",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Beyond a Taiwan Blockade: The Strategic Implications Behind the PLA’s ‘Silent Military Exercise’ - The Diplomat – Asia-Pacific Current Affairs Magazine",
+    "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaDJhZHhMd3M4cGR5MWItSDQxc2FlRWlEYjdXVTNmYy1CZjhDdVRmbmdncG5YVWxFeXpJQmxTZ1ZOeXdYeWNnX3JiQ05SRGd5WEFqSklWeFlsU3ZlUm1DdnBtT00yd1JzSUNKVlp1QlVCMFY3VjJRV2owbWV6Ni1sQmpKbjF3amN2d3NPNVB6cGNPUHNvNmFSTmtWUVJiY1AyWmtCNmtuMFZiRjNkTnVXU2laUnVDZlpyUmRLendrNG10MHc?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
+    "source": "CERT-FR SCADA",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
+    "level": "yellow",
+    "why": "CERT-FR SCADA: critical infrastructure advisory",
+    "targets": [
+     "FR"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-12T20:51+00:00",
+  "sourcesChecked": 814,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError",
+   "CISA advisories: HTTPError",
+   "CISA ICS advisories: HTTPError"
+  ]
+ },
+ {
   "id": "2026-11-12",
   "date": "2026-11-12",
   "auto": true,

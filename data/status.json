@@ -1,30 +1,38 @@
 {
- "id": "2026-11-12",
- "date": "2026-11-12",
+ "id": "2026-11-13",
+ "date": "2026-11-13",
  "auto": true,
  "level": "yellow",
  "countries": {
   "FR": "orange",
   "ES": "yellow",
   "AU": "orange",
-  "NL": "yellow",
   "US": "yellow",
   "JP": "yellow",
   "TW": "yellow",
   "PH": "yellow",
   "KR": "yellow",
   "NZ": "yellow",
-  "IN": "yellow",
   "DE": "yellow",
-  "BE": "orange",
   "PT": "yellow",
-  "IT": "yellow",
-  "BR": "yellow"
+  "BE": "yellow",
+  "BR": "yellow",
+  "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "Widespread blackout reported",
  "items": [
+  {
+   "text": "France Moves Up Its Nationwide Blackout Exercise to November 2026 - energynews.pro",
+   "source": "energynews.pro",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHY3NXIwV05jUUVxbVBpMTE1X29weEI4U3FETEdXZl8xYmQ0ZXZ3QXhmYTRZakRqMkphRmZlTXF0UWE3eFJUMS1RVW9vZUxodGEwNUlWOVJLV3hIVjVZcnRUM21mMTFPbnZaY3Y3eUJXakFKSk04NUQyVDVUSkgwOU14R0dQVEZLcXY0MnFOQldvM1Z0bnc?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "FR"
+   ]
+  },
   {
    "text": "Casablanca : Une panne d’électricité géante plonge plusieurs quartiers dans le noir, l’hypothèse d’une cyberattaque fait surface - Maroc Hebdo",
    "source": "Maroc Hebdo",
@@ -33,6 +41,16 @@
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "FR"
+   ]
+  },
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
    ]
   },
   {
@@ -96,26 +114,6 @@
    ]
   },
   {
-   "text": "Grosse panne informatique ce mardi à l’UZ Brussel : des opérations annulées et les urgences redirigées vers d’autres hôpitaux, « aucune indication d’une éventuelle cyberattaque » - Sudinfo",
-   "source": "Sudinfo",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeTdWNUNlNkgxV3FjNy1Kc0FNRzREeUFPd0dpZnBUUG4xY3B0eUFvajRYVHpFMmN2YzJtWGcwTzJTZXBWZ0RmcmFKMGNJXzZQTVZwSC1yYUh1ZTJwSjNJbWlXcWQ2b0kwcFFyaGlHZm9mU012cHhWRFhrVU5NLWVBWkJMWk9pc1hRSUdMXzV5WlFxeTV2YjZhYzdTRmJRMDJBelpJT3I2RUw0bXA4dlNsTU9WOFQyR2FpUTBWMEItUi1xZ3lIZGpfTg?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BE"
-   ]
-  },
-  {
-   "text": "Attacchi hacker, blackout e guerre: Francia, Svezia, Gb e Olanda diffondono le guide per le emergenze - Tgcom24",
-   "source": "Tgcom24",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdFBDYjJMRkt4d0NaU1FRWXNUQ05ES0dSV0tTbUYxOWlhZzk4ZXBxbGwyLWROX1M1SlJQTFhzaGQxcXhmUTFGcXpkUWo4UjhBS2FSaXY5V3owZ2dpc3JwV0lxX1AwcFk3RTVXcmhuM0JOclp4OG9CTU56c2x4WGNYMXRzQXMxMHJvMHd6c0ZBcVpCMGtFWjFOSkw4TnJJSFFfdVFENGdJeUZnc1lnbDAzdjB3?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "IT"
-   ]
-  },
-  {
    "text": "Non-credible contingency event - SA region - 12/11/2026 [POWER SYSTEM EVENTS]",
    "source": "AEMO",
    "url": "https://nemweb.com.au/Reports/CURRENT/Market_Notice/NEMITWEB1_MKTNOTICE_20261112.R146290",
@@ -123,6 +121,36 @@
    "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
    "targets": [
     "AU"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en productos de Helmholz",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en productos de MB connect line",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
    ]
   },
   {
@@ -162,36 +190,6 @@
    ]
   },
   {
-   "text": "Slimme apparaten maken stroomnet kwetsbaar voor hackers - Head Topics",
-   "source": "Head Topics",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObHVONkgydXJxeWhwZk1waXVYS00yM194YU1Zb2xLekk3YkwtQUNTeGRrREJQMHlYbXB3NzlrS1JOT3o3Rms5ajRkRnIzdGcyVW1RdmwyS3BRN3FET2x3N1BrNGJkSHhkQnNGbkZnalY4Qk13OGR3UVJ5c2JxT19qZEF6TVZaSXU1bjNuQV9teldIYkEtcTA4LXo0UQ?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "NL"
-   ]
-  },
-  {
-   "text": "Slimme apparaten maken stroomnet kwetsbaar voor hackers - NPO Radio 1",
-   "source": "NPO Radio 1",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbEdkRU1wZVNuRVRfbXRpU2V0MzQ1R2JKSDUzOFRlbWYydGdiNGRjNWwwX0ZxMUI3Vldfd0lHYzUtQ0pUTk5hMF9OUkZEeUM0YXVrdHJPM1c5UndVMURpT2NrYnJYMGo3Wjk4MXdGNEhNV1NFZ1N4bTBSMVdwMjVtSGxDWG05dmtDMU1MWW9kT0ExRGNvN09iQ3BfMmFHNFZFOGRhWVJ3NVhyZkwxSmp6dzZsRk5McWhqS3VpZFMtdkdGYVhiVGhIS1ZQWjg2dDFLTHA2TmRNVWlSeFh2bllwVE5UVS12N2hkYmZZWXZPcjRrbW1HSlNGTEttZkp1Tzlma0hWOTZ3?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "NL"
-   ]
-  },
-  {
-   "text": "Before Nvidia: A Timeline Of Chinese Espionage Allegations That Rattled The West - Outlook India",
-   "source": "Outlook India",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbGtrN1Q3WFNsVVBVM053bHotNnRrOGx6enU1ZlctVFZqdWk4OEk2VVhzN000Mmk0LXNpWW1YX2llM3BaN2NNOWlIVVp6YkVabk5xS1IwNzlJWGZFN1M4dXlRVmJXd1ExMlY3ZmJ3N0xjWHhQbTEzYWNjN0YtVEhTeHRORjhCdGdvV04xbzZHUXVub2FBZzlhZ2k1Tk1EREhCTEp4YzFfeEs0U1VQRW8tX2xycVRlTTFLZTFUdFdlMFoyV3hlTC00VHJYTFVjSXl0ZDV2U3BMb2tid9IB5wFBVV95cUxPZV9vOTR4WTN2M3QzTnduMk56NGxkaFFPS3YtUUdGY09EM25VZXNwRUpUWDNjaUVDa1hxTnNkd2psOWZiYXEyaHE5Z0xhLWdSeGMyYXhQbU4tcnFfNGx4dFhidFBOcGJnb0l4SnkzTW9Tb2VEWWZ0U1hvY21HREtxWDVRZnZWcVhXd1owTHYtcmctdEU1MVU1WTNKa3Q5ZEhYXzQ5S3JoSjR6YUdmZnd0UDVwN1VmbTdGRVlpaUdHR2RWSUhOcDFnZld4RUI0WkxuTjBZOGREeGc0SEYybl9DQXNydmdWNkE?oc=5",
-   "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
-   "targets": [
-    "IN"
-   ]
-  },
-  {
    "text": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
    "source": "CERT-FR SCADA",
    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
@@ -208,8 +206,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-12T09:07+00:00",
- "sourcesChecked": 820,
+ "checkedAt": "2026-11-12T20:51+00:00",
+ "sourcesChecked": 814,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
