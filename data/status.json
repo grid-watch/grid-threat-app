@@ -1,10 +1,10 @@
 {
- "id": "2026-11-14",
- "date": "2026-11-14",
+ "id": "2026-11-15",
+ "date": "2026-11-15",
  "auto": true,
  "level": "yellow",
  "countries": {
-  "US": "yellow",
+  "US": "orange",
   "FR": "orange",
   "ES": "yellow",
   "AU": "orange",
@@ -14,7 +14,6 @@
   "TW": "yellow",
   "PH": "yellow",
   "NZ": "yellow",
-  "IE": "yellow",
   "BE": "orange",
   "PT": "yellow",
   "IT": "orange",
@@ -36,13 +35,103 @@
    ]
   },
   {
-   "text": "Suspension des vols aux États-Unis : pas de cyberattaque ni de lien avec la panne de Microsoft (ministre américain) - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3QzhuQU9zbnJvUTA4aVZab2dlRnZ3VjVsaGRLdVhjdW9xNXl3UHNLWW4tRHV6NEViVEw1YlB2TXBpa2NuT1IyNVh2TzgzeUQ2UU1RWlR4Mk1DZ05tSXAxb19n?oc=5",
+   "text": "Governo dos EUA nega ataque hacker e atribui apagão aéreo a troca de cabos - Gazeta do Povo",
+   "source": "Gazeta do Povo",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53SzZTTGtRbkgySDVHVFQzOVZsSVlXVXItTU1XRjQ2WFhhYUZkOEx0SWtsNkxSa2tKMURGRFVLMmdmdzZVV0kzSXVhMkwtbEkzWFVFb2J5LWRIQ0NPYm5KOThMYU5kekZFdm9uYkNQV3lZdDBWT2dwOVNGWkZWRnc?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BR"
+   ]
+  },
+  {
+   "text": "États-Unis. Espace aérien fermé : les vols ont repris, pas de cyberattaque ni de lien avec la panne de Microsoft - Le Dauphiné Libéré",
+   "source": "Le Dauphiné Libéré",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc05ub0pQQ0k0UzNRWXVxZ3Blcy1kdklhRUFyUUdScFpHVUhseEpKMG1XN0I4WUxYam5pUlkwS1VVaUVaWTBMVEZIelpFQ1BMRlBOY29KcWZkRDBHRHREazZwY0cxOHRScTlOd21UX2pITlp1a1dUOEdGRXVQUHlkc0FNeXBUdEZObkVXbk1sWExvbDNnWkNYb2o5RzJPVDJoWUE3ckViWTZBbUtsTmsySmhpYzRkRVF2STlISjVwekZ2N3RyS3hlRHZUWWVFMXhoM0YyQ2tZY2kzUjJ2U3ZOZQ?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "FR"
+   ]
+  },
+  {
+   "text": "Após apagão aéreo nos EUA, governo norte-americano nega ataque cibernético e voos do Brasil começam a voltar ao normal - www.abcmais.com",
+   "source": "www.abcmais.com",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaFMxdjFCRVNyWXlhS2g0cmpGdjhCX2hBdXVVMGNVRVEzQklNOWxPTG93U0NHZTRMOGVOX3V0YUlFRjByeGp4a1hseXl3ZTRLTUU1OVlvTi1ic1BVcjdIdmU1S0pSRzAycFJlYWE3R3hnVHhHYm9rc1AzcmFRb29CU04xSTF3MW1TYXlRYlVTdE9QU3dEYk9CMUhhWVFMNmd6ck1pX0N3QnFwMkdpVUtPcUE4T2ZJUGtBa2w1WmE3R3BfTU9QSkZrNzB2ejB2Uks5VHVsWl9hTktSWEFkaWJOdExR?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BR"
+   ]
+  },
+  {
+   "text": "Microsoft pede desculpas por apagão global e descarta culpa de IA ou hackers - Seletronic",
+   "source": "Seletronic",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOXo1czlvcGQ3dVB5ZlNUZGsxd29WME81WEtpRnZmS21WZjFDLU56OEVwNlVRQl84MzhVSk1xM0pQLVdBa1pLaks4b0h3SzB6cXpRZHdubTBJbnNPZGF1US1LWF9yUFkwX0Z4Nm1SdVpOUk9sN1RPem5XQ0pUZXN3MWN2ZEpMTHR1SUdkQ0NlX1M?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BR"
+   ]
+  },
+  {
+   "text": "Microsoft conferma la risoluzione del blackout globale ed esclude un attacco informatico - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qemM4VzgxSUxKR1FNc1ZaeHNLaTU2bXdJWWh1SEU0dnNCOFBVMTNFNS0xajFSZ0toamxFLTJNOFpjVGdZYktBMTNadTFmRlVtY2o3MFJVclhGaGlWcDNhSGU4S3IxR2tRUW9tcUR4VQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "Faites très attention, car après la panne Outlook, Microsoft alerte sur les pirates qui en profitent - Clubic",
+   "source": "Clubic",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSnpyT2dYR0Vpc18yOFJVMXdiVlhRUEFHajVDTEhjTE9WNThyYjhRZ3ZhWkJUazZra2pyU1JqeDZRU25tUkNCUjVrVGlGeTg3bl85V202Yk5CUUpLdG93UUliMXJuM0dFN3JaREhFV3F5RzVvOF9xNU5hRzNING50VklKYjBWZWYwdjNzbXFVcGN3YjBsTzdFQWZjN2MxSmFRLXRMeVNKbjJrVU5kc3EzdFU4OHJQVGtfV0dlTHQ0c19yN3N2OERhR2FLZVUwWmVlUE5oSHBjRVh5VTA?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Microsoft confirme la résolution de la panne mondiale et écarte une cyberattaque - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aZFVlQmJGcW1wOV80UXAyVWxKZDFqbkM4ZFdSYVIxbnNhUzBCdm96bE1iNThQUzBWd3JRVWdlU09kcGE2dXZhQUx6NXk2WUV3RVB0N0w4VWp2UmpVY0JMaDluZ0ZSTVN4d2ZVbmxoWQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Microsoft: “Ripristinati tutti i servizi. Il blackout causato da un aggiornamento della rete, escluso l’attacco hacker”” - Il Fatto Quotidiano",
+   "source": "Il Fatto Quotidiano",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaldrZ000bVU4bUlNb04xdXplRnV0a1k4U2FSbVQyenJTdlp4RV95bFk1ZUpXSkdyR0owZzR0S0FXa0ROTjRMUVFUZ3ZwamNLTE9YeEdPZUQ4NFpwbHdUZjhDcFFSbll2R0VRejJfZWdrWXZTblAxRTE5UmtjdU12eFNhQ3R5RDFwcEh1RUxTS0R6cDdnM0V4dWJ4Z0dxdllDeEE?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "Ripristinati i servizi Microsoft dopo il down, smentito l'attacco hacker che ha provocato il blackout - Virgilio",
+   "source": "Virgilio",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRUtzUnFEVnU2Sko5RFo0TzZ0eVBId19pZ1ZyNjF6Y045bS1yX25mSG9oNnlOQ1prXzY2cERTVDQ0UTFCZlZPcXh5T2FYN2daUmpUZTJrTDgxbGxZeGtxR0RrMUVoRjFaR2hLdWM0aUw4cWR4R1ByX0x1QkplTGlLZzdocUJGRl9QbnpWcDNpRTBIQ19idms3X2xoR21sa0NqVmlQUm51SjhwQl9nOExYbDR1eXd6U2xHQlJlQVViUl9yV0hicTJOVXJzaXBSVUZXb2xFMFR2SdIB3AFBVV95cUxNNHQ2bEM4dnp6SElrNTJGa09uLTE2Sk5YbWdpdzRkbS1Mb0RocHV3eDlJbzM5Y3o1T1F0M1JYOWxTRWxnNDRPb1VNSWpRVjd4SXVvcmprbkFOWVROeUFFdmZOSGZsTy1NejYtRmNiQ3RTLTdtcnRKMkZYSE9IbkVacC1seFVGX0pkenB0TUN4NHR0aVNxczJVdzh2YzlNckRCcmRDRGttYWNZWldTSm4wRnVuMm9uUzItMGxwYzVBQVVzQkxjWVNkR1luSDM0alFndklqVHN2OW80UDNu?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "Falha de IA ou ataque hacker? O que se sabe sobre o apagão que parou os voos nos EUA - InfoMoney",
+   "source": "InfoMoney",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXN3ZFV6d3FDbW1lMkdLNzVfSFFxMGdZUW9vX3hXdE1jcTVGdlk5S3hrMGRSZHhodFRyMlB5U2tzLXJLeTFTM1FQamVHM0p3b0JRX1Vyemw3Q0JZQkZtQmdCWkRkMTZ6Y0ZCa3NjdG1ITVVld2ROVUxFT010WXdfNnh3cmFpamJ1UWRYLXNuWU5OQkV6dFFEOUNpRkJ2ZklScjUyRUZXR0tYZkJVLW12eTlxb3JhU2gtaG0w0gHAAUFVX3lxTE1aWmdNUUNlTU1MZzZTcHdsQmlVSWE5Nlp4S1VXN2VWcWt4Wm9fS25xZXZfN0IwTzlUb3JXeUhiVzhDUS1kbG5XUzlJRGRRN0RNUmpGeHJ4UzV0akI0b0Rqb0VnWUdIQjduMkZUUDRHa0lxWElfQ3FZM0R2T0hLVEg4Z1lvM01MMzJidmlvbGhzbG83Vm9hZ0V0NDdzU2RkQThGa0w3V1dQYlB1TUVjcWNQeDU4T3o2ajhmaFNhVXJWNA?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BR"
    ]
   },
   {
@@ -72,77 +161,7 @@
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "IE"
-   ]
-  },
-  {
-   "text": "Panne mondiale Microsoft: la firme présente ses excuses et écarte la piste d'une cyberattaque - RFI",
-   "source": "RFI",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOUxWaFZreDF4SVM4SHRLY21yem9WN1l5RF9CUTFVXzloOTgtcENuSzBGdlA5VldYc3pCWlltX0I2akFFOEMxSm56T0RySFNDajNnbmtOZWlPNVp0dWxocTlNd2RVU1c2Q2Z5cjlZWW1jMTByVVdoLTJEWUZpMlJ0WGRQQlN5WTA1SW50M3Jrdk96aTVvR01UeWQzSWJXTS1hbWJqbFBIYlVaVHlpUDNUNTVvaGxiRmhJc1pnc0tXaTdSNzJDOE9BR0dyVXBwbVZBTF9uWTczNDhtS3g3d1hFWQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BE"
-   ]
-  },
-  {
-   "text": "Panne mondiale chez Microsoft : « Un problème technique et non pas une cyberattaque » - Le Soir",
-   "source": "Le Soir",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVE9vOTlqU0RtV01Uc3dvMlBoMlBjcXRlcnhWbVE5ck4taENQMEYtZ0lMTHJseHBJUTF6RkMwMlZ2NXVBMVJtZzZzTC1ybTU3V3h5aHpUNnBRNHdsSE1iR1JQLVU3aEx2MDQwLWNxYmtWRTRuRjRnczNLY1JheVFoTVdRU0dTSTZTVmk5aW1PcE12QnZhT1d5RjlONWJTQ0llU1V6SkcxQVJucWRKQTltczVpdUlsaDZrelF0d3dWVUUxR192QkE?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BE"
-   ]
-  },
-  {
-   "text": "Panne mondiale de Microsoft : le groupe présente ses excuses et écarte toute cyberattaque - Corse Matin",
-   "source": "Corse Matin",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWlVaMlZwSjNzN3pWc01oYnpDZlpDRGhGYVlUX0o2b3A1aXhlcVdld3FxR0M1MG5ZbEVXOXpubExvd0ZHLV8wbkx6Mk1EYkJlVWc5NXh6T0lsSERuT1dsRHRMLWJQSUk4WDJhRTVVS0JHNGxEdndTSmhWYVEtY2hyUUlxQk54TDZSdjNFUGtBa3JaWGhTYkRTRjZ3RThMaF9zX3V0QzdQLW9ibHV4TW9hVVhvak1PZmp1VTFLQXhLdC1nUGRreGc5WkE2SXZmYnNqMlhkbUZoVFo4bmJSczdHU05sdw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "«Plus proche de l’incident CrowdStrike que d’une cyberattaque» : quelles sont les pistes expliquant la panne d’Outlook ? - Le Figaro",
-   "source": "Le Figaro",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdldheC1sWm8tbkU1MnZjVVliU1dLNFNIWGJlZHBVLXozSmVCdmlzd0lvTWkxTksyZW9CWUpEODJYcG5mZFZUbmJZMXBTMURQSEZEa2tjczUwTWpmRTN5QkFmQk1JYThwekZyUERHWHg3OXYtVTd5RmpjdzBfbGRrYWdmZDR6LUlIaGMtSDBENUJTcDZoenRuN00xc19XbVFXeUplZm1iMXZNb2g5WHN5RExPM2ZyVTNuTUFGUlg1WFJtcXZVSGpTLWtlY01RR3Y3NVp5WVZiUjFyODZVSkJTQWpWYXRGdkpYSFFicldqcTNuR2JNUU8wOA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Especialista aponta riscos reais de apagão por ataques hackers no Brasil - Folha de Curitiba",
-   "source": "Folha de Curitiba",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXByUldKc0pYVUpEUEJJRGpicFAyRDVid3FqYVhzSFYzeTRwU1hPeWE2WHh3Ul9kbjNoaXpQZ3ZsSVBCUF9Gbzh4Y011RlNPZTd2ZGJuXzVaLUo3Y0dyNjZMUWxhb1Y4T0t1TUpkWUFBUDVHci0yRXZlRnpJZ25NMGV6M0xtNGlLOVVDMVNlTm1vTWNyWW5hMG80NGN1N0NwV00xSzJHYw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BR"
-   ]
-  },
-  {
-   "text": "Panne Microsoft Outlook : la messagerie se rétablit lentement, la piste d’une cyberattaque écartée - Capital.fr",
-   "source": "Capital.fr",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTWpEVnNfNy1KaHZjVzE5bTVKTjRKTy1ubHV0QWZuUXR3US1vOXB2TUVXU3ZmdlpLclR3SnhxODUwaTN1Vm5jeXU5Wjd3TjYwQ1RraWliQTNCZHpHZ2ZPWGgzaG9VVVAtQm1LVVpycGJoTWc2ckotME1jcDFKR0dtTDM0bTB5N29fNFB5Ym1FNVdvdTJpN1RyYXpvVWp3c0YyWUQwVmlYUkU2RFI4ZUpVRDFXdl9PeE1GZHU0czNURWd5RG42ZXBGRGZ3aw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Ataques hackers podem causar apagão em larga escala no Brasil? Especialista em cibersegurança explica riscos - Banda B",
-   "source": "Banda B",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUkdlRG8wYWx0RkxIZFVfZjUyNUNnUm5jdHRWTUFVNjVBUHNKR1ZHekJzUkRqYjRQUVF2M0lvdWVVcGFPTTBHbDV5QWh4d081Z0JVQlA5dDRzd08tb2dEbEhSbG1DRWNwVWFCVzJ6Mjg1NkRXVjlqMmZ3YW9uQ1hMRktOdFQ5T2hoMVQwcTE0WVZORFYtTnVuWE1EN3BpODVEQm02Zk5qRXRMTTZMQU1hM1lRU3c0TEJneHJRakR1VjFEcW5mMld0ZEU0WE1CZ2tYb1VlYmZrODJ6emtsbnl1c9IB4AFBVV95cUxOUkdlRG8wYWx0RkxIZFVfZjUyNUNnUm5jdHRWTUFVNjVBUHNKR1ZHekJzUkRqYjRQUVF2M0lvdWVVcGFPTTBHbDV5QWh4d081Z0JVQlA5dDRzd08tb2dEbEhSbG1DRWNwVWFCVzJ6Mjg1NkRXVjlqMmZ3YW9uQ1hMRktOdFQ5T2hoMVQwcTE0WVZORFYtTnVuWE1EN3BpODVEQm02Zk5qRXRMTTZMQU1hM1lRU3c0TEJneHJRakR1VjFEcW5mMld0ZEU0WE1CZ2tYb1VlYmZrODJ6emtsbnl1cw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BR"
+    "US"
    ]
   },
   {
@@ -186,9 +205,19 @@
    ]
   },
   {
-   "text": "Des améliorations constatées, pas de cyberattaque d'après Microsoft… Ce que l'on sait de la panne mondiale qui touche le géant américain depuis jeudi - franceinfo",
-   "source": "franceinfo",
-   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNMkhYLVJQNS1jcUxGWGNNYi1qa19BVmlPVldtM2xnTFdOQ3ZHU29md2RDRFVpenZrU2gyMTRXRkhQdlotV0YtNzFodlhpSi0xaHFZN2NDZ2twdjBQbjNRYl9ZYmVNNnllbWtDcmZSOFM2dTMwYXVqWmtGWmhEVVBiM05hVEpQeHJ4ZGp3RE9vR3VlRUh1RDFVVy1QRng3eXB6eUJtSWlXanJNMmxLQmoxOFB4eEY2bUhzVkNxRjNDcWI4dDFKMjhYSGNfSkZUdEt1cjBLQkVZemdYX0xoOWo5dHBCWGJKa0ZfaV90RVlPMmlfc3dWSm9mQzNXM1ZuTS1tNDBZVko4WVVwZ1oxVVUtd3hYWkVwVjNkX0FtanowYUU2TklZQ3A4d3BMdGl5V0VLMm85X2NZT0FfU1E5cTR0cnJmSQ?oc=5",
+   "text": "Panne mondiale de la messagerie Outlook : \"aucune action malveillante ou de cyberattaque\" détectée - Yahoo Actualités",
+   "source": "Yahoo Actualités",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUNZb3dJeE1VWGFQNnprVU5RMXcxQ3JrOTFEczNYTVU0RmpUTGctcHhjRWswWVVOOENpeXh2SnhOUTlnNVA3Nnc4VnRIdXo2MkoxOWx4VFh2aVBmRDFJMUhaMnBtNXF3SkFJWVpoY2JFRjNSTklkVjRMcXVPdnFLZjluM3JpaV9rd2VlVGI4ZUk?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Panne mondiale d'Outlook : Microsoft ne voit «aucun signe d'action malveillante ou de cyberattaque» à ce stade - Le Figaro",
+   "source": "Le Figaro",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZDQyY3RsRmkwOURsM3NEcWRYdE5xRmdrLWxRb1B1M01oeUliM2xLaEhwdmgxb243TVJYN0ZFZUs3TjYxY2xlaGVkVXVyNlBoT3d5X005Szk3YjBfWmZ3UTZuN3dDeVp0X0xUcjFpRFdNU1ZZeUpmZVBHVk9rQUdrX3MzZ1p6X1E5eGhBeEItX0FNekowNHFPSl9mSzQ5bktyTlVibjc4dlNBQk5PVndsTmhmNlNxSkdBWjlKVmpIdXVfXzFqQVFDV0RQR3lzTTdfVDBKM014a3U0bGd3TDJBa09KWkwySDRsTDRNSGNn?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -198,17 +227,27 @@
   {
    "text": "Panne mondiale d'Outlook : incident toujours en cours mais pas de cyberattaque, selon Microsoft - Boursorama",
    "source": "Boursorama",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZHpRQy1NSVhzQ2pDRUZZaUFybTlRNHZFZ0pIejZsZ2RtRFhERFQ4MGdMcnYxUm1xZE16WGt4ZTRrUXJVQ1gzN1VFRW1QekpxNFBTTWdRLTU1MktfWUdxMzNaeGNLeXcwa0laTXRGeHdyNXZYTUduTW95cUxnRFZzMHJmb1ZEQTViUk1kdFZUVXhwMVdGVDlacEdCQ3VQNHpGVDNINUhtcWgzUXFOZzVwMy1COVZJS2hua3NKanNMamFGeW5VNldkQ3dtSHFsSE1FS2ZyXzlDa2wzajBoT1NRRVctTzdGbjRqbGZRbS11QVBuUXRtTnk4VmxUbTRSX1XSAYQCQVVfeXFMUFFfMDBra01wQ05UQXNFWWRSWU1jNGhQM09XbW14eVByTWgtY3gxNzlEQS1LM2U5LXdpY2lTSkdqODVxa2tfdjZoS29JQkJTVjhRU3BBb3VUZzN6WXp5bGw1MFlfZ1ZaWHVwN0FHaGR4clhmeVJKX2tuV0w4Y044T3J5SVZCM19aTlhRS180TVI1cEE0d2ZuT0RaazBUUkdjSW5YRjRycGxqQUhGYXJrSDBHVW1BWmZmaFdSUlMwemhDVHhmdGJBLTZfRnlYV0hoUUhfMUJ3NHoySzVJbVhScXN5T2hkY0dyWWZJQm1WUE94NDVscjh3YzRJS3ByUW5wU2lpNE8?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUV8wMGtrTXBDTlRBc0VZZFJZTWM0aFAzT1dtbXh5UHJNaC1jeDE3OURBLUszZTktd2ljaVNKR2o4NXFra192NmhLb0lCQlNWOFFTcEFvdVRnM3pZenlsbDUwWV9nVlpYdXA3QUdoZHhyWGZ5Ukpfa25XTDhjTjhPcnlJVkIzX1pOWFFLXzRNUjVwQTR3Zm5PRFprMFRSR2NJblhGNHJwbGpBSEZhcmtIMEdVbUFaZmZoV1JSUzB6aENUeGZ0YkEtNl9GeVhXSGhRSF8xQnc0ejJLNUltWFJxc3lPaGRjR3JZZklCbVZQT3g0NWxyOHdjNElLcHJRbnBTaWk0T9IBhAJBVV95cUxQUV8wMGtrTXBDTlRBc0VZZFJZTWM0aFAzT1dtbXh5UHJNaC1jeDE3OURBLUszZTktd2ljaVNKR2o4NXFra192NmhLb0lCQlNWOFFTcEFvdVRnM3pZenlsbDUwWV9nVlpYdXA3QUdoZHhyWGZ5Ukpfa25XTDhjTjhPcnlJVkIzX1pOWFFLXzRNUjVwQTR3Zm5PRFprMFRSR2NJblhGNHJwbGpBSEZhcmtIMEdVbUFaZmZoV1JSUzB6aENUeGZ0YkEtNl9GeVhXSGhRSF8xQnc0ejJLNUltWFJxc3lPaGRjR3JZZklCbVZQT3g0NWxyOHdjNElLcHJRbnBTaWk0Tw?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "FR"
+    "BE"
    ]
   },
   {
    "text": "Panne chez Microsoft : la situation revient à la normale, \"aucun signe d'action malveillante ou de cyberattaque\" - BX1",
    "source": "BX1",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNazFfSXpVT3VrdG45NVVuVjR6eHJKV1FFZElJUFRtV3FkbmxBREdXV0lBVXpiWl92YVlNUlA4c0EtcEc4MVpKczVzUEsyRXRXMkFPR1otUFNpR1NXa1Y1dWo5dnlHZF9DRk5YaTNUNWRDM1ZlUElBR3Zvc2lhNE1Qcjg4cS04dnhuYi0xZUlsNHc1MXFjR3haRVRXTlltT2xpNjdMWV9MQlFIOWtYYk9JS0tKNkdncEhMVlJtQ3JMZ2tQLXJtYTFvbzR3?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "BE"
+   ]
+  },
+  {
+   "text": "Panne mondiale chez Microsoft : « Aucun signe d’action malveillante ou de cyberattaque à ce stade - Le Soir",
+   "source": "Le Soir",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWmVHV01MUV83ek1Za3hia2lsTjU1UDNLQ29qNmgyYkcyUTI4WHFUcTRYdDhCakUwZXoxdVRmZ1pIZGwwU1ZCSXRUNVMtREttNEMzZUVfTWFGV1EyNjFVLW8wZUdJM0ZLUHU3VjlnZDdReUxtMEV2bUFLdVhEaDREcXJYSVdfWG81bGhQOTh4UERybm9mTG1RTEdzVUZuYWczcWxoZzR5TVVjUkozdDQxeFFQSWlWUEU?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -243,16 +282,6 @@
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "BE"
-   ]
-  },
-  {
-   "text": "France Moves Up Its Nationwide Blackout Exercise to November 2026 - energynews.pro",
-   "source": "energynews.pro",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHY3NXIwV05jUUVxbVBpMTE1X29weEI4U3FETEdXZl8xYmQ0ZXZ3QXhmYTRZakRqMkphRmZlTXF0UWE3eFJUMS1RVW9vZUxodGEwNUlWOVJLV3hIVjVZcnRUM21mMTFPbnZaY3Y3eUJXakFKSk04NUQyVDVUSkgwOU14R0dQVEZLcXY0MnFOQldvM1Z0bnc?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "FR"
    ]
   },
   {
@@ -430,6 +459,22 @@
    ]
   },
   {
+   "text": "China stages unannounced Pacific drills in ‘silent intimidation’ of Taiwan, officials say - Free Press Kashmir",
+   "source": "Free Press Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa3BQdUhCUHVtLUNZeGR5dmpTSkt1ZVI4RnYtMlp0Z2ZoQWFqUy0yU2Q2cjA3RjZnOXV5RDJuQUppNklHUG1RNnB6ZEF0YmVkaWRFS2hJUnRjVHZjclJJUVZGSXhWVTdSbGJRZlUzS1lPNDBYcU9OODVXdm9Ldm1uOWRzX18tX212NFBqVW83VmdLUkdfMmh0ZVJQbExYQjFydG5WM2M0SXM5TU1RbnlrQnRnSzFPcmE5OGVBVHlUOVRHa3M4bU4tLXNoOVPSAcwBQVVfeXFMT2twUHVIQlB1bS1DWXhkeXZqU0pLdWVSOEZ2LTJadGdmaEFhalMtMlNkNnIwN0Y2Zzl1eUQybkFKaTZJR1BtUTZwemRBdGJlZGlkRUtoSVJ0Y1R2Y3JSSVFWRkl4VlU3UmxiUWZVM0tZTzQwWHFPTjg1V3ZvS3Ztbjlkc19fLV9tdjRQalVvN1ZnS1JHXzJodGVSUGxMWEIxcnRuVjNjNElzOU1NUW55a0J0Z0sxT3JhOThlQVR5VDlUR2tzOG1OLS1zaDlT?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
    "text": "“슈퍼컴퓨터 해킹도 못 뚫는다”…한전KDN·한국퀀텀컴퓨팅, 국가 전력망 지키는 ‘양자보안 방패’ 구축 - 에너지안전신문",
    "source": "에너지안전신문",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VUDVSN2xHVkg3V3BuOU56TEdjWVF4b2ozYk5GeGs3cmhUcnE0Z0dPVHFNeUxCMFNSODlJTk94WFc5VkE1MXk4Q05ZWlJPdGNCaDFtbkZlR0puUW5kRzVvSERLQTU?oc=5",
@@ -558,8 +603,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-14T08:56+00:00",
- "sourcesChecked": 911,
+ "checkedAt": "2026-11-14T20:39+00:00",
+ "sourcesChecked": 908,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError"
