@@ -1,6 +1,6 @@
 {
- "id": "2026-11-15",
- "date": "2026-11-15",
+ "id": "2026-11-16",
+ "date": "2026-11-16",
  "auto": true,
  "level": "yellow",
  "countries": {
@@ -8,21 +8,33 @@
   "FR": "orange",
   "ES": "yellow",
   "DE": "yellow",
-  "AU": "yellow",
+  "NL": "yellow",
+  "PT": "yellow",
+  "SE": "yellow",
   "JP": "yellow",
+  "AU": "yellow",
   "TW": "yellow",
   "PH": "yellow",
   "KR": "yellow",
   "NZ": "yellow",
-  "BE": "yellow",
-  "PT": "yellow",
   "IT": "orange",
-  "BR": "orange"
+  "BR": "orange",
+  "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "Widespread blackout reported",
  "items": [
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
   {
    "text": "Microsoft, servizi ripristinati dopo il blackout globale: \"Errore di rete, nessun attacco hacker\" - Agenzia Dire",
    "source": "Agenzia Dire",
@@ -44,16 +56,6 @@
    ]
   },
   {
-   "text": "États-Unis. Espace aérien fermé : les vols ont repris, pas de cyberattaque ni de lien avec la panne de Microsoft - Le Dauphiné Libéré",
-   "source": "Le Dauphiné Libéré",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc05ub0pQQ0k0UzNRWXVxZ3Blcy1kdklhRUFyUUdScFpHVUhseEpKMG1XN0I4WUxYam5pUlkwS1VVaUVaWTBMVEZIelpFQ1BMRlBOY29KcWZkRDBHRHREazZwY0cxOHRScTlOd21UX2pITlp1a1dUOEdGRXVQUHlkc0FNeXBUdEZObkVXbk1sWExvbDNnWkNYb2o5RzJPVDJoWUE3ckViWTZBbUtsTmsySmhpYzRkRVF2STlISjVwekZ2N3RyS3hlRHZUWWVFMXhoM0YyQ2tZY2kzUjJ2U3ZOZQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
    "text": "Após apagão aéreo nos EUA, governo norte-americano nega ataque cibernético e voos do Brasil começam a voltar ao normal - abc+",
    "source": "abc+",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaFMxdjFCRVNyWXlhS2g0cmpGdjhCX2hBdXVVMGNVRVEzQklNOWxPTG93U0NHZTRMOGVOX3V0YUlFRjByeGp4a1hseXl3ZTRLTUU1OVlvTi1ic1BVcjdIdmU1S0pSRzAycFJlYWE3R3hnVHhHYm9rc1AzcmFRb29CU04xSTF3MW1TYXlRYlVTdE9QU3dEYk9CMUhhWVFMNmd6ck1pX0N3QnFwMkdpVUtPcUE4T2ZJUGtBa2w1WmE3R3BfTU9QSkZrNzB2ejB2Uks5VHVsWl9hTktSWEFkaWJOdExR?oc=5",
@@ -64,13 +66,13 @@
    ]
   },
   {
-   "text": "Microsoft conferma la risoluzione del blackout globale ed esclude un attacco informatico - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qemM4VzgxSUxKR1FNc1ZaeHNLaTU2bXdJWWh1SEU0dnNCOFBVMTNFNS0xajFSZ0toamxFLTJNOFpjVGdZYktBMTNadTFmRlVtY2o3MFJVclhGaGlWcDNhSGU4S3IxR2tRUW9tcUR4VQ?oc=5",
+   "text": "Faites très attention, car après la panne Outlook, Microsoft alerte sur les pirates qui en profitent - Clubic",
+   "source": "Clubic",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSnpyT2dYR0Vpc18yOFJVMXdiVlhRUEFHajVDTEhjTE9WNThyYjhRZ3ZhWkJUazZra2pyU1JqeDZRU25tUkNCUjVrVGlGeTg3bl85V202Yk5CUUpLdG93UUliMXJuM0dFN3JaREhFV3F5RzVvOF9xNU5hRzNING50VklKYjBWZWYwdjNzbXFVcGN3YjBsTzdFQWZjN2MxSmFRLXRMeVNKbjJrVU5kc3EzdFU4OHJQVGtfV0dlTHQ0c19yN3N2OERhR2FLZVUwWmVlUE5oSHBjRVh5VTA?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "IT"
+    "FR"
    ]
   },
   {
@@ -84,6 +86,26 @@
    ]
   },
   {
+   "text": "Microsoft conferma la risoluzione del blackout globale ed esclude un attacco informatico - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lWWpZelhwQ2NtWTFlQ25kUEhCT2ktVk5zcnZwTmxlXzZhckVOM0JnYTl5emNjRl9lWFdLY2s5ZndxVGlScVBEOTZsYlgwM3ZNT09pVVYyUW1jMTlfWERsTEhkaHJXQ3l3OHlXV2owaWQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
+   "text": "Microsoft: “Ripristinati tutti i servizi. Il blackout causato da un aggiornamento della rete, escluso l’attacco hacker”” - Il Fatto Quotidiano",
+   "source": "Il Fatto Quotidiano",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaldrZ000bVU4bUlNb04xdXplRnV0a1k4U2FSbVQyenJTdlp4RV95bFk1ZUpXSkdyR0owZzR0S0FXa0ROTjRMUVFUZ3ZwamNLTE9YeEdPZUQ4NFpwbHdUZjhDcFFSbll2R0VRejJfZWdrWXZTblAxRTE5UmtjdU12eFNhQ3R5RDFwcEh1RUxTS0R6cDdnM0V4dWJ4Z0dxdllDeEE?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IT"
+   ]
+  },
+  {
    "text": "Ripristinati i servizi Microsoft dopo il down, smentito l'attacco hacker che ha provocato il blackout - Virgilio",
    "source": "Virgilio",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRUtzUnFEVnU2Sko5RFo0TzZ0eVBId19pZ1ZyNjF6Y045bS1yX25mSG9oNnlOQ1prXzY2cERTVDQ0UTFCZlZPcXh5T2FYN2daUmpUZTJrTDgxbGxZeGtxR0RrMUVoRjFaR2hLdWM0aUw4cWR4R1ByX0x1QkplTGlLZzdocUJGRl9QbnpWcDNpRTBIQ19idms3X2xoR21sa0NqVmlQUm51SjhwQl9nOExYbDR1eXd6U2xHQlJlQVViUl9yV0hicTJOVXJzaXBSVUZXb2xFMFR2SdIB3AFBVV95cUxNNHQ2bEM4dnp6SElrNTJGa09uLTE2Sk5YbWdpdzRkbS1Mb0RocHV3eDlJbzM5Y3o1T1F0M1JYOWxTRWxnNDRPb1VNSWpRVjd4SXVvcmprbkFOWVROeUFFdmZOSGZsTy1NejYtRmNiQ3RTLTdtcnRKMkZYSE9IbkVacC1seFVGX0pkenB0TUN4NHR0aVNxczJVdzh2YzlNckRCcmRDRGttYWNZWldTSm4wRnVuMm9uUzItMGxwYzVBQVVzQkxjWVNkR1luSDM0alFndklqVHN2OW80UDNu?oc=5",
@@ -91,6 +113,56 @@
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "IT"
+   ]
+  },
+  {
+   "text": "Microsoft attribue sa panne mondiale à un \"incident technique\" et exclut toute cyberattaque ou erreur d'IA - Le Matin.ma",
+   "source": "Le Matin.ma",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNC1FSGVoMlkyTndCTVhiT1B6a242aDV0N05uajVXLTVWX2ZRSzNlZjBEVk1yOTZSVjkzLTBoaDBWZkRDZFctQVprTzV1TWJqVUVkcWNJdzJPT1d6Uk1hZkZFTm96X0JNNlVhTkItNVRVcmdmSnh3cFFzQWRPZzVaYS01dGc1MkczdVlMeW5tMmJNQW8zbkIzb3ZB0gGfAUFVX3lxTE11NWduc1dUWUkxYXFHZ0pWMnVsaU93MUhOaW94b0N5eURXaGczVlFhenBBYkJtekxVaWVjcTJYdHJaNTJ4MEVuWE05MzRhTEJBZTljYlAwdXo1blZORkhVczc2VFM2S21iUFdTd0hwMEFKTmdtbnZxc2dZM1V3SFVMYzdsbkRPVy1rcS1xRUF5YVpNa0x6SFNwMFA1RFNodw?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Panne Mondiale Des Services Microsoft : le géant américain présente ses excuses et écarte une cyberattaque - LACTUACHO.COM",
+   "source": "LACTUACHO.COM",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWDBOalNpczlFbHB0RDBGOGlBTnNELTNrcmtqelRHVDJqdGtrdDZiWnFvazBsV1ZoWXNrOVBLLTRkcWxKeDFtWVF0M25vTnpzQ1VjNWVTbWlNMjBxNzhoTVBmS2RNUnN0cW9qWDAwa2haaTd0VmlnTXEtN2hjc1JkWUM1b29fTDFLRDRlVC04TUNBTXlqeHp0dEROZ09TQjZDWUZJSkV6WW9sYVl2cS11VjJZUWloMWNjMmRLZVhfcjQxQ1k1Qm9fVkdfRQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "États-Unis. Espace aérien fermé : les vols ont repris, pas de cyberattaque ni de lien avec la panne de Microsoft - Le Dauphiné Libéré",
+   "source": "Le Dauphiné Libéré",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc05ub0pQQ0k0UzNRWXVxZ3Blcy1kdklhRUFyUUdScFpHVUhseEpKMG1XN0I4WUxYam5pUlkwS1VVaUVaWTBMVEZIelpFQ1BMRlBOY29KcWZkRDBHRHREazZwY0cxOHRScTlOd21UX2pITlp1a1dUOEdGRXVQUHlkc0FNeXBUdEZObkVXbk1sWExvbDNnWkNYb2o5RzJPVDJoWUE3ckViWTZBbUtsTmsySmhpYzRkRVF2STlISjVwekZ2N3RyS3hlRHZUWWVFMXhoM0YyQ2tZY2kzUjJ2U3ZOZQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "Suspension des vols aux États-Unis : pas de cyberattaque ni de lien avec la panne de Microsoft - Medi1 News",
+   "source": "Medi1 News",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14bXA1eVVQYk00bGE2T3hwSHJjRDNWV2t4M2I5TUQzVXhVY0FHMFNpX0VRS2hIbTFQZTJKdFJmZWtxaHkwNnRPZWZud0k1TlV3TjBuY2hUb0tSMHFa?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
+   "text": "La FAA lève l’interdiction nationale de décollage et reprend les vols ; elle affirme ne disposer d’aucune preuve de cyberattaque ni de lien avec la panne de Microsoft, Sean Duffy met en cause des équipements obsolètes et réclame 50 milliards de dollars. - Benzinga France",
+   "source": "Benzinga France",
+   "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQeEZjX2U4TVRDejliVm5ISGRUNkg1Y1ZDa05xQVhYQURmMjQ2OXpvYVRTTTd2aEltSTl4YV9lWl84R2FsbHFwN3BkNWplTVV4ZHFXUVRLQXJ3MzRtNC1TeHRtMkNpSDhwbEtMR0h6RHRLU0s4YjVCb3lySGNjb01JN2hkQ3YwNlpTbFVwZVBSY2xSREhQc2xqRzRsVFRERkdBdlpIbWxnNW1DV3BwS2dzUXlNdzQtV1lXYjdDQTdoRElEWHUyNm1uaWFyUzFkaHNJa1dDYWdzb3h4YmxlSVdDTkpZYTZvMjI4dDNHR1IyX2Z1TXhoRDY0OVZmU0VkYl9kdDRrV2hubmx1OGZxQXhkakVoVlU5WkNhbDRvbGV1bl81V3QxTjhXa1VBRVgwYzc5b3pwX09HQW5RWHhN?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
    ]
   },
   {
@@ -104,6 +176,16 @@
    ]
   },
   {
+   "text": "Suspension des vols aux États-Unis : pas de cyberattaque ni de lien avec la panne de Microsoft (ministre américain) - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3QzhuQU9zbnJvUTA4aVZab2dlRnZ3VjVsaGRLdVhjdW9xNXl3UHNLWW4tRHV6NEViVEw1YlB2TXBpa2NuT1IyNVh2TzgzeUQ2UU1RWlR4Mk1DZ05tSXAxb19n?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
+  {
    "text": "Stati Uniti, l’indagine sulla paralisi dei voli: “Blackout per l’aggiornamento del software AI, escluso l’attacco hacker” - Quotidiano Nazionale",
    "source": "Quotidiano Nazionale",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRy05a2ZXNUdZcGRDcnJhd0dsMWpmY2I3SkY1Wkp6UEJ0NDYyYTUzWVo5NjRnUGxhWS1WMXhHbmw1anZJZTZFYmdyd1hXNXloWE9kWnJfRDVEd25vOGJ5NDRydmhTenBTQzNINVNRbG5XMFdMNmd4OGhqR09vZ3prVnZMbERCa0EtSDg1bnAtck5CVGtqYmZSb1hsMkFQY25hQlBJMkdUbDVvWWJHZEJMT0V6S0RMUHZ1TWd3MGRWd0R5UXF1SnRScUc1bjJrWDVkN09EMllTU0tuV0tU?oc=5",
@@ -114,29 +196,9 @@
    ]
   },
   {
-   "text": "Panne mondiale chez Microsoft : « Un problème technique et non pas une cyberattaque » - Le Soir",
-   "source": "Le Soir",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVE9vOTlqU0RtV01Uc3dvMlBoMlBjcXRlcnhWbVE5ck4taENQMEYtZ0lMTHJseHBJUTF6RkMwMlZ2NXVBMVJtZzZzTC1ybTU3V3h5aHpUNnBRNHdsSE1iR1JQLVU3aEx2MDQwLWNxYmtWRTRuRjRnczNLY1JheVFoTVdRU0dTSTZTVmk5aW1PcE12QnZhT1d5RjlONWJTQ0llU1V6SkcxQVJucWRKQTltczVpdUlsaDZrelF0d3dWVUUxR192QkE?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BE"
-   ]
-  },
-  {
-   "text": "Ataques hackers podem causar apagão em larga escala no Brasil? Especialista em cibersegurança explica riscos - Banda B",
-   "source": "Banda B",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUkdlRG8wYWx0RkxIZFVfZjUyNUNnUm5jdHRWTUFVNjVBUHNKR1ZHekJzUkRqYjRQUVF2M0lvdWVVcGFPTTBHbDV5QWh4d081Z0JVQlA5dDRzd08tb2dEbEhSbG1DRWNwVWFCVzJ6Mjg1NkRXVjlqMmZ3YW9uQ1hMRktOdFQ5T2hoMVQwcTE0WVZORFYtTnVuWE1EN3BpODVEQm02Zk5qRXRMTTZMQU1hM1lRU3c0TEJneHJRakR1VjFEcW5mMld0ZEU0WE1CZ2tYb1VlYmZrODJ6emtsbnl1c9IB4AFBVV95cUxOUkdlRG8wYWx0RkxIZFVfZjUyNUNnUm5jdHRWTUFVNjVBUHNKR1ZHekJzUkRqYjRQUVF2M0lvdWVVcGFPTTBHbDV5QWh4d081Z0JVQlA5dDRzd08tb2dEbEhSbG1DRWNwVWFCVzJ6Mjg1NkRXVjlqMmZ3YW9uQ1hMRktOdFQ5T2hoMVQwcTE0WVZORFYtTnVuWE1EN3BpODVEQm02Zk5qRXRMTTZMQU1hM1lRU3c0TEJneHJRakR1VjFEcW5mMld0ZEU0WE1CZ2tYb1VlYmZrODJ6emtsbnl1cw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BR"
-   ]
-  },
-  {
-   "text": "Rétablissement en cours, cyberattaque écartée... Ce que l'on sait de la panne mondiale qui a frappé Microsoft - RTL",
-   "source": "RTL",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWXFZblRKS01SVDJSVmp5bXpsNllMQXYySVU5OTc0UXdQMW8yX0g4LUxfSmNRaGdxbVRNUzZrcW1iUUN1MVIzZC1aNUdPajQxNWI3VlMzZy1hblVyVmhOQWZKY3pNaUVvYjkxR3JFb0ZXSG5GclM3ZnV3UEgzUTJ1cEdjSWNZYjFoM1BqVTFwaEYtRWZGSmF3b2RjSEZna3JvVzFSSVVPd0RZMEdUR3l5aHExOWUxczBRaF9MbFFkakkzeEdpaUpIcEdQa0RrSHI0RDJmQU9USDNfdEo0R1pFYzNJTnBCeVNYdURfeVlzcUFTZE5NMGFYdVdaVkY1ckZmem0yb3I5N1piNFR1djFmVk44bw?oc=5",
+   "text": "Possible Cyberattaque majeure : La FAA immobilise tous les vols aux États-Unis après une panne de communication majeure - ZoneSamui.com",
+   "source": "ZoneSamui.com",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSlpLU0ppaUxpa1hvYzNCaTdjOEoyVms3YWdxa0MzTG9KQ1kzWjBIMHR6R09KUU94Mmc2dmZmbEp1QVR0d3lLeGE2Zk0tM3VxWFN0VFhTRmllSHBkZHZFaEh1MW5MeUg1OUFfTWhiLWxhUzUwZkpteDY0RmhjS2lMMjFMdHE3cHg1WWZvRXpLM1RUZFJoOVg1cm9JLWRabzU0c1RBTGpzQlRKdmdJZWN0ZEhTclZ4Ni1ESDNheEdiMUh2VVR5Mk92ejFueHB4UnYxNmFZMTNB?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -144,83 +206,63 @@
    ]
   },
   {
-   "text": "Apagão da Microsoft já afeta 74 países e passa de 18 horas; ataque hacker é descartado - Canaltech",
-   "source": "Canaltech",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV1Bwa3FMYUQ3RTQ0M0d3b04tWWJqUWpncklFcUFvX1lKRnlmUzVVNXRQbnZjazhfajdzbjRLRlFyRkZFWEttWFNIa3RLUmtBc3pDaklCQm0zbEVoSHJJWldLQ3lTMnFRTmhHLU9HMkdQSGFhNkJJU1Z6Y2JCU2U4cm40cDc0bHZtZU1KeDJhNm9NSWtSLXV0enFGVDRZT2w1bXV4TlEwUTJYZkJRd0JNbFZLQlVLc3M?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Dos refrigeradores dos supermercados à rede elétrica: quando os ciberataques ameaçam a segurança econômica. - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZENZNUNURkhxU2Y3WXlKQVJoN21VWXFmeFdnVTVxc0dzZDdlandjc2g0dF9VbmdVakdKdEhzWEctSGtINERLcktCcnNWaFctY3FVaVlFQkl6b2lueVR5ZkpGU0RCUFNPYzVZdll0S0ltTm96dV9TSDU4aDNPQUl6Vy1aYzA3TFBDcUk2ZUo4bHdNMkpXb0ZBQi16d2IySTN6Wmc?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
     "PT"
    ]
   },
   {
-   "text": "Panne mondiale d'Outlook : incident toujours en cours mais pas de cyberattaque, selon Microsoft - France 24",
-   "source": "France 24",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU2VqYkMwZ2tEYzlrZndWdU1GdndIX3p1ZjZkZVJzOHc2WUc4b3ppTk9KR0xtVzZILXVCRURtbE9KVHRfLW9uQnRMN0lycklQWlA4TU04U2Vvc0MyWjZ6T1A4X1pjemNqM0dSTWJUejFQZkdwZm5OQVpyRUJxb2VMVlYxVWZ0Uk9fS1lzVE9vb1diUDRSSmx0Z0RWNlNKRlFUdWR0R1lNRXZJMk1tNVgxeHhzUm1tMkNleGcta3B3UEpzdzJkWnp1V3ZCMkEtcWpoSEl1Y0tnVQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "スーパーマーケットの冷蔵庫から電力網まで：サイバー攻撃が経済安全保障を脅かす時。 - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY20tU245SGdLNzdIbWZuTnFVZmo2amNRa2czdlpzck83QzEyTjVHaWdkamFVb242cGpidzcyWk9WbUR1NldxcmFnaUs3Wm1CM0hqV1FmZHQ3NEl4Ql9ndE5OOU1LT2stNTZxVXRIWFZQVXRKN2RsMTZZVThQZ3FxcklQd0t5YVdzUE5oX3J5RHM0MWVWMks5ckFnQW9IOTZWSmc?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "FR"
+    "JP"
    ]
   },
   {
-   "text": "Pas de cyberattaque, Outlook et Teams impactés, 74 pays et territoires concernés… Ce que l’on sait de la panne mondiale chez Microsoft - Le Parisien",
-   "source": "Le Parisien",
-   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNbTFEeTBuNDdSYURrY09OYTgwNVctejBxYWdXYVpkQ3NFQ180MnRLQzBHaXM0amlueHQxU3loWXJsdmpfalZqMXZWRWRuSlFZRjVzZzFoeHY3NUVJem9kLXJiaDZDT2h6aUN2dHBrUFBvN05DY0RSd1RLZDRNNlFPUHpxeDFPY0dsOFpaQzRyWnZzM1BrWjZLZGNOSzh0UTBVSW13MDZsaURUX0l6a084UUZvejZOaHdtTDN5WG5iUE5uUEIzZWptRGE5VEo4NlhqSmpMUGtVNklNRFEtcWtGLUdYYkxkRXh2RDQyaFZibFdTTkhYd1Vub2lGZmlvNW5MUFhiaWJ0ZUZiRmZIaEJuVXVSZDNPSGpPblI5OTJram5jWm5RbXlLakZBQWtvaUU?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "From supermarket refrigerators to the power grid: When cyberattacks threaten economic security. - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTTBnWERLUEJaTVhXMnlWRGltZ0I5WmV0N1J1ZkxBa1pKR3Y4bnJzM1VmaFJYaWk0cXZQNWhXZDMxTXl3NG9POFVab2I2WGx6SHE2Z0VDcTl4QmFESGh1RzBpU3EyNkhTWjFzSGZiTGx5MG5DY1dRcThkQ1RZblZIWUxEOUxsVEQ0cUdERmVoN05fbDR4TFduaUJvcE1mQzJscUE?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "FR"
+    "US"
    ]
   },
   {
-   "text": "Panne mondiale d’Outlook, Microsoft écarte la piste d’une cyberattaque - The Media Leader",
-   "source": "The Media Leader",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNWYwb2tScUY4TjZGNWVfRE4wWDdpeWI0djI5X2RpZ1dYZmdwa0w2bDZ2ZTQ0TmJrZHgzc1RWQ09mc293bmR5TXBHSG8xMUVieWx6OEpFSnJJMnZrSklLdjItNTlnMWxoZ1ZqNmkzSkw0NGR1azAxcjlRVVhNZGdCdU5jMUtvclhVbGR3TzlkQXhONWtZdkRjUjRZdW4yQzA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Von Supermarktkühlschränken bis zum Stromnetz: Wenn Cyberangriffe die wirtschaftliche Sicherheit bedrohen. - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVNwelp3UmRfeHh1eG5WVWgzcVZvdi1RUzQ1WlBWaVVFckpEdXZ6OWNPTGdnYU1jaVdlak9rSFUzN18xeEtCQ1lIdXQ3X2NwRHVQTzhHV295STdTUlMzSmVjazlZeGZRam9yOGVGb1VxckIwaGh5aWU5YWM4eGpFVHBxNVJXdzZjTjhQanJZaVZXRXVOb1k2TkNSamtwNV8wT2c?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "FR"
+    "DE"
    ]
   },
   {
-   "text": "Des améliorations constatées, pas de cyberattaque d'après Microsoft… Ce que l'on sait de la panne mondiale qui touche le géant américain depuis jeudi - franceinfo",
-   "source": "franceinfo",
-   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNMkhYLVJQNS1jcUxGWGNNYi1qa19BVmlPVldtM2xnTFdOQ3ZHU29md2RDRFVpenZrU2gyMTRXRkhQdlotV0YtNzFodlhpSi0xaHFZN2NDZ2twdjBQbjNRYl9ZYmVNNnllbWtDcmZSOFM2dTMwYXVqWmtGWmhEVVBiM05hVEpQeHJ4ZGp3RE9vR3VlRUh1RDFVVy1QRng3eXB6eUJtSWlXanJNMmxLQmoxOFB4eEY2bUhzVkNxRjNDcWI4dDFKMjhYSGNfSkZUdEt1cjBLQkVZemdYX0xoOWo5dHBCWGJKa0ZfaV90RVlPMmlfc3dWSm9mQzNXM1ZuTS1tNDBZVko4WVVwZ1oxVVUtd3hYWkVwVjNkX0FtanowYUU2TklZQ3A4d3BMdGl5V0VLMm85X2NZT0FfU1E5cTR0cnJmSQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Van supermarktkoelkasten tot het elektriciteitsnet: wanneer cyberaanvallen de economische veiligheid bedreigen. - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQmJaSkx2a1N3dDYtY2JYNkhTRWY2blBNZW4wNndvY2FUTEhmMC15UlMyUzlibUVrRUFTc19XVW5iMEhZZTFfSUlwNk0xdm1OYXJCZjgyVHlCQkJZRDloa2pXWHdJd2Q3OWNuNXkzWEduaUdBa2tvSzYtQ0xNakIwSFVPQy1JRjcwTExlYmxCYmpvYXRjMExkZ1p6Rnc4RXZaNWc?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "FR"
+    "NL"
    ]
   },
   {
-   "text": "Panne mondiale de la messagerie Outlook : \"aucune action malveillante ou de cyberattaque\" détectée - Yahoo Actualités",
-   "source": "Yahoo Actualités",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUNZb3dJeE1VWGFQNnprVU5RMXcxQ3JrOTFEczNYTVU0RmpUTGctcHhjRWswWVVOOENpeXh2SnhOUTlnNVA3Nnc4VnRIdXo2MkoxOWx4VFh2aVBmRDFJMUhaMnBtNXF3SkFJWVpoY2JFRjNSTklkVjRMcXVPdnFLZjluM3JpaV9rd2VlVGI4ZUk?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Från kylskåp i snabbköp till elnätet: När cyberattacker hotar den ekonomiska säkerheten. - Vietnam.vn",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTVpPTVdXMk0zTFBNcWw2TzVBcG1LYTJoVFhsQnVZUGdHV3hVNXhVa1o5STBOQ2hJX0Q5WnlibU1fdzltVW1TQ2NNNDhLLVMzbUNCVkhENkxRN2diY1pBQ01uYUVLblZOMW5QZjBwTFY2M0tlTDVxNkRJU2pfSmVORThOS0Zad1ZUX1NjUlkwcjVnR19FZXA4c19zaDhuaUlQTFE?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Panne mondiale d'Outlook : Microsoft ne voit «aucun signe d'action malveillante ou de cyberattaque» à ce stade - Le Figaro",
-   "source": "Le Figaro",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZDQyY3RsRmkwOURsM3NEcWRYdE5xRmdrLWxRb1B1M01oeUliM2xLaEhwdmgxb243TVJYN0ZFZUs3TjYxY2xlaGVkVXVyNlBoT3d5X005Szk3YjBfWmZ3UTZuN3dDeVp0X0xUcjFpRFdNU1ZZeUpmZVBHVk9rQUdrX3MzZ1p6X1E5eGhBeEItX0FNekowNHFPSl9mSzQ5bktyTlVibjc4dlNBQk5PVndsTmhmNlNxSkdBWjlKVmpIdXVfXzFqQVFDV0RQR3lzTTdfVDBKM014a3U0bGd3TDJBa09KWkwySDRsTDRNSGNn?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Panne mondiale d'Outlook : incident toujours en cours mais pas de cyberattaque, selon Microsoft - Boursorama",
-   "source": "Boursorama",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZHpRQy1NSVhzQ2pDRUZZaUFybTlRNHZFZ0pIejZsZ2RtRFhERFQ4MGdMcnYxUm1xZE16WGt4ZTRrUXJVQ1gzN1VFRW1QekpxNFBTTWdRLTU1MktfWUdxMzNaeGNLeXcwa0laTXRGeHdyNXZYTUduTW95cUxnRFZzMHJmb1ZEQTViUk1kdFZUVXhwMVdGVDlacEdCQ3VQNHpGVDNINUhtcWgzUXFOZzVwMy1COVZJS2hua3NKanNMamFGeW5VNldkQ3dtSHFsSE1FS2ZyXzlDa2wzajBoT1NRRVctTzdGbjRqbGZRbS11QVBuUXRtTnk4VmxUbTRSX1XSAYQCQVVfeXFMUFFfMDBra01wQ05UQXNFWWRSWU1jNGhQM09XbW14eVByTWgtY3gxNzlEQS1LM2U5LXdpY2lTSkdqODVxa2tfdjZoS29JQkJTVjhRU3BBb3VUZzN6WXp5bGw1MFlfZ1ZaWHVwN0FHaGR4clhmeVJKX2tuV0w4Y044T3J5SVZCM19aTlhRS180TVI1cEE0d2ZuT0RaazBUUkdjSW5YRjRycGxqQUhGYXJrSDBHVW1BWmZmaFdSUlMwemhDVHhmdGJBLTZfRnlYV0hoUUhfMUJ3NHoySzVJbVhScXN5T2hkY0dyWWZJQm1WUE94NDVscjh3YzRJS3ByUW5wU2lpNE8?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
+    "SE"
    ]
   },
   {
@@ -237,160 +279,6 @@
    "text": "Taiwan says China held drills involving more than 100 vessels — Taipei Times - UA.NEWS",
    "source": "UA.NEWS",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2xUNlVqYXpIa1FPU2tlb1VNX2h1aEhVRGU3QXJBWFdwWkFNd1VwWTlfYlU3WHB3QUx2b1NnTDhDRGFOV1FMXzF6aml4d0ppeW80T2VuSUVVZUk2QzJROWR5NnBGUXptWG44RFdyelBCRVhfc1JXUEh6UDlFZDZUbUVCem83bjA4ZjFNdTFhMTJUWWVZN2FMQTR2amMtdHNYYWY5UA?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "China sends 100 warships to Taiwan's doorstep in 'blockade rehearsal' - The Sun",
-   "source": "The Sun",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdTBCVm1rMDd0UzUxLV81a1diMmxGNy1NSzFyanpNVm00MXpYOHFjWHZ2azZTYWkzTXZjMEtKNGwtbUVKSjdDV0JBYk9mZmdKY2RpVEo0UHE1WjNaMFcxZGZOMnpYUFVzZE1ab21pSFVBXzI4X0VQeEJnZVVHcTNBTkJDMVZWZw?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "Chinese drills did not create a blockade of Taiwan — France 24 - UA.NEWS",
-   "source": "UA.NEWS",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZXhZdzdJZXJfdjRaWWdCd0Z2NFdqeVV6UVJ3Y0FTeEwxVFB2Ny1jVmE4MDE2dWFKY3ZoUV8tczlZeHFRMVdDVVNNWkF3aExvbl8zbnQxNEU4THZmcUxwZUtPb2t1cGs3X09zdUQ3RzF2MUdqQ3plU3Q0UTZxTndyMzFfUm8tdVlKN2VHNVZMSWd4Zkc5UHc?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "What we know about China's military exercises around Taiwan - France 24",
-   "source": "France 24",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR0Y5OFdieHZCY3BpbnhQd2dzWjhNLVJiTHhqSnp0Um1LdGlQeWlQMWZSYzNrMVZUZEdjcWRleWd4a3hsMUdXaU1FU1pNU1VXUE5UMF83RnhESkQ4d0wtdTFVLTB2ZjlYT3B3WTV4VzFfSWV4S2x2cmVuMG5LUEVyRFFySWRjQQ?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "Reuters: China has deployed more than 100 ships for unannounced exercises in the western Pacific and near Taiwan - Бабель",
-   "source": "Бабель",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcE5jZVpVTWdLNlctS1VHVnNtUlNUQmJxUElrdzdRVk5RcnlJRzVxVkFadFlLZWZERDNVeHBQeF91SFI4WkVKLURLX3QyQmlHamp2YWZDNVVtaXJGRnNBOWRxOHBWZzRoRFdPMENGM21KQ2UxNkFDYmZlUzg3d0V6ZGRkM2RSaS1SMnc5TEhrZkt2VllvcjhRcHRoU2xSazdSclJEMXNuMlpSUHZtNGc1WUplSGFqeTh4VlBPVG1iM2Nsb2ppdXJhbGFrcjhob0oySGhKbnItZmdwYTlKeWpKZdIB4AFBVV95cUxOcE5jZVpVTWdLNlctS1VHVnNtUlNUQmJxUElrdzdRVk5RcnlJRzVxVkFadFlLZWZERDNVeHBQeF91SFI4WkVKLURLX3QyQmlHamp2YWZDNVVtaXJGRnNBOWRxOHBWZzRoRFdPMENGM21KQ2UxNkFDYmZlUzg3d0V6ZGRkM2RSaS1SMnc5TEhrZkt2VllvcjhRcHRoU2xSazdSclJEMXNuMlpSUHZtNGc1WUplSGFqeTh4VlBPVG1iM2Nsb2ppdXJhbGFrcjhob0oySGhKbnItZmdwYTlKeWpKZQ?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "China stages unannounced Pacific drills in intimidation of Taiwan - Honolulu Star-Advertiser",
-   "source": "Honolulu Star-Advertiser",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWtBUXE4Rk9Od25VazhrbnlMTXRqWTVLeGhISWIxa2dsT2dvRFZWbkppSVhIb243Z3dmTXpHbjJUQS1ESzRsbUpXX2F1UlZLLVRhcl9LMkZpdTE2UFZ4MXE4ZTdZXzk5cXM3QzI2djVqVzQtWGxkVUxGVGZ5Z29fbGZLWVJEaWJ5Wnl3NENMajZ1WHdnOWlOSUNrbTBhRnF5eEV4VGpxd2FPSUkxTEdCc3o2aDd2UjVFS0thT3Fsbw?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "Beginning Of Invasion? China Unleashes 100 Warships Around Taiwan After Xi's Blood Vow | Watch - The Times of India",
-   "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOWURHcHlGTy1CWUxJX0dZaVI2RFcwa0pPa2kxMU1DamwzUjM0QWNiVldaTVpTWkM2dU9xWjJPSVA5ZTdiUU5OVXc0elVvS3JVc3Y0Z09wNjZZS09qZ3dqS2ZLczZWMnYwNVBRSm5UWmNhM24yU0NMRm4zdXowYjIwWDh5U2xmNFRVSkl3WUo4Wl9zUk9jbUxIeDdienZ4SmtQYXRUb01oT2JaT0xQeHppaHFlaEthR0tmU09BR296OGhta2tVWjRIRWYtbHJCNlZjRjgzVEFMODN0alRwckwtZTRoRnlRTTZFc2E5T1NMNnZDcHpzT1VrVEtNQkw2S3Vw0gGGAkFVX3lxTFB5NE16SFJYXzJEbGowcTVWbVFsZnJrN2V6OHlkd0ZYd2dNY19FanFZaUU1QjBicEhzX25DQ1JFTi1wWnJIM1BHZ1pJQmdwelh1WmhMekxtNmhENGxMR0tKRmN0dk50TG5aSzBfSEVzSlBRbFE0aEpScUtTc1U1M3BtaFBSYUFXa2VDN0xLcHlTM016U2RxOEZQMVpPSGVJR3VMTnduel9UeENPX0VNalp5clE2aGEyekRiZkVUaTl5STNWbUx3TjV6bC1Idk5YTGM4SXVCM0p6UFJnMXJwZEhOaE1XR2pPVDctenI2TUZDMVNXY2IyYTRsRV9pd1ZFTmRCX3JZVGc?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "China staged unannounced Pacific drills with more than 100 vessels in 'silent intimidation' of Taiwan, officials say - The Insight International",
-   "source": "The Insight International",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3JYN1hDcS1zUklJWDNjV0FqcF9rRXo4dDY4ZDBJZnZqMVd3M3lEbGtMZGFvUVBxcEtLc2hYWVlSZ2FiZUlKYjhSeUZoM0hUSVI0ZldJWFh0T1dBTW5SVjZJLVFnRWYzZlc5bFFQWmxPdHFOdGpGVTFyWTAxWm93RGhzSENHVktKZ1czU0NqNkFaLUNVR2ZVRGkzSUJHYzk1Qzk2TXE1bU1nMWtudjlUQkpUUUIzdGx6?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "Infrastruktur: Hackerangriffe und Drohnen – wie sicher ist das Stromnetz? - WirtschaftsWoche",
-   "source": "WirtschaftsWoche",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMTZkTnZsQUl4VjRCN1NGNFJKeVlOZmkzMnVMV1pPNFc5N3BkTWNFREZQY3ZtM0lSNU1pLTk1cGROdk1BNTB2MlRVbk0tVGx3NWotYnNPRUdhM3JRNzhGVXZYck81VGFudUdiN2ZrUGx2TVZnV3FNdEluNnBqNHRjSDJXQU12WFJacU1oWWFJalVVaEFsUFl3NHJOZWdPY21lb2JpdnVoVzNWYVBmMnlWLVRrQXdiSk5QTG5SOTRzVHhIQQ?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "DE"
-   ]
-  },
-  {
-   "text": "Could China Blockade Taiwan? Naval Drills Raise Fears of a Wider Indo-Pacific Crisis - Modern Diplomacy",
-   "source": "Modern Diplomacy",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFlqMGlCU2ZLRnVQeHI1RFFRSFBWWnp0ZGowaWM0WW54Z0JlUXJneXhmdkdMUGloWXBRdG15YlYtRTN0aEhmNjhRMWlTRUUwdDVTc21neklfZm9BNXVlUDlfT0ZrZWNubVNDTklBTGdycUtVRFhZS1NwSjNZMm84VFNoUmUyYW9CekdyY0VaMDBsdzg0WTJzbDI2a3FDS25KQ2pFNW5lX09uTTlldVJkWWdpT1c2MnhxZHg4d3Bfaw?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "COMMENTARY: China's 'area denial' drills send message to Taiwan and well beyond - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcDRnTlVIbVBXb3R6SDV3d0pxS3YwZFJHWVRaNDFGcGJYNl9GNW11Y3Y1Rm81VlRTSlFKNFpPdkwwNy1hWFN2WHdoa2dTcFVkZzVpQTg2SkFON2ozekkycUpTR2E3cmdJaGliWlBwRTRrTUp4cWlVTTJrUWpEQ2N0RFhmU3ZXWG81czlLb2wwVkZWZElWMEc5VlRJNklWZnJpLUJV?oc=5",
    "level": "yellow",
    "why": "Taiwan Strait escalation or major exercise",
    "targets": [
@@ -480,8 +368,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-15T08:56+00:00",
- "sourcesChecked": 903,
+ "checkedAt": "2026-11-15T20:40+00:00",
+ "sourcesChecked": 895,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError"
