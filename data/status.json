@@ -1,16 +1,16 @@
 {
- "id": "2026-11-16",
- "date": "2026-11-16",
+ "id": "2026-11-17",
+ "date": "2026-11-17",
  "auto": true,
  "level": "yellow",
  "countries": {
   "US": "yellow",
-  "FR": "orange",
+  "FR": "yellow",
   "ES": "yellow",
+  "GB": "orange",
   "DE": "yellow",
-  "NL": "yellow",
-  "PT": "yellow",
-  "SE": "yellow",
+  "CH": "yellow",
+  "PT": "orange",
   "NO": "yellow",
   "JP": "yellow",
   "AU": "yellow",
@@ -19,14 +19,72 @@
   "KR": "yellow",
   "NZ": "yellow",
   "CA": "yellow",
-  "IT": "orange",
-  "BR": "orange",
-  "GB": "yellow"
+  "AR": "yellow"
  },
  "regions": {},
  "eu": "green",
  "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Microsoft explica \"apagão\" que derrubou o Outlook (não foi hacker) - Tecnoblog",
+   "source": "Tecnoblog",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMFVESXJjalhzLVc0N1VlcW93b20tLUJIdld1OU85Tld0UHpyNUtqWWJJUjZETXFSYWtHTm5ZS01MbDF1c1lCekJmcC1ETVk3WUpMWlFkYkpOaTEyYXpKLVNGci03TXFvWG4wNFJwWlFNLUMwU21EVjNqejZ5d0I1NDZMQzZQZnk5ZlFxNTJ4UmhYMGlab3YxLVFn?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "PT"
+   ]
+  },
+  {
+   "text": "Nationwide U.S. blackout rumor: What is known about the viral prediction - https://latination.com/",
+   "source": "https://latination.com/",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWlVDaTUxRGIxbFM1ZUVDUjZqWDFxQV9mMC1uTy1zRHREczE0aTNMcmVlNm90VW9UUXFFcVVUbmh5YkdUUzd6d0JUN2EwelRwZWg2QmpKZEhjVTR2UjhyVWRuaDdteGhKSjZ2WnlBUGNocEdscXMzbmVyRkVCZjVldV9B?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "US"
+   ]
+  },
+  {
+   "text": "National Grid forced to deny rumour of a nationwide power outage on November 19 - Metro.co.uk",
+   "source": "Metro.co.uk",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUllbzZrVUtKcnZSeTE1aTVsWWxZRXEtamR6Tld4cVRPUlN2XzRxbkhXUGlST0pXVlRwQWpaZFBHeElQNjc2WVY1dXVUQ2x5b0JaV1hPMkxXdl9QbWtkN1dhZTRLSTI2T2E2dUhUTWtreEV1M0lGSWpVZHVrVmMtYmxISFByWEZiM3hKM21DNnR4ZXhaMXlhVEg3Zy1YWGs0b2ozV0Z5ajllcTBDSDR3SNIBtgFBVV95cUxPM2wzcVpNQzc2dFNkZDlISFppQmNTN2NSNlA4dWpBMEhhV1JGYUxUbUlWb1JoYlh3Rk8xMkZkMzJCU090SmhMQURhemhkU2xvN1U2SmdvR3B3OHhtSlFzVUNJb2ZaQnNONTlhU0lGQnUxSGh3VGJPODFIcFV1NlNHWXVKcWZTMEViQmpXb3dLeV9kN2tHV1lncFNuX042X0lpTUx2Ti1mbTR2eW43bU14SUpmR2lqZw?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
+  {
+   "text": "Cabos submarinos e ataques hackers: o risco de um apagão da internet - Defesa em Foco",
+   "source": "Defesa em Foco",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc3k2NWxWSWpTZUtaUUVQZHBDc0tEZmtLZ0xHVTRBWFU1b09EQldSaWU5RHhUZlowVk5yQ2duSk9hNGZQWnVrVjlrbXVKX19xQXRpQlp2dFYxc2ttVWcyMGd0dnFEeF85b3prbkhZWi10X0gxdTNlNXdaZ3ZyVGFXMEk3UDJQcWxvN1htc0xXWXM?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "PT"
+   ]
+  },
+  {
+   "text": "Apagão mundial em 17 de novembro é boato sem base técnica e mistura teste dos EUA com ataques hackers - Mix Vale",
+   "source": "Mix Vale",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSG9LaGpoX3h5RHVFbGVHYkpJLThJcWdnNjBqNFh1UzFPT2xIY0lvd2JjeWdMeUpnTWdvdWdxWGFDeXJjU3VTTVVHWDVKVmM1bkprUWhxMjJIUXF3UkdTcGdNMnVjUVdrclZkSHBoQ2psQnVPTjlXdGFTSGVMWWVjUktKc09pMGdIb2d4MWNJNnllc0F3bzcyVGZjNFBsdHB1SU41OFlkTjY5YTFWRFU1eDN0ZEFsdy1VOUxCMXY1RTBMWWNVWl9GYnNZbkdISWx6QzVfczdrSQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "PT"
+   ]
+  },
+  {
+   "text": "Boato sobre apagão mundial mistura desinformação e riscos reais de ciberataques - 33 Giga",
+   "source": "33 Giga",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzZDltUVlkSEdYWEZwNEFSYTBORUx5aXR5MEhwT1JCa1RsZWxPZnJaNGFzOXVBbGJGQ3FUUnpiNzdIV0dzMmlUTE1QeHl3Tk9ab1JLSlZZUVJoVTZl?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "PT"
+   ]
+  },
   {
    "text": "¿Apagón eléctrico o ciberataque este martes 17 de noviembre? Ni una cosa ni la otra, es solo un bulo - Diario de Navarra",
    "source": "Diario de Navarra",
@@ -34,7 +92,7 @@
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "ES"
+    "AR"
    ]
   },
   {
@@ -48,79 +106,29 @@
    ]
   },
   {
-   "text": "Microsoft, servizi ripristinati dopo il blackout globale: \"Errore di rete, nessun attacco hacker\" - Agenzia Dire",
-   "source": "Agenzia Dire",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNDVFUkxSN1V4TENVZXEycDZTcjRPOVVKNkktSWdGMGVvZm9kMkR0UjdzSWk2R3BMNjFReGVOUmlMWk55QzVESWhLTlNUaG1OYnpQT1JBUGhhXzJFc3UxdmlJc1RLNmI5emtKeEtjb2hBc3dvc0dON04wcmVFakFfV3VoaEhBZVN2YzNMWUk3WnB1VnU2MnpCcnE1SjhheHJabFJaSXRTb3IxblotMWJidFZaSzhaNFNnZTNRdFREZTNpelo2LWFqWUJfenQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "DoE’s Liberty Eclipse tests utility incident response, IT-OT coordination and power grid recovery under live conditions - Industrial Cyber",
+   "source": "Industrial Cyber",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS3Y3blMwUkFMdzhZV015cE94NTB0WVk1aGJ3RkNPRHRBQ25Dc2ZPUmVNVTVoRW1TZFNEcW0tNWVQY0dXdjNMcTI5WnVzQjFJZ2hZVzloNGZvZm1EMXFueUxNTzVJQVZNb3RoUUlHSWl2clpfdzA4MmR0VkkyVTZDMl81d3NZVTRpUFRRcE9JTHRRZG9jX2VuLTM1V0dDcVFielJWVUp5OEViOFdQamlsTG84Um9hejJVMFYyM3NDalRFMDQtaXdaVG1rZW9BUk9RTllRMDh5a0dDc0lyTTRiNnFTbTE?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "IT"
+    "GB"
    ]
   },
   {
-   "text": "Governo dos EUA nega ataque hacker e atribui apagão aéreo a troca de cabos - Gazeta do Povo",
-   "source": "Gazeta do Povo",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53SzZTTGtRbkgySDVHVFQzOVZsSVlXVXItTU1XRjQ2WFhhYUZkOEx0SWtsNkxSa2tKMURGRFVLMmdmdzZVV0kzSXVhMkwtbEkzWFVFb2J5LWRIQ0NPYm5KOThMYU5kekZFdm9uYkNQV3lZdDBWT2dwOVNGWkZWRnc?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "KI-Hacker für 20 Dollar: Die nächste Gefahr für Europas Stromnetze - Report24",
+   "source": "Report24",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkYxcDctNkEyOFpxZmNQLUt0Z0lhQjVrbTNybmg4TUJnbnJacEVBcnlLT21DcEp0bmFCRk9hM21sTWNWNTNYUWtJZFFLcTdDR0FhTDk3bENMbWNsWF9CbkRLQmFiTl9xUEE0WjNGNXhDemN5ZlNrdHZCa0FfZ283NUNGQlNpbndJWW5hNVJNbHh4TkFIanc?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "BR"
-   ]
-  },
-  {
-   "text": "Após apagão aéreo nos EUA, governo norte-americano nega ataque cibernético e voos do Brasil começam a voltar ao normal - abc+",
-   "source": "abc+",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaFMxdjFCRVNyWXlhS2g0cmpGdjhCX2hBdXVVMGNVRVEzQklNOWxPTG93U0NHZTRMOGVOX3V0YUlFRjByeGp4a1hseXl3ZTRLTUU1OVlvTi1ic1BVcjdIdmU1S0pSRzAycFJlYWE3R3hnVHhHYm9rc1AzcmFRb29CU04xSTF3MW1TYXlRYlVTdE9QU3dEYk9CMUhhWVFMNmd6ck1pX0N3QnFwMkdpVUtPcUE4T2ZJUGtBa2w1WmE3R3BfTU9QSkZrNzB2ejB2Uks5VHVsWl9hTktSWEFkaWJOdExR?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "BR"
-   ]
-  },
-  {
-   "text": "Microsoft pede desculpas por apagão global e descarta culpa de IA ou hackers - Seletronic",
-   "source": "Seletronic",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOXo1czlvcGQ3dVB5ZlNUZGsxd29WME81WEtpRnZmS21WZjFDLU56OEVwNlVRQl84MzhVSk1xM0pQLVdBa1pLaks4b0h3SzB6cXpRZHdubTBJbnNPZGF1US1LWF9yUFkwX0Z4Nm1SdVpOUk9sN1RPem5XQ0pUZXN3MWN2ZEpMTHR1SUdkQ0NlX1M?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "PT"
-   ]
-  },
-  {
-   "text": "Faites très attention, car après la panne Outlook, Microsoft alerte sur les pirates qui en profitent - Clubic",
-   "source": "Clubic",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSnpyT2dYR0Vpc18yOFJVMXdiVlhRUEFHajVDTEhjTE9WNThyYjhRZ3ZhWkJUazZra2pyU1JqeDZRU25tUkNCUjVrVGlGeTg3bl85V202Yk5CUUpLdG93UUliMXJuM0dFN3JaREhFV3F5RzVvOF9xNU5hRzNING50VklKYjBWZWYwdjNzbXFVcGN3YjBsTzdFQWZjN2MxSmFRLXRMeVNKbjJrVU5kc3EzdFU4OHJQVGtfV0dlTHQ0c19yN3N2OERhR2FLZVUwWmVlUE5oSHBjRVh5VTA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Microsoft confirme la résolution de la panne mondiale et écarte une cyberattaque - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aZFVlQmJGcW1wOV80UXAyVWxKZDFqbkM4ZFdSYVIxbnNhUzBCdm96bE1iNThQUzBWd3JRVWdlU09kcGE2dXZhQUx6NXk2WUV3RVB0N0w4VWp2UmpVY0JMaDluZ0ZSTVN4d2ZVbmxoWQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Microsoft conferma la risoluzione del blackout globale ed esclude un attacco informatico - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lWWpZelhwQ2NtWTFlQ25kUEhCT2ktVk5zcnZwTmxlXzZhckVOM0JnYTl5emNjRl9lWFdLY2s5ZndxVGlScVBEOTZsYlgwM3ZNT09pVVYyUW1jMTlfWERsTEhkaHJXQ3l3OHlXV2owaWQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "IT"
+    "CH"
    ]
   },
   {
    "text": "Ex-US commander says regional defense buildup makes Taiwan invasion harder - Taiwan News",
    "source": "Taiwan News",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pTTNrVFMyMm9UYThzV1pCd1EwOERtM3dPU09vNXhxQjFwTHRHWDVBdmFLNU14UGEyMU9rT1ZBWjZxSVkyandBYnk4TlhGVFh6ZjFFQ3FnQks?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qS0NPeEhnTEJrNXA0SEV6Ums4WWlhUHB0SklSdHl1SENRcVFMSkcyckZhb2k4a2ViLW5ma1A3cWFqRUNKZ0RzX29sUTR2TVZuQ3ZFbw?oc=5",
    "level": "yellow",
    "why": "Taiwan Strait escalation or major exercise",
    "targets": [
@@ -136,7 +144,7 @@
   {
    "text": "Czech think tank simulates Chinese blockade of Taiwan - Taiwan News",
    "source": "Taiwan News",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jR1V6Wk5UZkEzdDJQa01sUWFKNUdKck02elU2RUowaTZiekJNb3k0c1VxUW0wZmlidGV6OFZ0MTVvb3lvbnFvc0hwLWpKei05Mi1EaWNvTU0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BTkt4UmY1ejBBZWhKUTNsNXJKbTFUNUVMNGpEMFJCbHVGNFlvc2N0VTVEcG1xTlAtUGpYdldaVmVhX2JYZmhPVU5wX0NPdFhfUXJPeg?oc=5",
    "level": "yellow",
    "why": "Taiwan Strait escalation or major exercise",
    "targets": [
@@ -196,7 +204,7 @@
    "level": "yellow",
    "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "US"
+    "GB"
    ]
   },
   {
@@ -207,26 +215,6 @@
    "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
     "DE"
-   ]
-  },
-  {
-   "text": "Van supermarktkoelkasten tot het elektriciteitsnet: wanneer cyberaanvallen de economische veiligheid bedreigen. - Vietnam.vn",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQmJaSkx2a1N3dDYtY2JYNkhTRWY2blBNZW4wNndvY2FUTEhmMC15UlMyUzlibUVrRUFTc19XVW5iMEhZZTFfSUlwNk0xdm1OYXJCZjgyVHlCQkJZRDloa2pXWHdJd2Q3OWNuNXkzWEduaUdBa2tvSzYtQ0xNakIwSFVPQy1JRjcwTExlYmxCYmpvYXRjMExkZ1p6Rnc4RXZaNWc?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "NL"
-   ]
-  },
-  {
-   "text": "Från kylskåp i snabbköp till elnätet: När cyberattacker hotar den ekonomiska säkerheten. - Vietnam.vn",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTVpPTVdXMk0zTFBNcWw2TzVBcG1LYTJoVFhsQnVZUGdHV3hVNXhVa1o5STBOQ2hJX0Q5WnlibU1fdzltVW1TQ2NNNDhLLVMzbUNCVkhENkxRN2diY1pBQ01uYUVLblZOMW5QZjBwTFY2M0tlTDVxNkRJU2pfSmVORThOS0Zad1ZUX1NjUlkwcjVnR19FZXA4c19zaDhuaUlQTFE?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "SE"
    ]
   },
   {
@@ -306,10 +294,22 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-16T10:16+00:00",
- "sourcesChecked": 908,
+ "checkedAt": "2026-11-16T20:52+00:00",
+ "sourcesChecked": 845,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError"
+  "ASD's ACSC advisories: TimeoutError",
+  "News US: HTTPError",
+  "News PH: HTTPError",
+  "News AT: HTTPError",
+  "News BE: HTTPError",
+  "News NL: HTTPError",
+  "News ES: HTTPError",
+  "News PL: HTTPError",
+  "News SE: HTTPError",
+  "News FI: HTTPError",
+  "News KR: HTTPError",
+  "News MX: HTTPError",
+  "News IL: HTTPError"
  ]
 }

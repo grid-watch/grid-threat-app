@@ -1,5 +1,320 @@
 [
  {
+  "id": "2026-11-17",
+  "date": "2026-11-17",
+  "auto": true,
+  "level": "yellow",
+  "countries": {
+   "US": "yellow",
+   "FR": "yellow",
+   "ES": "yellow",
+   "GB": "orange",
+   "DE": "yellow",
+   "CH": "yellow",
+   "PT": "orange",
+   "NO": "yellow",
+   "JP": "yellow",
+   "AU": "yellow",
+   "TW": "yellow",
+   "PH": "yellow",
+   "KR": "yellow",
+   "NZ": "yellow",
+   "CA": "yellow",
+   "AR": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Reported cyber disruption of the power grid",
+  "items": [
+   {
+    "text": "Microsoft explica \"apagão\" que derrubou o Outlook (não foi hacker) - Tecnoblog",
+    "source": "Tecnoblog",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMFVESXJjalhzLVc0N1VlcW93b20tLUJIdld1OU85Tld0UHpyNUtqWWJJUjZETXFSYWtHTm5ZS01MbDF1c1lCekJmcC1ETVk3WUpMWlFkYkpOaTEyYXpKLVNGci03TXFvWG4wNFJwWlFNLUMwU21EVjNqejZ5d0I1NDZMQzZQZnk5ZlFxNTJ4UmhYMGlab3YxLVFn?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "Nationwide U.S. blackout rumor: What is known about the viral prediction - https://latination.com/",
+    "source": "https://latination.com/",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWlVDaTUxRGIxbFM1ZUVDUjZqWDFxQV9mMC1uTy1zRHREczE0aTNMcmVlNm90VW9UUXFFcVVUbmh5YkdUUzd6d0JUN2EwelRwZWg2QmpKZEhjVTR2UjhyVWRuaDdteGhKSjZ2WnlBUGNocEdscXMzbmVyRkVCZjVldV9B?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "National Grid forced to deny rumour of a nationwide power outage on November 19 - Metro.co.uk",
+    "source": "Metro.co.uk",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUllbzZrVUtKcnZSeTE1aTVsWWxZRXEtamR6Tld4cVRPUlN2XzRxbkhXUGlST0pXVlRwQWpaZFBHeElQNjc2WVY1dXVUQ2x5b0JaV1hPMkxXdl9QbWtkN1dhZTRLSTI2T2E2dUhUTWtreEV1M0lGSWpVZHVrVmMtYmxISFByWEZiM3hKM21DNnR4ZXhaMXlhVEg3Zy1YWGs0b2ozV0Z5ajllcTBDSDR3SNIBtgFBVV95cUxPM2wzcVpNQzc2dFNkZDlISFppQmNTN2NSNlA4dWpBMEhhV1JGYUxUbUlWb1JoYlh3Rk8xMkZkMzJCU090SmhMQURhemhkU2xvN1U2SmdvR3B3OHhtSlFzVUNJb2ZaQnNONTlhU0lGQnUxSGh3VGJPODFIcFV1NlNHWXVKcWZTMEViQmpXb3dLeV9kN2tHV1lncFNuX042X0lpTUx2Ti1mbTR2eW43bU14SUpmR2lqZw?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Cabos submarinos e ataques hackers: o risco de um apagão da internet - Defesa em Foco",
+    "source": "Defesa em Foco",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc3k2NWxWSWpTZUtaUUVQZHBDc0tEZmtLZ0xHVTRBWFU1b09EQldSaWU5RHhUZlowVk5yQ2duSk9hNGZQWnVrVjlrbXVKX19xQXRpQlp2dFYxc2ttVWcyMGd0dnFEeF85b3prbkhZWi10X0gxdTNlNXdaZ3ZyVGFXMEk3UDJQcWxvN1htc0xXWXM?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "Apagão mundial em 17 de novembro é boato sem base técnica e mistura teste dos EUA com ataques hackers - Mix Vale",
+    "source": "Mix Vale",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSG9LaGpoX3h5RHVFbGVHYkpJLThJcWdnNjBqNFh1UzFPT2xIY0lvd2JjeWdMeUpnTWdvdWdxWGFDeXJjU3VTTVVHWDVKVmM1bkprUWhxMjJIUXF3UkdTcGdNMnVjUVdrclZkSHBoQ2psQnVPTjlXdGFTSGVMWWVjUktKc09pMGdIb2d4MWNJNnllc0F3bzcyVGZjNFBsdHB1SU41OFlkTjY5YTFWRFU1eDN0ZEFsdy1VOUxCMXY1RTBMWWNVWl9GYnNZbkdISWx6QzVfczdrSQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "Boato sobre apagão mundial mistura desinformação e riscos reais de ciberataques - 33 Giga",
+    "source": "33 Giga",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzZDltUVlkSEdYWEZwNEFSYTBORUx5aXR5MEhwT1JCa1RsZWxPZnJaNGFzOXVBbGJGQ3FUUnpiNzdIV0dzMmlUTE1QeHl3Tk9ab1JLSlZZUVJoVTZl?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "¿Apagón eléctrico o ciberataque este martes 17 de noviembre? Ni una cosa ni la otra, es solo un bulo - Diario de Navarra",
+    "source": "Diario de Navarra",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT0xBZVFvXzUyS283S21XM2ptOE5ucjV3RFNQYy1Vdl9KbVBDcTVEVU03TWROeXRsbFZscUZQMGRZOXNtSDJjeWZBdW82WmRvUXN1b29BOUdMaENmV29abXVJenB3QTJ4RV9IZDBoRzlHTzhFdmE2MjEwb05GaDBCRlZPd1FLSjB5eDc4TzVsVHVhR0o1Q1JYWXpWci1OcnFsNmRDVzBacm11ZnBvRVFHRmdoMU40ejZDRF91SF93LUxNVkxaVUc3aVBrbFpwN0o3SFR0a0N0NlhpVTg?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "AR"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "DoE’s Liberty Eclipse tests utility incident response, IT-OT coordination and power grid recovery under live conditions - Industrial Cyber",
+    "source": "Industrial Cyber",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS3Y3blMwUkFMdzhZV015cE94NTB0WVk1aGJ3RkNPRHRBQ25Dc2ZPUmVNVTVoRW1TZFNEcW0tNWVQY0dXdjNMcTI5WnVzQjFJZ2hZVzloNGZvZm1EMXFueUxNTzVJQVZNb3RoUUlHSWl2clpfdzA4MmR0VkkyVTZDMl81d3NZVTRpUFRRcE9JTHRRZG9jX2VuLTM1V0dDcVFielJWVUp5OEViOFdQamlsTG84Um9hejJVMFYyM3NDalRFMDQtaXdaVG1rZW9BUk9RTllRMDh5a0dDc0lyTTRiNnFTbTE?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "KI-Hacker für 20 Dollar: Die nächste Gefahr für Europas Stromnetze - Report24",
+    "source": "Report24",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkYxcDctNkEyOFpxZmNQLUt0Z0lhQjVrbTNybmg4TUJnbnJacEVBcnlLT21DcEp0bmFCRk9hM21sTWNWNTNYUWtJZFFLcTdDR0FhTDk3bENMbWNsWF9CbkRLQmFiTl9xUEE0WjNGNXhDemN5ZlNrdHZCa0FfZ283NUNGQlNpbndJWW5hNVJNbHh4TkFIanc?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "CH"
+    ]
+   },
+   {
+    "text": "Ex-US commander says regional defense buildup makes Taiwan invasion harder - Taiwan News",
+    "source": "Taiwan News",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qS0NPeEhnTEJrNXA0SEV6Ums4WWlhUHB0SklSdHl1SENRcVFMSkcyckZhb2k4a2ViLW5ma1A3cWFqRUNKZ0RzX29sUTR2TVZuQ3ZFbw?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Czech think tank simulates Chinese blockade of Taiwan - Taiwan News",
+    "source": "Taiwan News",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BTkt4UmY1ejBBZWhKUTNsNXJKbTFUNUVMNGpEMFJCbHVGNFlvc2N0VTVEcG1xTlAtUGpYdldaVmVhX2JYZmhPVU5wX0NPdFhfUXJPeg?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Canada Bill C-22 Could Force Apps to Build Intercept Tools: Senate to Hear Signal, Meta Monday - Tech Times",
+    "source": "Tech Times",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYjZNZGZ0ZjZiOEUwYklRQmlKNjlaUVZyMFFYdE91akxERHhsREYzRUZXd3NGemFrWVdUOG0xdGJPV1NGaEo0anVHNlNNVUM3dFhYTTc3ZTVCMk1nV29QalJzdGdLcl9Db2ZSU200emFBSE5pNHV4dG5IN2ZOSk1tMkczTmVYT2s0akdKM3RqZmJ3cTJkcDFjbjBRaW0zN3JNQU1icm1PazY2MlNvYWtFVHo4MjZiLUw0RmVBMmFqMWxNT1Y5VGo3N2FjYUJEWUUyOUV0RXpYNE4?oc=5",
+    "level": "yellow",
+    "why": "State hacking group linked to infrastructure in this country",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Fra kjøleskap i supermarkeder til strømnettet: Når cyberangrep truer økonomisk sikkerhet. - Vietnam.vn",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONl9wRTE5cEF2TEktWUQ0dzBlMzRZQ1hYRkFrd1RIbm9ZcTFDeHRQdzlKTDlQVzVnQXdCcy1NRkxYRXlMQ25uUFNId21ya2pUNEp4eFRCX0J4bHp3NW9STHFGbHBMQW0tRHV1OG9UcVBEb2NxMnFwei1BWHZNbV9nY2pvRmYyU0ZhaC1vNzdLSnpuTFNmZWxYN2p2cFZZQ2NMSFE?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "NO"
+    ]
+   },
+   {
+    "text": "Dos refrigeradores dos supermercados à rede elétrica: quando os ciberataques ameaçam a segurança econômica. - Vietnam.vn",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZENZNUNURkhxU2Y3WXlKQVJoN21VWXFmeFdnVTVxc0dzZDdlandjc2g0dF9VbmdVakdKdEhzWEctSGtINERLcktCcnNWaFctY3FVaVlFQkl6b2lueVR5ZkpGU0RCUFNPYzVZdll0S0ltTm96dV9TSDU4aDNPQUl6Vy1aYzA3TFBDcUk2ZUo4bHdNMkpXb0ZBQi16d2IySTN6Wmc?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "スーパーマーケットの冷蔵庫から電力網まで：サイバー攻撃が経済安全保障を脅かす時。 - Vietnam.vn",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY20tU245SGdLNzdIbWZuTnFVZmo2amNRa2czdlpzck83QzEyTjVHaWdkamFVb242cGpidzcyWk9WbUR1NldxcmFnaUs3Wm1CM0hqV1FmZHQ3NEl4Ql9ndE5OOU1LT2stNTZxVXRIWFZQVXRKN2RsMTZZVThQZ3FxcklQd0t5YVdzUE5oX3J5RHM0MWVWMks5ckFnQW9IOTZWSmc?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "JP"
+    ]
+   },
+   {
+    "text": "From supermarket refrigerators to the power grid: When cyberattacks threaten economic security. - Vietnam.vn",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTTBnWERLUEJaTVhXMnlWRGltZ0I5WmV0N1J1ZkxBa1pKR3Y4bnJzM1VmaFJYaWk0cXZQNWhXZDMxTXl3NG9POFVab2I2WGx6SHE2Z0VDcTl4QmFESGh1RzBpU3EyNkhTWjFzSGZiTGx5MG5DY1dRcThkQ1RZblZIWUxEOUxsVEQ0cUdERmVoN05fbDR4TFduaUJvcE1mQzJscUE?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Von Supermarktkühlschränken bis zum Stromnetz: Wenn Cyberangriffe die wirtschaftliche Sicherheit bedrohen. - Vietnam.vn",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVNwelp3UmRfeHh1eG5WVWgzcVZvdi1RUzQ1WlBWaVVFckpEdXZ6OWNPTGdnYU1jaVdlak9rSFUzN18xeEtCQ1lIdXQ3X2NwRHVQTzhHV295STdTUlMzSmVjazlZeGZRam9yOGVGb1VxckIwaGh5aWU5YWM4eGpFVHBxNVJXdzZjTjhQanJZaVZXRXVOb1k2TkNSamtwNV8wT2c?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Siemens Building Automation and Energy Products",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Helmholz",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-helmholz-3",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de MB connect line",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-mb-connect-line-4",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de memoria tras su liberación en OPTIMAX de ABB",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-tras-su-liberacion-en-optimax-de-abb",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de B&R",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-br-1",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Boletín de seguridad de Siemens de noviembre de 2026",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/boletin-de-seguridad-de-siemens-de-noviembre-de-2026",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
+    "source": "CERT-FR SCADA",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
+    "level": "yellow",
+    "why": "CERT-FR SCADA: critical infrastructure advisory",
+    "targets": [
+     "FR"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-16T20:52+00:00",
+  "sourcesChecked": 845,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError",
+   "News US: HTTPError",
+   "News PH: HTTPError",
+   "News AT: HTTPError",
+   "News BE: HTTPError",
+   "News NL: HTTPError",
+   "News ES: HTTPError",
+   "News PL: HTTPError",
+   "News SE: HTTPError",
+   "News FI: HTTPError",
+   "News KR: HTTPError",
+   "News MX: HTTPError",
+   "News IL: HTTPError"
+  ]
+ },
+ {
   "id": "2026-11-16",
   "date": "2026-11-16",
   "auto": true,
