@@ -5,18 +5,17 @@
   "auto": true,
   "level": "yellow",
   "countries": {
-   "US": "orange",
+   "US": "yellow",
    "NL": "yellow",
    "ES": "orange",
    "AU": "orange",
    "BE": "yellow",
-   "IN": "yellow",
+   "GB": "yellow",
    "DE": "yellow",
    "FR": "orange",
-   "CL": "orange",
+   "CL": "yellow",
    "PT": "orange",
-   "IT": "orange",
-   "GB": "yellow"
+   "IT": "yellow"
   },
   "regions": {},
   "eu": "green",
@@ -53,16 +52,6 @@
     ]
    },
    {
-    "text": "¿Otro ciberataque y apagón mundial? Alertan por grave falla en Java - El Observatodo",
-    "source": "El Observatodo",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSHdjZ0RxaV8zNHBXN08wbmZmTTJJQUoxVGJLS0pOTVAzTHpnRFpURGVxMHpobWhqRnZ1T3NiVnZVYUEzOVVRbEtianNreUpVLW9TMDBQOERfR0l4MVJ4eXdsMHd2RkJjc29NLXhlRW1zN0UxTmQ4SXVKeTh2dGJic21IckVZVGREak4wZTlsTmtkSTlWOTVYbmdnYk5vc3AxX29zOHZ3ZGdSaUJ0MHNv?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "CL"
-    ]
-   },
-   {
     "text": "Blackout e cyber attacchi, che cosa sta succedendo? Le paure apocalittiche del «bugmageddon» e le tre ipotesi - Corriere della Sera",
     "source": "Corriere della Sera",
     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQNUt1Vzg5czVmSDIxZXRWeXlrWndUNXN1bThaeGpCaEg1amJQbTRjZ2tnc2FNUVNicmRBdkdIVWRpZVdPY2NNVWZGSFB4SFhpVGpLV1hvVnN1V2JjR0syRE9jckRYajdUQjdoTG1RbWJBbXVYRTdkdTc2ZjlhX1k3TTcxa0xFb1dhRE9takRCeVRSNVdWUUo3M1lfNEphZ2JDa3J1OER0YkQ4WFlyR0czY0d2QVBXblliR0xiQ2cwTmk5LXNfT00zREY4MzdEOU9kb1dpbFJrTWJNaDMwYVpEWnhTTkNxZzlHNkFOa1JsS3EzWmRINkozNndoX3JZSWliRHhPd3poNzRtRHFlQzNobGJnMUd0R0tXVTU4UFJJNENiNnJPTGfSAasCQVVfeXFMT1lJc3lYLU9PanRuR2plc25MTm1YUXlQbHpYc00waHc3TjBEUHhuRmtybkVoNUJXSDdmUTREU3ZPNG1pOTJLVUdFTVlfSEw5WXFNYThIUVUwbUhRdGdvaTZlVGtvWl9hQVhqWk1tSy1wSW5XTTI5U3RDWU04UGJfOTA0ZGlEMFdENU0xLTRaZ210SjB1dGVfdXFjd0tXaUVxUmlEMzF6NTh5d25ueEZHRzFNME5ycmJkdVI4aTdOX1BDNXFJZHoyZktSZkI5V0M1WVR5UUZqMndCTzhTV0JGMXFsOGRVOU5YNVZpaHpnYTl4LXQ0Q0hKRXEwY2ZMcUNBcE95MlNNaUpERHoxQV9WQkE5YUlSdUhuLXhzbERZU3BNZGdQUmVuX25CaGs?oc=5",
@@ -76,6 +65,16 @@
     "text": "Boato de ‘apagão mundial’ e onda de ataques hackers: o que aconteceu no mundo nas últimas semanas - Colatina em Ação",
     "source": "Colatina em Ação",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcEE2Qk9ZMDZUQnRUYW9YQjlBcVZtUTZwXzZnZGxsajJQTlhTQm9YbF9VWVhURTlhWjYwVzZHX0NfS1FEZkthMU1mbnFNUk1FZDNSbTUzcDlGRkpPckxuX0I2WmxMMDZoV19NSzh4em9GWGdpMjdZRmsyNmROSlB5aEZWSmEzdXNIX1h5X3UtY1oteGN0R3NhLVhpVDBMVjF4aWg5SktSTGtDSTlqXzNpQS1XbFZaZlhfdHNjYmIwYUtpanhkTmhvOUl6dFJIbk1Oenc?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "PT"
+    ]
+   },
+   {
+    "text": "Boato de apagão mundial não se confirma, mas falhas e ataques hackers atingem sistemas em vários países - Portal do Zacarias",
+    "source": "Portal do Zacarias",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUnE0Y0V1UTk0REF3bUpWZmU1XzRYVEVkaFZ4WnptMVNnNWQ3Y2NZeklnR3ZMWWctdUx4ckM2UlN1a2xaSG15WkxEcmlpc01YLWlLN1ltcUFwcXlkS2N1ckFRNElDREV2QjdsQWRUZmVJNm9PMXlaWXFQeEpxQlhKNExYV1JUNHhZalBoM29qcEpZUFJYLS1SMDZScVJ3WTJOSE41UUhxTE5ZeWw4b19BT2laSUYySHhzTVAya0xmWDVkdVJqVGdyUlVPOVdWVVJWcmVMajQ4QnVENzdaQ1FMSmp3WQ?oc=5",
     "level": "orange",
     "why": "Reported cyber disruption of the power grid",
     "targets": [
@@ -103,6 +102,16 @@
     ]
    },
    {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
     "text": "Le réseau d'Apple est tombé en panne : cyberattaque ou mise à jour qui a mal tourné ? - Selectra",
     "source": "Selectra",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNTlkZ19BU2FWRWFRR2x3Um01SnRUTWlQVE5GcHNCRzBNT251Nmxsck9jT0ZlMWZ2OFI0X0syM01qZGxMSUxGdlEzSjhtTlBVdHpMVF9CMG5VUVRNTHRtcUIzTlc0di1wbDlCNFZaNVhzbFZidkJ5UkdoVk8yc2I4LXdIQkV1a1VCNVp6QkpzWmJ6RFlyaDdfVw?oc=5",
@@ -123,16 +132,6 @@
     ]
    },
    {
-    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-    "source": "Herald.Wales",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-    "level": "orange",
-    "why": "Widespread blackout reported",
-    "targets": [
-     "GB"
-    ]
-   },
-   {
     "text": "¿“Ciberataque mundial”? A qué hora sería el supuesto “apagón” de hoy en Chile - El Quehaydecierto",
     "source": "El Quehaydecierto",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQnAyYkNwRTU4bUU1b0ZKSXJGV1RzMExFYmFUUUdrRUxhbXJZajBhTGRSZ3NWR1VGbFdEV3VWd2hLOWpERnl3RGwyd2x0RDhLUHY5RlVCTXdlYjV4VEc2WFA1cURKWVFwTEs1T2V2ZjEyYU5VVVlzRmNEei1hZjZVVnpTekY1Wk5KME90WWRERVltRzNoQlg1Q1VCWWlSSS1tdW5CbjEzTGdnZjJzMnZlRU5pOXpiR09T?oc=5",
@@ -143,69 +142,9 @@
     ]
    },
    {
-    "text": "Panne Apple mondiale : une mise à jour interne en cause, pas de cyberattaque - iPhoneSoft",
-    "source": "iPhoneSoft",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNzUzZ25WdERYaWttWlJ4UnlLSDdxMVlvREtrdnc4Z1lXbWJGLVdWNXQ3QXZtVHF4NWc4NVZNYnFXQ0VnOTRWUXhxS1Z5aFFxVnNDUHhyYmI4dGJzcFA1cnVOQ0VwSnV4U3RBbS1GS1ZiOE80TTlwejFzV3JsZWtmd2NwNG92czBIOXBVZHR0aUNOR29uVHBEaGpB?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "FR"
-    ]
-   },
-   {
-    "text": "FEMA emergency alert Tuesday: No blackout, cyberattack or action required - Greenwich Time",
-    "source": "Greenwich Time",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSTEtcGU3dVQ5OTMzQlV0Sjgxa09oX05iM0Zvd2xHSzRQYjVyZXA3cWVRdWQyU1VNRy14c1Y5SWIxVFk2YlplVU1QZDFCVU1GaURDUERuN015ajBxTjF1N0djeVpLZE1hanFoNElVVnFLMUVvSzJ0NG9kb29JTEF6STc1eHVmdDZpWGp5ZlJtT0puZDhKMWE1TVZOeFNRTkhpYk1hYg?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "US"
-    ]
-   },
-   {
-    "text": "[MàJ] Microsoft, Apple, NSA : pas besoin de cyberattaque pour tout mettre en panne - next.ink",
-    "source": "next.ink",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdzc2angwTVc2M1VEU084MDNSV0pEV2FBR0htaWlYWVhramJfWllHZmt6SFJqb3NMQXhpRmZHei1lSDE2RHJCZzQxVHhYd3NoaTBidjhXckp3b3JMMlg3SThWeTBnaEdtM1A1RXl5dW10T1lhRG9wdEFUUjJGdkNkbU51X2ZyUmxQdGF4NEpfZnhKSm56MEJLYkxzczhzUQ?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "FR"
-    ]
-   },
-   {
-    "text": "Apple, svelate le cause del blackout: nessun attacco hacker. Ma scatta l'allarme rosso sulla sicurezza digitale - Affaritaliani",
-    "source": "Affaritaliani",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOT1dfWkNGNHhOU2JmSkpnVjN6MjZtTW50bHFRTkVHQkwtdmM5MHZ4NlBNQTlBNzF6OTZaNkFMcDF5UzZHaWt6X3JNbHZUb2E2UjN5WWQyVUdVOVMwQmphcmlYX2g1MUtmVlRiMlZmdmhTX0o4M2RfS04xUEZNQnpENkZxeWJNX2NsZS1tc19sNGUwVzdIV1BMSVZ1YkVOZFZHN2w2OWxMZjhGSWZQZTdQc3lROFZLMXpSN3FYVTUzcUVCZlRINmxRWWhtMFlXMjk1VElyczZoMnItVHVaNWtjZm5uMXJzTUtk?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "IT"
-    ]
-   },
-   {
-    "text": "Blackout informatici a raffica negli Usa, il giallo dei disservizi: Rubio: «Nessuna prova di attacchi hacker - Giornale di Sicilia",
-    "source": "Giornale di Sicilia",
-    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPcEJ4V0JHTWpjRk9NTHQycVplN29ZZ3ZQX243NE9OOXBmX3lEczkza0dyME1DM3p6Yk43eENpUEVUWVVyY1p3TFJVc0tVRVNkWlZDM0xRV0FkVWFhM3pzcmUxTHNMUjRQMllXd2pRQmVoSEJiclNUY3kyeDZpdkJ2VzBNTUNBUmlNWmk2Z01zUUUzSE1xNXQwSEQ4UGktV1dXb0gzQkh4cU1SZklua0FZWFQzcHFEZ1lOTnZ4YV9iMURERkJLVUZQdjV5bnRtVkpkRm5Yc29Wbmwxbk1DZGJlUFo1LVAycmhZVVJQbjFqQlZkazdzNi1lSW5hQ3FNQk9LZjhrdFdlM1ZOVjJyMlhMVg?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "US"
-    ]
-   },
-   {
-    "text": "Mamdani Stumbles & Grins; NYC Mayor Put On The Spot Over Cyber Nightmare & Blackout Fears - The Times of India",
-    "source": "The Times of India",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUUNrd2pJeEFERGNsSjVEYl9VTjBpX21pMEF0RE50d0VDbmhucFVrSjU0TFpKdEVVbmpsSEx6X3ZtellkVHRjWV9Mc1RGdG1KODFIRVRMLTBEX1RSczVzdTRzdnZKOERudXR6Rk5vcnFfT1FuS0RCeGNJWEVqb2lhSkgzdkFJa0dCd0Y5UERSUEs4Nl9tV2FMdlJudFVkRnVma2RnUEViQU1PWnYyRkl4bjMwa2dMZ3g5N2JRa0w3R1Zwa3ZoUEc0OFhJOUhlbDF3amJEbzFOZmFlQ01fOUc4VlRrVXVkTmYtNTZwbDhmb0pKT0JoLU5IadIB_gFBVV95cUxQSTdKUTZ2NmJBZXJ0V0RNeFFUbzB3a0dBanYybDJremVwYlBCUkZtYlEwd0Jua2tEVHhORGFuSndrRnN6dlJ5ekZCbmFSM3A5X0dJS2M4RXJjeFhJODJwTHJIaWVkdTNVZHJqNGRUZjFjbENLQVU2MklmZ2dQWmkzbW5wb2pJN3lhLThKemdfNXNaSWpfSlU5c0ZxbF93elZPWXR6WjRxYzdjblNCQy05bjY2YXk3UkxRTk9QVFR0YzBxQndjd1JuUDZkNU9JQnNEbkY0Y2xPZ3plRVY5c0RfLV9WZ2R6bEtUUDdUWkRuc29Ld0Jqd1g0V2VKeklfUQ?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "IN"
-    ]
-   },
-   {
-    "text": "Sem 'apagão mundial', dia 17 tem falha na segurança nacional dos EUA e ataque hacker contra quase 200 sites - G1",
-    "source": "G1",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTzdrX2hsZnZOQVNwSm1OLUprTl9UR1BxLVhOX21ZM0F6Zm95Q2pYMUtoZFZvby1NMjBIaTBrTEFWMnJwc3RsUnBBNnlueUJWVXhBc1RNN1l1TWItTG0xc3JacUNRekdDaGVuSWIxd1lJRFRMdTkzemJiMW5ySktNa0pxVE9jc205Rzl0NXJydGotMmNvamZCbHUyOXFUR2puWUdpQlhDV0N2dzVZS1Q3bFB0UnBTR2RGSW5zLdIBywFBVV95cUxNT09idHBfOFM0TTJjWjdzTEVDNkxwM3QwQmw5ejV2RllCQWI2blpXVkNBb3F2U3U0cWpTNzFuYURFZ1FsdWJYYkE4RnRuOG1KNkdhSFRlTTlJVU5maVl6MnV5VThkSXBuVEVuNlZhWUhhN2RaRjRNVXY1YVdqcnlSZ0RId3VtVHd5UnNWXzVBcVFuNTY5RjVJdTAwenhDWmhxRVRLNW5VbnFwYjFHcG55YUhmMFZDUU1vajBLNE9pRUJkRlRtcWp6LVQ5cw?oc=5",
+    "text": "Sem 'apagão mundial', dia 17 tem falha na segurança nacional dos EUA e ataque hacker contra quase 200 sites - Blog do Erbi",
+    "source": "Blog do Erbi",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA0ZWJ6MGo1WHNOZ3B3WUZuZ1JmODJiRk5wZHJqN2V3ZnJfYnFpRFFUSkp1eHgtZ0htUXMyd0RHNkhJekJITjFzdW5R?oc=5",
     "level": "orange",
     "why": "Reported cyber disruption of the power grid",
     "targets": [
@@ -213,33 +152,13 @@
     ]
    },
    {
-    "text": "Sem 'apagão mundial', dia 17 tem nova falha nos EUA e ataque hacker - avozdocampo.com",
-    "source": "avozdocampo.com",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUhuMVhUbGZ1N1lJWHh1UmZxRDJBLXV2YlVYWWlCNk9BOTV4TWoyQjZMZ2NvY1NfU3dfbVYxSjR1bUdkTXFNMk9ITmVlMTVYVmw1U1RnUEtYSHNuTC1oUW5ONmNLVk5YVGxhZ3Vzc1ZyZThRV0U0VnN1aVNYcXM2cVlWSmJWeldhU1lMWm9NMm5YTzI5dXVpNGVXNA?oc=5",
+    "text": "Apple explique sa panne mondiale : une mise à jour interne en cause, pas une cyberattaque - World Is Small",
+    "source": "World Is Small",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaWlVM093YVVfaERPaEZZcnhGYUtJU2pDa0FaanZSRndEd0tNanBYLWFOSUdtaE5OTXQ4YlpIYXFhemNaN1JuRjFZU2Z5UDJuUGhRVkRFLVlVVE1NRXVZa0tRb1ZYXzFmb0Mzd294R2Nnc1ZuSG9JNkxybTFEVFZ4YzJXUE9ZeWZKa0pMQTdLaDVuZmtGcFRaRmdkMFVNNEFRRnhlWDZESi1hdnRNNnk5cEtwNTcybFRoYUdFVzhCSQ?oc=5",
     "level": "orange",
     "why": "Reported cyber disruption of the power grid",
     "targets": [
-     "PT"
-    ]
-   },
-   {
-    "text": "¿Ciberataque, apagón o error técnico?: Expertos explican qué hay detrás de la cadena de fallas tecnológicas en EEUU - Univision",
-    "source": "Univision",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUkFFdEdTeDVhSXI2dXFlZEV5MmVJM3hYSGsta0FwdWNxdTB0STBIZGRWT1NqeTg4bVpDaW9qWDJESHdMQzhMRjExSWx0U09iNE5tTzM0TjU2d2ZTbzNaTDRENnVIemhOMXRJMXJrajBmeHlYYXR5bjRGUll5Uzk5UmtjbjhULW5QNEFHZUdIaFliOEtTWm5fbXlvV2owdXBmcHJBRkdlSTBWcVRsWHBPS01MRmRjLTZROGROaVlCXzBBSW53dm9fb21YMFBrOWlxMkVVcDZacWs0blg3QV9vN3F6SUI1QQ?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "ES"
-    ]
-   },
-   {
-    "text": "Can the U.S. power grid be hacked? Cyber attack, blackout risk - Delawareonline.com",
-    "source": "Delawareonline.com",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxTHJmczZHNmw2elJpdURDYmVnc3ltczlKUHRkYUloWmtSQTJONGZBZUQ0akZycmNyQUpWem9kX2c2dVRNT3cyaW5ZRHFtX1RHME9ZaURpVVpodEt6ejF2X1M1YmVhQQ?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "US"
+     "FR"
     ]
    },
    {
@@ -250,6 +169,16 @@
     "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
     "targets": [
      "AU"
+    ]
+   },
+   {
+    "text": "US was warned of telecom security risks years before Salt Typhoon - AOL.co.uk",
+    "source": "AOL.co.uk",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFZTVENGVlJYeWdfMHNicXVTTlhUdnpEV0loZGxURkZTOV82S0FOcFgtZUlhLXFwc2ZQZUFkSVBHRktSY0RqRTBWY0Q3cm9YbFNsWkUtM2ppX2xwdV9HSXFiOFZ6cnRrMWVkc0h4Z1M4ekVQRFJwdHYza2ZtUnBUYURsZnQ?oc=5",
+    "level": "yellow",
+    "why": "State hacking group linked to infrastructure in this country",
+    "targets": [
+     "GB"
     ]
    },
    {
@@ -323,16 +252,6 @@
     ]
    },
    {
-    "text": "UNLV cybersecurity expert warns of power grid vulnerability in Las Vegas Valley - KSNV",
-    "source": "KSNV",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbDROVkVSMGtCNUdUNmw2OUc1eUhxSlViaF91dmpyT3lyWE5YdHJsLUxkNmdLZnFiTlYxYS0zYXpacVlvM2Mxc2Q5S29vZDNnaEhrU1FQSGI0WkQ1OTBpTnFVYklFN2NYNHk3OG5XZEhtanhfbzAzUlh3SVNObmN1WVBMdzJxVUFVbUpQTUE4SXhFN3FQcmxhbnZvdVdhWk1oZ2JsbnpqTy1Xaks3Z2Vn?oc=5",
-    "level": "yellow",
-    "why": "Cyber attack attempt on energy infrastructure reported",
-    "targets": [
-     "US"
-    ]
-   },
-   {
     "text": "Siemens Simcenter Femap",
     "source": "CISA advisories",
     "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
@@ -399,11 +318,13 @@
    "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
    "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
   },
-  "checkedAt": "2026-11-19T20:54+00:00",
-  "sourcesChecked": 937,
+  "checkedAt": "2026-11-20T09:10+00:00",
+  "sourcesChecked": 718,
   "sourceErrors": [
    "ASD's ACSC alerts: TimeoutError",
-   "ASD's ACSC advisories: TimeoutError"
+   "ASD's ACSC advisories: TimeoutError",
+   "NCSC-FI: HTTPError",
+   "News CL: HTTPError"
   ]
  },
  {
