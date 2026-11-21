@@ -8,20 +8,39 @@
    "US": "yellow",
    "CA": "yellow",
    "NL": "yellow",
-   "ES": "orange",
+   "ES": "yellow",
    "AU": "orange",
    "BE": "yellow",
    "NO": "yellow",
+   "TW": "yellow",
    "GB": "yellow",
-   "DE": "yellow",
-   "FR": "yellow",
-   "IT": "yellow",
-   "CL": "yellow"
+   "DE": "orange",
+   "IT": "yellow"
   },
   "regions": {},
   "eu": "green",
-  "headline": "Widespread blackout reported",
+  "headline": "Reported cyber disruption of the power grid",
   "items": [
+   {
+    "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
+    "source": "Blackout News",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzVPSUNmMFZCamMwYjViY2lpeUVaTWpLZFpRWlNNclF5enU3SlVlSlJaNVdQN2RCUlBQa2o5S3lEcGZWQjhoemZva0hVVmFyTzl6aTlUWnY2Si1FWTNmR3Vnd3ZkTkFiU2hucWJSRXp3WW5MT0pSR25hN3NlTnd0UFJ6dDZ1UjdrdXl4UHpMXzRzbzhJZ0ZsRnk1RVpmRUxJbVZnbTJDbUdSbThE?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Globaler Cyber-Blackout: Warum fordert die EU ein 72-Stunden-Überlebenspaket? - xiaomi-miui.gr",
+    "source": "xiaomi-miui.gr",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Q2FoVl85czEyeEppTHpLWHhJSUp0b3UzUC13WWQ4TTBtNmw4WVF2RGp2aXZFLVQtMkNydXN3a3hocWcxUWYzMkw4SUd3a2dRVm01Z0tjSmxXVVpwWDVFRi0xMmhTNDBtVy1yY3gtdEc?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
    {
     "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
     "source": "Herald.Wales",
@@ -43,16 +62,6 @@
     ]
    },
    {
-    "text": "Pannes géantes aux États-Unis : le directeur cyber de la Maison-Blanche prend la porte ! - Génération NT",
-    "source": "Génération NT",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlVpUEpXckxPMFRrMUpsbWNQTnRBa2JoX2MtTzJ5VHRSZHFaUjdKa2JVeVlyVDlwLVotTF9waG53NjBvM3V0SlBxSFVSeGFqQXZmU19nUjJ1bTlxY0lIMWZRNzlNT1VGT0YtSjN1cUlVMW9yaUVaM0hGMVZBbTFHclRiOURhQkJhM19KZHl6S0FUNzdkbEV2aG5sYldnUldJeFV2dTFqaXFiZVh6MEhoeU9Pdm1yd9IBtgFBVV95cUxPZlVpUEpXckxPMFRrMUpsbWNQTnRBa2JoX2MtTzJ5VHRSZHFaUjdKa2JVeVlyVDlwLVotTF9waG53NjBvM3V0SlBxSFVSeGFqQXZmU19nUjJ1bTlxY0lIMWZRNzlNT1VGT0YtSjN1cUlVMW9yaUVaM0hGMVZBbTFHclRiOURhQkJhM19KZHl6S0FUNzdkbEV2aG5sYldnUldJeFV2dTFqaXFiZVh6MEhoeU9Pdm1ydw?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "FR"
-    ]
-   },
-   {
     "text": "Kommunikationsnetz von US-Geheimdienst NSA ausgefallen – Offenbar kein Cyberangriff - Blackout News",
     "source": "Blackout News",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGNDU3lEZ3BOTUsydHdNR1I1ZEJmM2k5ZnQ5M2dWODk1UEMtb2xOQkkzaGQxdm1OOTAwU3FZRTg0OE8tUlVGRGgzR2psQUxVSm9FaVdTeUxNM0FSQktZclY0eEdmZktLOFRRYkh1VF9tdjlWaUhtWXNZY0JkS3hWMm1mbUtrbGowajdGMW5uS0ZIc2RKcDNEVzlocEZPYXI5Q25MTGtmM2gwMFZ2dFhfTVpuVFNBZw?oc=5",
@@ -63,36 +72,6 @@
     ]
    },
    {
-    "text": "¿Otro ciberataque y apagón mundial? Alertan por grave falla en Java - El Vacanudo",
-    "source": "El Vacanudo",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMU5USFZfS19UMkN6YmZuM056Rk5CVC1jT2ZpVVZ0RXNkZW9RTjNvbkxBVHRjS1B3OHl6djhWY2hodjliaHBTMWdsM0tiT2tJZE5lT0RVNVl3V0lQQ3otYkJEOXBTaGJjTjB4U2E3eFZPSUhNX05oVlhETnRSejRObmo0NkNqZS13eHRiZE5qTlpBbjFkNjVQUTZDYjFhZUY5T3NlemxTMXZKVW8?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "ES"
-    ]
-   },
-   {
-    "text": "Ni ciberataque ni IA fuera de control: las claves detrás de apagón en Microsoft - López-Dóriga Digital",
-    "source": "López-Dóriga Digital",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaHYteDlsTnBCMzRLWmt1TFZiRkdVMGNTYk9mbC05eVcxZjAxbElsZ1BEUVZpU003QlU3YW15d2NwMWpjc1lVTjVTWUVBNTQ5Z3Mwdll2QUJGYlhhQXFsMllZSXU1RGRpeE9EMjU5VDh6WU4tZWhxeTdyN2kzTjZ6ZXpYQmVzOHhSRmhvMzZPTlFKbGpfbWxoUkptX1g1elg4VVJVNEhJWFFXUnE3Ul9mTFdXeUtKbUZMV1V3?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "ES"
-    ]
-   },
-   {
-    "text": "¿Otro ciberataque y apagón mundial? Alertan por grave falla en Java - El Observatodo",
-    "source": "El Observatodo",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSHdjZ0RxaV8zNHBXN08wbmZmTTJJQUoxVGJLS0pOTVAzTHpnRFpURGVxMHpobWhqRnZ1T3NiVnZVYUEzOVVRbEtianNreUpVLW9TMDBQOERfR0l4MVJ4eXdsMHd2RkJjc29NLXhlRW1zN0UxTmQ4SXVKeTh2dGJic21IckVZVGREak4wZTlsTmtkSTlWOTVYbmdnYk5vc3AxX29zOHZ3ZGdSaUJ0MHNv?oc=5",
-    "level": "orange",
-    "why": "Reported cyber disruption of the power grid",
-    "targets": [
-     "CL"
-    ]
-   },
-   {
     "text": "Non-credible contingency event - SA region - 19/11/2026 [POWER SYSTEM EVENTS]",
     "source": "AEMO",
     "url": "https://nemweb.com.au/Reports/CURRENT/Market_Notice/NEMITWEB1_MKTNOTICE_20261119.R146487",
@@ -100,6 +79,16 @@
     "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
     "targets": [
      "AU"
+    ]
+   },
+   {
+    "text": "新聞最嘲點-美國電網水廠有多脆弱！中共駭客已潛伏美國五年 1120 - 美洲台灣日報",
+    "source": "美洲台灣日報",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qNmVjczBfTTZVUVFZUkxWOWhrcWpuem1EX3ljQ1lOVXo4RGVNbmF3SVNCR2Zkd0Q2MEdua1ktbUVfd1NqdGllX0s1cFdxbmZhcGU4cWhxMURtOGtqUkppNl9hRklSVk5hd2dWd09UYVNJVjk2TFlr?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "TW"
     ]
    },
    {
@@ -289,8 +278,8 @@
    "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
    "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
   },
-  "checkedAt": "2026-11-20T20:53+00:00",
-  "sourcesChecked": 905,
+  "checkedAt": "2026-11-21T08:55+00:00",
+  "sourcesChecked": 907,
   "sourceErrors": [
    "ASD's ACSC alerts: TimeoutError",
    "ASD's ACSC advisories: TimeoutError"
