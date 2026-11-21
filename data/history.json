@@ -1,5 +1,291 @@
 [
  {
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "auto": true,
+  "level": "yellow",
+  "countries": {
+   "US": "yellow",
+   "CA": "yellow",
+   "NL": "yellow",
+   "ES": "yellow",
+   "AU": "orange",
+   "FR": "yellow",
+   "NO": "yellow",
+   "TW": "yellow",
+   "DE": "orange",
+   "IT": "yellow",
+   "GB": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Widespread blackout reported",
+  "items": [
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
+    "source": "Blackout News",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzVPSUNmMFZCamMwYjViY2lpeUVaTWpLZFpRWlNNclF5enU3SlVlSlJaNVdQN2RCUlBQa2o5S3lEcGZWQjhoemZva0hVVmFyTzl6aTlUWnY2Si1FWTNmR3Vnd3ZkTkFiU2hucWJSRXp3WW5MT0pSR25hN3NlTnd0UFJ6dDZ1UjdrdXl4UHpMXzRzbzhJZ0ZsRnk1RVpmRUxJbVZnbTJDbUdSbThE?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Globaler Cyber-Blackout: Warum fordert die EU ein 72-Stunden-Überlebenspaket? - xiaomi-miui.gr",
+    "source": "xiaomi-miui.gr",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Q2FoVl85czEyeEppTHpLWHhJSUp0b3UzUC13WWQ4TTBtNmw4WVF2RGp2aXZFLVQtMkNydXN3a3hocWcxUWYzMkw4SUd3a2dRVm01Z0tjSmxXVVpwWDVFRi0xMmhTNDBtVy1yY3gtdEc?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Cyberattacchi e blackout informatici, sei giorni di caos digitale: cosa sta succedendo alla Rete? - L'Impronta L'Aquila",
+    "source": "L'Impronta L'Aquila",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcU16SkRxcTdydjktbzhFajdLbGxjSnRwVktwdGtpd0g2VzBuempiWENTY1pvQm5IdUtObkhPME9qZDNobmtPLW02LVJyTnJHalZMRllKS3NqU0tERHlpZGp4VE5UWHNXUkxMYWRwVTJsTXhDby1GNnpEWXowR2xXdTJaSWlnUi1KcmhxbDZReGNvWVgyODNIRm4xTl9nMkYtSlRKYjRjeU1SeHYteThRZGh1Vjd2QV92eGluU05BVXFqcmZTaXJBdFJVQ0trNVVYcDdpSA?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "IT"
+    ]
+   },
+   {
+    "text": "Pannes géantes aux États-Unis : le directeur cyber de la Maison-Blanche prend la porte ! - Génération NT",
+    "source": "Génération NT",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDlnNUVSOXZnWmZPb28yQ0FRbXlPcEs2cTBhTWFVRFVtU24xdUF5Zkwwd01hYzNmRlBXQVRjLVBDVUhEMGRlaE0wQWQ2VF85WFRXQ1EtMWtySDNUcVQ3RERYOFA0WFZsdGx0N080MXBnb1F3RWtNUXlEWkpLSndGU0txUHJ2SVhTQTJyOGVUOXdPT1dEWU1hdURsZXZfdTlhM1Q5cF92Y1JXaFlPWm12MtIBtgFBVV95cUxPZlVpUEpXckxPMFRrMUpsbWNQTnRBa2JoX2MtTzJ5VHRSZHFaUjdKa2JVeVlyVDlwLVotTF9waG53NjBvM3V0SlBxSFVSeGFqQXZmU19nUjJ1bTlxY0lIMWZRNzlNT1VGT0YtSjN1cUlVMW9yaUVaM0hGMVZBbTFHclRiOURhQkJhM19KZHl6S0FUNzdkbEV2aG5sYldnUldJeFV2dTFqaXFiZVh6MEhoeU9Pdm1ydw?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Trump licenzia il capo della cybersicurezza dopo i blackout. Nuovo attacco alle banche Usa: trafugati dati dei clienti - Corriere della Sera",
+    "source": "Corriere della Sera",
+    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeEp5NjZ4akxSd3JyM1RwODgxSkJsU3lxVEVXNUc1VE5IOTM4OEtKSEpSNFEwTUlzM0g2S2l5cUhHUGp5WjJKMkRHTXhXNWE4d2JGQWlwVVRBcHQxaUM5SVJQclpVQ3p1VkhXSG1ncHJBbFFCUUlmUllPR2ZINlJMX0NPUm5ITTJ6UGRFSkY0UkxxVDB1clFIQVZoT01mR2xmRzJoN2ZldlgyTC1VZERPWW1qV0ptZHZWb2huZ2R6LVZNeWVkdGhlaVk2Rk5nbmlZUXBnMzNjSnp4RVlfZko3RVRNV2VBOVhoMkFwb1lVQ1dsUGY4NFBRYVdLLWtQdGRWNEhnNllLQkZObUtYYWtsOXZ1aVRha0xQcWVhMEVRSWdxVzZMSXA4LUgyLUhCOWY2NWZJ0gG4AkFVX3lxTE5rWlFjR2Rjdi03QWh0RmNDTE96dng3RzYydlQyTUFZUXpaUThnZXpiVElwdUROdUw3Q2J3dEtpaEktVzZkQTEtc1I2Mkt3cUd6azdkd2dBRExDM05MTGljUXQ5SlhqWkNDUHBfLTV3WDQ5aEUyMm8wYTFMQWV5WTdvRzZPNENKR193OVdDaGNqNzhpeGNRUkZzYndoVTVVYzlEdmxCc1JTQ1VIc0dLMmNuV0NyQlpKZjZqSkE1SVZnUGhQdkZXcDJWYWxSWTI4ZVZyTUt5c2pkMjd5RUJISnNDYWNXRXpka2tabTRQX1NrdldHVVM5NGNVQThZSndnOGxoZFlmNVB5b29ZXzVoYzh5ZFB4MkRjVExJcjVvUGx0ak81ZFd1ZVVHR3lLR3lWZ0hsdWdqTW5iOQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Non-credible contingency event - SA region - 19/11/2026 [POWER SYSTEM EVENTS]",
+    "source": "AEMO",
+    "url": "https://nemweb.com.au/Reports/CURRENT/Market_Notice/NEMITWEB1_MKTNOTICE_20261119.R146487",
+    "level": "orange",
+    "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
+    "targets": [
+     "AU"
+    ]
+   },
+   {
+    "text": "新聞最嘲點-美國電網水廠有多脆弱！中共駭客已潛伏美國五年 1120 - 美洲台灣日報",
+    "source": "美洲台灣日報",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qNmVjczBfTTZVUVFZUkxWOWhrcWpuem1EX3ljQ1lOVXo4RGVNbmF3SVNCR2Zkd0Q2MEdua1ktbUVfd1NqdGllX0s1cFdxbmZhcGU4cWhxMURtOGtqUkppNl9hRklSVk5hd2dWd09UYVNJVjk2TFlr?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "TW"
+    ]
+   },
+   {
+    "text": "[Control Systems] Moxa security advisory (AV26-1187)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Ladestasjoner kan bli hackernes vei inn i strømnettet - Bil24",
+    "source": "Bil24",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aMWwtWUgtY0ZYRFViU0pYZTIxaUJYMEEzUjBvSGRtbVFQclVGaTg2UEQ0b2xCY2NKMGlmYnBUdFZmQzNZcUFQOVdHcjJaeTR4N1RzWmFGMVZUT1hVR1l0RkR6TkVYcC1kWGJHOGUwVVdZcVVzUmpZaGhB?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "NO"
+    ]
+   },
+   {
+    "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Bakersteel Global Funds - Electrum Fund (DXL3.MU) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
+    "source": "Yahoo! Finance Canada",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14c2gtUkw1OElNUEVrUktodzBlMEhVVElrZDZ5MEJ3ZEdhWS11bWd2Z1N0T1ByOVp5b2M4YW1xRzN3U24zUGtGZVhSTER3cmpfX0NwY0JOUGN0RUJfOTRndFlJRHJRQQ?oc=5",
+    "level": "yellow",
+    "why": "State hacking group linked to infrastructure in this country",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Cyberattaque chez Chase, Visa et Mastercard : la menace des prestataires concerne aussi les réseaux électriques - Les Smartgrids",
+    "source": "Les Smartgrids",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM082aF9pa2R1X043QzJpVklfVEJiSFVldUZjbmJBbUtsWDV2ZGZRMi1nT1BkaUZoQlZBcld6LTVDSk42WmRfUEl2VVc0WFdDR1hwSXNWUXhWTlI1UnhvTng0dy03S1RsRzc1UXZlNG5RazZIMlVPeGJwYW56Si1MTlFhenFJQ2RvcGxSZy01SEdLZw?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
+    "source": "NCSC-NL",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+    "level": "yellow",
+    "why": "NCSC-NL: critical infrastructure advisory",
+    "targets": [
+     "NL"
+    ]
+   },
+   {
+    "text": "libumqtt",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "level": "yellow",
+    "why": "CISA advisories: alert on critical infrastructure",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Autonomy Logic OpenPLC Runtime",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Siemens Simcenter Femap",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Siemens ROS#",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Siemens RUGGEDCOM APE1808",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: alert on critical infrastructure",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de memoria liberada en egOS de Welotec",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-21T20:43+00:00",
+  "sourcesChecked": 890,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError"
+  ]
+ },
+ {
   "id": "2026-11-21",
   "date": "2026-11-21",
   "auto": true,

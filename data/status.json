@@ -1,6 +1,6 @@
 {
- "id": "2026-11-21",
- "date": "2026-11-21",
+ "id": "2026-11-22",
+ "date": "2026-11-22",
  "auto": true,
  "level": "yellow",
  "countries": {
@@ -9,17 +9,27 @@
   "NL": "yellow",
   "ES": "yellow",
   "AU": "orange",
-  "BE": "yellow",
+  "FR": "yellow",
   "NO": "yellow",
   "TW": "yellow",
-  "GB": "yellow",
   "DE": "orange",
-  "IT": "yellow"
+  "IT": "yellow",
+  "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "Widespread blackout reported",
  "items": [
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
   {
    "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
    "source": "Blackout News",
@@ -41,16 +51,6 @@
    ]
   },
   {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "GB"
-   ]
-  },
-  {
    "text": "Cyberattacchi e blackout informatici, sei giorni di caos digitale: cosa sta succedendo alla Rete? - L'Impronta L'Aquila",
    "source": "L'Impronta L'Aquila",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcU16SkRxcTdydjktbzhFajdLbGxjSnRwVktwdGtpd0g2VzBuempiWENTY1pvQm5IdUtObkhPME9qZDNobmtPLW02LVJyTnJHalZMRllKS3NqU0tERHlpZGp4VE5UWHNXUkxMYWRwVTJsTXhDby1GNnpEWXowR2xXdTJaSWlnUi1KcmhxbDZReGNvWVgyODNIRm4xTl9nMkYtSlRKYjRjeU1SeHYteThRZGh1Vjd2QV92eGluU05BVXFqcmZTaXJBdFJVQ0trNVVYcDdpSA?oc=5",
@@ -61,13 +61,23 @@
    ]
   },
   {
-   "text": "Kommunikationsnetz von US-Geheimdienst NSA ausgefallen – Offenbar kein Cyberangriff - Blackout News",
-   "source": "Blackout News",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGNDU3lEZ3BOTUsydHdNR1I1ZEJmM2k5ZnQ5M2dWODk1UEMtb2xOQkkzaGQxdm1OOTAwU3FZRTg0OE8tUlVGRGgzR2psQUxVSm9FaVdTeUxNM0FSQktZclY0eEdmZktLOFRRYkh1VF9tdjlWaUhtWXNZY0JkS3hWMm1mbUtrbGowajdGMW5uS0ZIc2RKcDNEVzlocEZPYXI5Q25MTGtmM2gwMFZ2dFhfTVpuVFNBZw?oc=5",
+   "text": "Pannes géantes aux États-Unis : le directeur cyber de la Maison-Blanche prend la porte ! - Génération NT",
+   "source": "Génération NT",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDlnNUVSOXZnWmZPb28yQ0FRbXlPcEs2cTBhTWFVRFVtU24xdUF5Zkwwd01hYzNmRlBXQVRjLVBDVUhEMGRlaE0wQWQ2VF85WFRXQ1EtMWtySDNUcVQ3RERYOFA0WFZsdGx0N080MXBnb1F3RWtNUXlEWkpLSndGU0txUHJ2SVhTQTJyOGVUOXdPT1dEWU1hdURsZXZfdTlhM1Q5cF92Y1JXaFlPWm12MtIBtgFBVV95cUxPZlVpUEpXckxPMFRrMUpsbWNQTnRBa2JoX2MtTzJ5VHRSZHFaUjdKa2JVeVlyVDlwLVotTF9waG53NjBvM3V0SlBxSFVSeGFqQXZmU19nUjJ1bTlxY0lIMWZRNzlNT1VGT0YtSjN1cUlVMW9yaUVaM0hGMVZBbTFHclRiOURhQkJhM19KZHl6S0FUNzdkbEV2aG5sYldnUldJeFV2dTFqaXFiZVh6MEhoeU9Pdm1ydw?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "DE"
+    "FR"
+   ]
+  },
+  {
+   "text": "Trump licenzia il capo della cybersicurezza dopo i blackout. Nuovo attacco alle banche Usa: trafugati dati dei clienti - Corriere della Sera",
+   "source": "Corriere della Sera",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeEp5NjZ4akxSd3JyM1RwODgxSkJsU3lxVEVXNUc1VE5IOTM4OEtKSEpSNFEwTUlzM0g2S2l5cUhHUGp5WjJKMkRHTXhXNWE4d2JGQWlwVVRBcHQxaUM5SVJQclpVQ3p1VkhXSG1ncHJBbFFCUUlmUllPR2ZINlJMX0NPUm5ITTJ6UGRFSkY0UkxxVDB1clFIQVZoT01mR2xmRzJoN2ZldlgyTC1VZERPWW1qV0ptZHZWb2huZ2R6LVZNeWVkdGhlaVk2Rk5nbmlZUXBnMzNjSnp4RVlfZko3RVRNV2VBOVhoMkFwb1lVQ1dsUGY4NFBRYVdLLWtQdGRWNEhnNllLQkZObUtYYWtsOXZ1aVRha0xQcWVhMEVRSWdxVzZMSXA4LUgyLUhCOWY2NWZJ0gG4AkFVX3lxTE5rWlFjR2Rjdi03QWh0RmNDTE96dng3RzYydlQyTUFZUXpaUThnZXpiVElwdUROdUw3Q2J3dEtpaEktVzZkQTEtc1I2Mkt3cUd6azdkd2dBRExDM05MTGljUXQ5SlhqWkNDUHBfLTV3WDQ5aEUyMm8wYTFMQWV5WTdvRzZPNENKR193OVdDaGNqNzhpeGNRUkZzYndoVTVVYzlEdmxCc1JTQ1VIc0dLMmNuV0NyQlpKZjZqSkE1SVZnUGhQdkZXcDJWYWxSWTI4ZVZyTUt5c2pkMjd5RUJISnNDYWNXRXpka2tabTRQX1NrdldHVVM5NGNVQThZSndnOGxoZFlmNVB5b29ZXzVoYzh5ZFB4MkRjVExJcjVvUGx0ak81ZFd1ZVVHR3lLR3lWZ0hsdWdqTW5iOQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "US"
    ]
   },
   {
@@ -131,13 +141,13 @@
    ]
   },
   {
-   "text": "US was warned of telecom security risks years before Salt Typhoon - AOL.co.uk",
-   "source": "AOL.co.uk",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFZTVENGVlJYeWdfMHNicXVTTlhUdnpEV0loZGxURkZTOV82S0FOcFgtZUlhLXFwc2ZQZUFkSVBHRktSY0RqRTBWY0Q3cm9YbFNsWkUtM2ppX2xwdV9HSXFiOFZ6cnRrMWVkc0h4Z1M4ekVQRFJwdHYza2ZtUnBUYURsZnQ?oc=5",
+   "text": "Cyberattaque chez Chase, Visa et Mastercard : la menace des prestataires concerne aussi les réseaux électriques - Les Smartgrids",
+   "source": "Les Smartgrids",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM082aF9pa2R1X043QzJpVklfVEJiSFVldUZjbmJBbUtsWDV2ZGZRMi1nT1BkaUZoQlZBcld6LTVDSk42WmRfUEl2VVc0WFdDR1hwSXNWUXhWTlI1UnhvTng0dy03S1RsRzc1UXZlNG5RazZIMlVPeGJwYW56Si1MTlFhenFJQ2RvcGxSZy01SEdLZw?oc=5",
    "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "GB"
+    "FR"
    ]
   },
   {
@@ -148,16 +158,6 @@
    "why": "NCSC-NL: critical infrastructure advisory",
    "targets": [
     "NL"
-   ]
-  },
-  {
-   "text": "Cyberattaque contre Bruxelles : ce que l'outil ARTEX change pour la sécurité des réseaux électriques - Les Smartgrids",
-   "source": "Les Smartgrids",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd2Z5akhpSTR2TFFwbzNkQmlMcXh5Q1lidFlrNHJhbFdlWmpfZTBJclF5LWh5S1hSV0VzQ0JKT3o3MmlhTDE2R0hzNjlqOFNhYlJXWjlLZkRzT0MzdkJkemliN1hSQjdOU25yem9wY2drd2Q0NllIUnVXMk1BNHU0cElTOF95VGtIMXNJM2Zib3p4bzJPSkxB?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "BE"
    ]
   },
   {
@@ -277,8 +277,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-21T08:55+00:00",
- "sourcesChecked": 907,
+ "checkedAt": "2026-11-21T20:43+00:00",
+ "sourcesChecked": 890,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError"
