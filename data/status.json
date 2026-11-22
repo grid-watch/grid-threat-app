@@ -2,17 +2,20 @@
  "id": "2026-11-22",
  "date": "2026-11-22",
  "auto": true,
- "level": "yellow",
+ "level": "green",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
   "NL": "yellow",
-  "ES": "yellow",
-  "AU": "orange",
-  "FR": "yellow",
   "NO": "yellow",
   "TW": "yellow",
-  "DE": "orange",
+  "AU": "yellow",
+  "JP": "yellow",
+  "PH": "yellow",
+  "KR": "yellow",
+  "NZ": "yellow",
+  "DE": "yellow",
+  "FR": "yellow",
   "IT": "yellow",
   "GB": "yellow"
  },
@@ -34,16 +37,6 @@
    "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
    "source": "Blackout News",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzVPSUNmMFZCamMwYjViY2lpeUVaTWpLZFpRWlNNclF5enU3SlVlSlJaNVdQN2RCUlBQa2o5S3lEcGZWQjhoemZva0hVVmFyTzl6aTlUWnY2Si1FWTNmR3Vnd3ZkTkFiU2hucWJSRXp3WW5MT0pSR25hN3NlTnd0UFJ6dDZ1UjdrdXl4UHpMXzRzbzhJZ0ZsRnk1RVpmRUxJbVZnbTJDbUdSbThE?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "DE"
-   ]
-  },
-  {
-   "text": "Globaler Cyber-Blackout: Warum fordert die EU ein 72-Stunden-Überlebenspaket? - xiaomi-miui.gr",
-   "source": "xiaomi-miui.gr",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Q2FoVl85czEyeEppTHpLWHhJSUp0b3UzUC13WWQ4TTBtNmw4WVF2RGp2aXZFLVQtMkNydXN3a3hocWcxUWYzMkw4SUd3a2dRVm01Z0tjSmxXVVpwWDVFRi0xMmhTNDBtVy1yY3gtdEc?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -81,13 +74,19 @@
    ]
   },
   {
-   "text": "Non-credible contingency event - SA region - 19/11/2026 [POWER SYSTEM EVENTS]",
-   "source": "AEMO",
-   "url": "https://nemweb.com.au/Reports/CURRENT/Market_Notice/NEMITWEB1_MKTNOTICE_20261119.R146487",
-   "level": "orange",
-   "why": "AEMO notice: load shedding or actual LOR3 (grid emergency)",
+   "text": "China's drills expose cost of inaction on Taiwan - Taiwan News",
+   "source": "Taiwan News",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lOHA4bVBxcFZSWXBTMndjaDdNaDl0eGtPYUt2UkpfN0lsWlZNSUJ4T05fVW9LNkd2SUR6UWhZUmx5akJiVndNaFY2TjJEUF9ka1dsSExESjk?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
    "targets": [
-    "AU"
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
    ]
   },
   {
@@ -113,41 +112,11 @@
   {
    "text": "Ladestasjoner kan bli hackernes vei inn i strømnettet - Bil24",
    "source": "Bil24",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aMWwtWUgtY0ZYRFViU0pYZTIxaUJYMEEzUjBvSGRtbVFQclVGaTg2UEQ0b2xCY2NKMGlmYnBUdFZmQzNZcUFQOVdHcjJaeTR4N1RzWmFGMVZUT1hVR1l0RkR6TkVYcC1kWGJHOGUwVVdZcVVzUmpZaGhB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmxiMmFoV3REQUp3dlRiWXNoRWI4N0RZcWI0Wi1FVk1ZMHRYOVo1N0c4cXRUaDVxbGV4UTJiQUhnMDh4QktVbnRJNG5rWnBvRXVnazdWZ1dVSC11d2FSYTdSZmNrTWxmcXNGak1aN1lFVWVCMEJGMnExcGJTM0N5dEZla0lORzg0QjZMMjFNbFc?oc=5",
    "level": "yellow",
    "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
     "NO"
-   ]
-  },
-  {
-   "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Bakersteel Global Funds - Electrum Fund (DXL3.MU) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
-   "source": "Yahoo! Finance Canada",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14c2gtUkw1OElNUEVrUktodzBlMEhVVElrZDZ5MEJ3ZEdhWS11bWd2Z1N0T1ByOVp5b2M4YW1xRzN3U24zUGtGZVhSTER3cmpfX0NwY0JOUGN0RUJfOTRndFlJRHJRQQ?oc=5",
-   "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
-   "targets": [
-    "CA"
-   ]
-  },
-  {
-   "text": "Cyberattaque chez Chase, Visa et Mastercard : la menace des prestataires concerne aussi les réseaux électriques - Les Smartgrids",
-   "source": "Les Smartgrids",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM082aF9pa2R1X043QzJpVklfVEJiSFVldUZjbmJBbUtsWDV2ZGZRMi1nT1BkaUZoQlZBcld6LTVDSk42WmRfUEl2VVc0WFdDR1hwSXNWUXhWTlI1UnhvTng0dy03S1RsRzc1UXZlNG5RazZIMlVPeGJwYW56Si1MTlFhenFJQ2RvcGxSZy01SEdLZw?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "FR"
    ]
   },
   {
@@ -181,36 +150,6 @@
    ]
   },
   {
-   "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en productos de Phoenix Contact",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
    "text": "Siemens Simcenter Femap",
    "source": "CISA advisories",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
@@ -239,36 +178,6 @@
    "targets": [
     "US"
    ]
-  },
-  {
-   "text": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: alert on critical infrastructure",
-   "targets": [
-    "ES"
-   ]
-  },
-  {
-   "text": "Uso de memoria liberada en egOS de Welotec",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
   }
  ],
  "actions": {
@@ -277,10 +186,12 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-21T20:43+00:00",
- "sourcesChecked": 890,
+ "checkedAt": "2026-11-22T08:54+00:00",
+ "sourcesChecked": 863,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError"
+  "ASD's ACSC advisories: TimeoutError",
+  "INCIBE-CERT avisos: TimeoutError",
+  "INCIBE-CERT avisos SCI: TimeoutError"
  ]
 }
