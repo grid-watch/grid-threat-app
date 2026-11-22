@@ -1,13 +1,12 @@
 {
- "id": "2026-11-22",
- "date": "2026-11-22",
+ "id": "2026-11-23",
+ "date": "2026-11-23",
  "auto": true,
  "level": "green",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
   "NL": "yellow",
-  "NO": "yellow",
   "TW": "yellow",
   "AU": "yellow",
   "JP": "yellow",
@@ -16,13 +15,22 @@
   "NZ": "yellow",
   "DE": "yellow",
   "FR": "yellow",
-  "IT": "yellow",
   "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Widespread blackout reported",
+ "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la semaine Cyberguerre - Numerama",
+   "source": "Numerama",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxONG5hbEQxd3RRZ0NfTVNGbUZhN0wwaHE1UnZUMzRxdHdWaVFzalFCNU53RU05NTdJTG43SU1sWlNZRk00QlRJcnljdHBMcDUyTlhZMURGdHM5OTIyWmNzU1ZFSk5QNGw5TjRXMkRsa1IxNjdsUmprd29HWDRYUmsxbHpGQ1V3U0d3RnZ3c2ZpdGtFamhMVGZpTnV0d1QwTTNVYzlpREVkWFV4VklaUVZ2MTRkWTl3QmFieWVIMk42VUlHZTc0QmNOY3JETi1qaTVPMkJuakVYQnNrQkUwZE1LMmdXU3gwWG1GTUdoNUwxZ0ExQkE5TGVmV2xoRUNuUnY2YThZYWFNNjY1UzNwLVBjNlJ6TXNyWTZkMXFXTDBzSWtXaTVSYnJjZUxZNUMzS29WRm1wMGF2b2lnTFRDY0Q1b1puemo?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
   {
    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
    "source": "Herald.Wales",
@@ -44,39 +52,9 @@
    ]
   },
   {
-   "text": "Cyberattacchi e blackout informatici, sei giorni di caos digitale: cosa sta succedendo alla Rete? - L'Impronta L'Aquila",
-   "source": "L'Impronta L'Aquila",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcU16SkRxcTdydjktbzhFajdLbGxjSnRwVktwdGtpd0g2VzBuempiWENTY1pvQm5IdUtObkhPME9qZDNobmtPLW02LVJyTnJHalZMRllKS3NqU0tERHlpZGp4VE5UWHNXUkxMYWRwVTJsTXhDby1GNnpEWXowR2xXdTJaSWlnUi1KcmhxbDZReGNvWVgyODNIRm4xTl9nMkYtSlRKYjRjeU1SeHYteThRZGh1Vjd2QV92eGluU05BVXFqcmZTaXJBdFJVQ0trNVVYcDdpSA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "IT"
-   ]
-  },
-  {
-   "text": "Pannes géantes aux États-Unis : le directeur cyber de la Maison-Blanche prend la porte ! - Génération NT",
-   "source": "Génération NT",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDlnNUVSOXZnWmZPb28yQ0FRbXlPcEs2cTBhTWFVRFVtU24xdUF5Zkwwd01hYzNmRlBXQVRjLVBDVUhEMGRlaE0wQWQ2VF85WFRXQ1EtMWtySDNUcVQ3RERYOFA0WFZsdGx0N080MXBnb1F3RWtNUXlEWkpLSndGU0txUHJ2SVhTQTJyOGVUOXdPT1dEWU1hdURsZXZfdTlhM1Q5cF92Y1JXaFlPWm12MtIBtgFBVV95cUxPZlVpUEpXckxPMFRrMUpsbWNQTnRBa2JoX2MtTzJ5VHRSZHFaUjdKa2JVeVlyVDlwLVotTF9waG53NjBvM3V0SlBxSFVSeGFqQXZmU19nUjJ1bTlxY0lIMWZRNzlNT1VGT0YtSjN1cUlVMW9yaUVaM0hGMVZBbTFHclRiOURhQkJhM19KZHl6S0FUNzdkbEV2aG5sYldnUldJeFV2dTFqaXFiZVh6MEhoeU9Pdm1ydw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Trump licenzia il capo della cybersicurezza dopo i blackout. Nuovo attacco alle banche Usa: trafugati dati dei clienti - Corriere della Sera",
-   "source": "Corriere della Sera",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQeEp5NjZ4akxSd3JyM1RwODgxSkJsU3lxVEVXNUc1VE5IOTM4OEtKSEpSNFEwTUlzM0g2S2l5cUhHUGp5WjJKMkRHTXhXNWE4d2JGQWlwVVRBcHQxaUM5SVJQclpVQ3p1VkhXSG1ncHJBbFFCUUlmUllPR2ZINlJMX0NPUm5ITTJ6UGRFSkY0UkxxVDB1clFIQVZoT01mR2xmRzJoN2ZldlgyTC1VZERPWW1qV0ptZHZWb2huZ2R6LVZNeWVkdGhlaVk2Rk5nbmlZUXBnMzNjSnp4RVlfZko3RVRNV2VBOVhoMkFwb1lVQ1dsUGY4NFBRYVdLLWtQdGRWNEhnNllLQkZObUtYYWtsOXZ1aVRha0xQcWVhMEVRSWdxVzZMSXA4LUgyLUhCOWY2NWZJ0gG4AkFVX3lxTE5rWlFjR2Rjdi03QWh0RmNDTE96dng3RzYydlQyTUFZUXpaUThnZXpiVElwdUROdUw3Q2J3dEtpaEktVzZkQTEtc1I2Mkt3cUd6azdkd2dBRExDM05MTGljUXQ5SlhqWkNDUHBfLTV3WDQ5aEUyMm8wYTFMQWV5WTdvRzZPNENKR193OVdDaGNqNzhpeGNRUkZzYndoVTVVYzlEdmxCc1JTQ1VIc0dLMmNuV0NyQlpKZjZqSkE1SVZnUGhQdkZXcDJWYWxSWTI4ZVZyTUt5c2pkMjd5RUJISnNDYWNXRXpka2tabTRQX1NrdldHVVM5NGNVQThZSndnOGxoZFlmNVB5b29ZXzVoYzh5ZFB4MkRjVExJcjVvUGx0ak81ZFd1ZVVHR3lLR3lWZ0hsdWdqTW5iOQ?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "US"
-   ]
-  },
-  {
    "text": "China's drills expose cost of inaction on Taiwan - Taiwan News",
    "source": "Taiwan News",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lOHA4bVBxcFZSWXBTMndjaDdNaDl0eGtPYUt2UkpfN0lsWlZNSUJ4T05fVW9LNkd2SUR6UWhZUmx5akJiVndNaFY2TjJEUF9ka1dsSExESjk?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrY2pUY1E4MmhiWmJDYTdoZE14RTRjeWc2MlZYRWxGQURnaldmQjNGSmJ5TzJyMDRLQVZiTmVoZmtPU1FsLVhtYnhlRzhJdHV6SU96QQ?oc=5",
    "level": "yellow",
    "why": "Taiwan Strait escalation or major exercise",
    "targets": [
@@ -107,16 +85,6 @@
    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
    "targets": [
     "CA"
-   ]
-  },
-  {
-   "text": "Ladestasjoner kan bli hackernes vei inn i strømnettet - Bil24",
-   "source": "Bil24",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmxiMmFoV3REQUp3dlRiWXNoRWI4N0RZcWI0Wi1FVk1ZMHRYOVo1N0c4cXRUaDVxbGV4UTJiQUhnMDh4QktVbnRJNG5rWnBvRXVnazdWZ1dVSC11d2FSYTdSZmNrTWxmcXNGak1aN1lFVWVCMEJGMnExcGJTM0N5dEZla0lORzg0QjZMMjFNbFc?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "NO"
    ]
   },
   {
@@ -186,8 +154,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-22T08:54+00:00",
- "sourcesChecked": 863,
+ "checkedAt": "2026-11-22T20:46+00:00",
+ "sourcesChecked": 857,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",

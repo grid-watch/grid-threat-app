@@ -1,5 +1,170 @@
 [
  {
+  "id": "2026-11-23",
+  "date": "2026-11-23",
+  "auto": true,
+  "level": "green",
+  "countries": {
+   "US": "yellow",
+   "CA": "yellow",
+   "NL": "yellow",
+   "TW": "yellow",
+   "AU": "yellow",
+   "JP": "yellow",
+   "PH": "yellow",
+   "KR": "yellow",
+   "NZ": "yellow",
+   "DE": "yellow",
+   "FR": "yellow",
+   "GB": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Reported cyber disruption of the power grid",
+  "items": [
+   {
+    "text": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la semaine Cyberguerre - Numerama",
+    "source": "Numerama",
+    "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxONG5hbEQxd3RRZ0NfTVNGbUZhN0wwaHE1UnZUMzRxdHdWaVFzalFCNU53RU05NTdJTG43SU1sWlNZRk00QlRJcnljdHBMcDUyTlhZMURGdHM5OTIyWmNzU1ZFSk5QNGw5TjRXMkRsa1IxNjdsUmprd29HWDRYUmsxbHpGQ1V3U0d3RnZ3c2ZpdGtFamhMVGZpTnV0d1QwTTNVYzlpREVkWFV4VklaUVZ2MTRkWTl3QmFieWVIMk42VUlHZTc0QmNOY3JETi1qaTVPMkJuakVYQnNrQkUwZE1LMmdXU3gwWG1GTUdoNUwxZ0ExQkE5TGVmV2xoRUNuUnY2YThZYWFNNjY1UzNwLVBjNlJ6TXNyWTZkMXFXTDBzSWtXaTVSYnJjZUxZNUMzS29WRm1wMGF2b2lnTFRDY0Q1b1puemo?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
+    "source": "Blackout News",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzVPSUNmMFZCamMwYjViY2lpeUVaTWpLZFpRWlNNclF5enU3SlVlSlJaNVdQN2RCUlBQa2o5S3lEcGZWQjhoemZva0hVVmFyTzl6aTlUWnY2Si1FWTNmR3Vnd3ZkTkFiU2hucWJSRXp3WW5MT0pSR25hN3NlTnd0UFJ6dDZ1UjdrdXl4UHpMXzRzbzhJZ0ZsRnk1RVpmRUxJbVZnbTJDbUdSbThE?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "China's drills expose cost of inaction on Taiwan - Taiwan News",
+    "source": "Taiwan News",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrY2pUY1E4MmhiWmJDYTdoZE14RTRjeWc2MlZYRWxGQURnaldmQjNGSmJ5TzJyMDRLQVZiTmVoZmtPU1FsLVhtYnhlRzhJdHV6SU96QQ?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "新聞最嘲點-美國電網水廠有多脆弱！中共駭客已潛伏美國五年 1120 - 美洲台灣日報",
+    "source": "美洲台灣日報",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qNmVjczBfTTZVUVFZUkxWOWhrcWpuem1EX3ljQ1lOVXo4RGVNbmF3SVNCR2Zkd0Q2MEdua1ktbUVfd1NqdGllX0s1cFdxbmZhcGU4cWhxMURtOGtqUkppNl9hRklSVk5hd2dWd09UYVNJVjk2TFlr?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "TW"
+    ]
+   },
+   {
+    "text": "[Control Systems] Moxa security advisory (AV26-1187)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
+    "source": "NCSC-NL",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+    "level": "yellow",
+    "why": "NCSC-NL: critical infrastructure advisory",
+    "targets": [
+     "NL"
+    ]
+   },
+   {
+    "text": "libumqtt",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "level": "yellow",
+    "why": "CISA advisories: alert on critical infrastructure",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Autonomy Logic OpenPLC Runtime",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Siemens Simcenter Femap",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Siemens ROS#",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Siemens RUGGEDCOM APE1808",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-22T20:46+00:00",
+  "sourcesChecked": 857,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError",
+   "INCIBE-CERT avisos: TimeoutError",
+   "INCIBE-CERT avisos SCI: TimeoutError"
+  ]
+ },
+ {
   "id": "2026-11-22",
   "date": "2026-11-22",
   "auto": true,
