@@ -1,6 +1,6 @@
 {
- "id": "2026-11-23",
- "date": "2026-11-23",
+ "id": "2026-11-24",
+ "date": "2026-11-24",
  "auto": true,
  "level": "green",
  "countries": {
@@ -19,8 +19,18 @@
  },
  "regions": {},
  "eu": "green",
- "headline": "Widespread blackout reported",
+ "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Blackout a raffica negli Usa: per Washington non c’è regia hacker - Economy Magazine",
+   "source": "Economy Magazine",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN3JaVXVyblRvSU14VTJUeHlQOHBPRlB2eWdqRENDNHVZOGVqTmxGSVZFUWVUTU5HU3JBcUlkb2VfRzBWZGdhYnI2WVQ2emItaVFRam5qal93eFZzMTVfOEF4Y2FoT1FacTJQZ1lpaHg4Q193M0hyN3RIbEppRmJNT3pUSFZ2RXBuWFB1QkVwb2QtTlJyU0RQQm01NA?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "US"
+   ]
+  },
   {
    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
    "source": "Herald.Wales",
@@ -39,6 +49,26 @@
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "FR"
+   ]
+  },
+  {
+   "text": "America's Power Grid Faces A Growing AI Cyber Threat. Here's The DOE's Plan - Forbes",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGtIbC04dVNDMWdwa1ktcm9fVzljd3dESkFfdFBSTGRnb2ZOZnpfNUlmVVE1cDNFUU54UmlZWXYxeFNhdl9kcUdkVGZLT1hBT1U5SVVzcGptbG91SmlHY0tuaXhNd0l1LVBRNW42UTB1OWZHTU9CMkNpTmJxMEk2LXpkNWFYclczdkNmUXgtaEt6c2ctczlHUkdqWEZMZ3ExT1hDQlhmZ0RIc3ZGTUhVNGZ4bw?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
+   "targets": [
+    "US"
+   ]
+  },
+  {
+   "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
    ]
   },
   {
@@ -84,13 +114,19 @@
    ]
   },
   {
-   "text": "Connecticut Senate Plans Utility Cybersecurity Hearing - Wisevoter",
-   "source": "Wisevoter",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWU1SMnd4QUdPNEVCdVlMT29QUUxKTjJVR2gyemtCQWY5Z19zQWdvWXVEWDNZYzQyd20wXy1sTERTNlMxQ0xGZ1VCVjB1d0JEM2pJeG9fcDVZWTM2V2RGS0dqWUI4NkJtUWJSTGZTZVV4azFoQ1FjcHRJMlFpaUZhZGRsSGQ4TVdycmpQNnhtVVpETVZELWZPWA?oc=5",
+   "text": "Articles On: Nuclear Arms Control, AI Espionage, Taiwan Blockade Scenarios, Submarine Warfare, European Defense Supply Chains, and South China Sea Diplomacy - Hoover Institution",
+   "source": "Hoover Institution",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT2N0UmdJUnpUb21hZWdrbV94cnZ6ZTFyZW1Pa282UHEydmlLZGt6cXZtM0JNUDdNX0QwX2ltOEl6SWVWOVd0MFpIVmhwclpUbDljQ3MxNnBhMzlxdjhWRVdBVE42dG94SThLSjRObDlZX0VEMThLclpYZjdieHhrVGctN0x6RzFxbzVocEZBVnVoYlVmcjQ2Si01RjZ0SlZDdFE1SE9VZG1yTW1lVEZlblBZNC1xUDk0RVE?oc=5",
    "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
+   "why": "Taiwan Strait escalation or major exercise",
    "targets": [
-    "US"
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
    ]
   },
   {
@@ -256,11 +292,10 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-23T09:30+00:00",
- "sourcesChecked": 851,
+ "checkedAt": "2026-11-23T20:54+00:00",
+ "sourcesChecked": 862,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError",
-  "INCIBE-CERT avisos: TimeoutError"
+  "ASD's ACSC advisories: TimeoutError"
  ]
 }
