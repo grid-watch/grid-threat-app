@@ -7,30 +7,20 @@
   "US": "yellow",
   "CA": "yellow",
   "NL": "yellow",
-  "TW": "yellow",
+  "ES": "yellow",
   "AU": "yellow",
   "JP": "yellow",
+  "TW": "yellow",
   "PH": "yellow",
   "KR": "yellow",
   "NZ": "yellow",
-  "DE": "yellow",
   "FR": "yellow",
   "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "Widespread blackout reported",
  "items": [
-  {
-   "text": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la semaine Cyberguerre - Numerama",
-   "source": "Numerama",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxONG5hbEQxd3RRZ0NfTVNGbUZhN0wwaHE1UnZUMzRxdHdWaVFzalFCNU53RU05NTdJTG43SU1sWlNZRk00QlRJcnljdHBMcDUyTlhZMURGdHM5OTIyWmNzU1ZFSk5QNGw5TjRXMkRsa1IxNjdsUmprd29HWDRYUmsxbHpGQ1V3U0d3RnZ3c2ZpdGtFamhMVGZpTnV0d1QwTTNVYzlpREVkWFV4VklaUVZ2MTRkWTl3QmFieWVIMk42VUlHZTc0QmNOY3JETi1qaTVPMkJuakVYQnNrQkUwZE1LMmdXU3gwWG1GTUdoNUwxZ0ExQkE5TGVmV2xoRUNuUnY2YThZYWFNNjY1UzNwLVBjNlJ6TXNyWTZkMXFXTDBzSWtXaTVSYnJjZUxZNUMzS29WRm1wMGF2b2lnTFRDY0Q1b1puemo?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
   {
    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
    "source": "Herald.Wales",
@@ -42,13 +32,65 @@
    ]
   },
   {
-   "text": "Cyberangriff auf Equinor – IT-Ausfälle bei Europas größtem Gaslieferanten - Blackout News",
-   "source": "Blackout News",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzVPSUNmMFZCamMwYjViY2lpeUVaTWpLZFpRWlNNclF5enU3SlVlSlJaNVdQN2RCUlBQa2o5S3lEcGZWQjhoemZva0hVVmFyTzl6aTlUWnY2Si1FWTNmR3Vnd3ZkTkFiU2hucWJSRXp3WW5MT0pSR25hN3NlTnd0UFJ6dDZ1UjdrdXl4UHpMXzRzbzhJZ0ZsRnk1RVpmRUxJbVZnbTJDbUdSbThE?oc=5",
+   "text": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la semaine Cyberguerre - Numerama",
+   "source": "Numerama",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxONG5hbEQxd3RRZ0NfTVNGbUZhN0wwaHE1UnZUMzRxdHdWaVFzalFCNU53RU05NTdJTG43SU1sWlNZRk00QlRJcnljdHBMcDUyTlhZMURGdHM5OTIyWmNzU1ZFSk5QNGw5TjRXMkRsa1IxNjdsUmprd29HWDRYUmsxbHpGQ1V3U0d3RnZ3c2ZpdGtFamhMVGZpTnV0d1QwTTNVYzlpREVkWFV4VklaUVZ2MTRkWTl3QmFieWVIMk42VUlHZTc0QmNOY3JETi1qaTVPMkJuakVYQnNrQkUwZE1LMmdXU3gwWG1GTUdoNUwxZ0ExQkE5TGVmV2xoRUNuUnY2YThZYWFNNjY1UzNwLVBjNlJ6TXNyWTZkMXFXTDBzSWtXaTVSYnJjZUxZNUMzS29WRm1wMGF2b2lnTFRDY0Q1b1puemo?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "DE"
+    "FR"
+   ]
+  },
+  {
+   "text": "Possible Taiwan takeover not 'invasion': Chinese envoy to Australia - Yeni Safak English",
+   "source": "Yeni Safak English",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNakxhLWVQRVQ2YUp3QmZOVjVmT3FzSnQ3YndqNE5DQ1FfTmkxRWZVV0tVcVNKVllHMEVnVXd0eUJCRlJLZkU3WUdZUXVDd3lRdXFDckdnQTU0R0xVUmJfN1hYRTZSbUR1WW1yM1lHRXlFV3RDLU5vaFlRbmtmLVpqQU5SM2VSN1o0SGRsdXlSTFpUdHVTbl9JYnN3MmVRSzEzZDFLb3ln?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Why critical infrastructure needs sovereign communications - SecurityBrief Australia",
+   "source": "SecurityBrief Australia",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeVA0cnZ1UHFqTW5Xekt3c1p1V2ZNa1o0aF92Ml9seDhNUkU2WDVEVUZudEg0Umo4TjJYc05uTy1PcU1Za09DTEg0c0hrUUZjZnRkejEwYndEelMyLXhWZVBac3BhZlFUcmxGcTAwWVUwbk9MWDUtX0R1NVJMTTZTbjIzZDIyUkpLbFc2akJ5VDdCQTRRRmJXaQ?oc=5",
+   "level": "yellow",
+   "why": "State hacking group linked to infrastructure in this country",
+   "targets": [
+    "AU"
+   ]
+  },
+  {
+   "text": "The economic cost of a Taiwanese invasion - DW.com",
+   "source": "DW.com",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUm9ac2Y3RjVGSHN0b3NaWmdSSnlQdkNQUDZLZjdfNXN2QnVWRnRWUUJXdlRMZ3VSMEhUMjlZQjAtWkJVV0VUemgyZk9UMWFuSTFLd3NPNlRSTXk0NDJjRlp2aG1FWVB0VWExRXpvbDhVb3dvNFpvLWNCbHZ3WV9hY2NlRHE?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Connecticut Senate Plans Utility Cybersecurity Hearing - Wisevoter",
+   "source": "Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWU1SMnd4QUdPNEVCdVlMT29QUUxKTjJVR2gyemtCQWY5Z19zQWdvWXVEWDNZYzQyd20wXy1sTERTNlMxQ0xGZ1VCVjB1d0JEM2pJeG9fcDVZWTM2V2RGS0dqWUI4NkJtUWJSTGZTZVV4azFoQ1FjcHRJMlFpaUZhZGRsSGQ4TVdycmpQNnhtVVpETVZELWZPWA?oc=5",
+   "level": "yellow",
+   "why": "Cyber attack attempt on energy infrastructure reported",
+   "targets": [
+    "US"
    ]
   },
   {
@@ -68,16 +110,6 @@
    ]
   },
   {
-   "text": "新聞最嘲點-美國電網水廠有多脆弱！中共駭客已潛伏美國五年 1120 - 美洲台灣日報",
-   "source": "美洲台灣日報",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qNmVjczBfTTZVUVFZUkxWOWhrcWpuem1EX3ljQ1lOVXo4RGVNbmF3SVNCR2Zkd0Q2MEdua1ktbUVfd1NqdGllX0s1cFdxbmZhcGU4cWhxMURtOGtqUkppNl9hRklSVk5hd2dWd09UYVNJVjk2TFlr?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "TW"
-   ]
-  },
-  {
    "text": "[Control Systems] Moxa security advisory (AV26-1187)",
    "source": "Canadian Centre for Cyber Security",
    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
@@ -85,6 +117,16 @@
    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
    "targets": [
     "CA"
+   ]
+  },
+  {
+   "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
    ]
   },
   {
@@ -118,6 +160,36 @@
    ]
   },
   {
+   "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
    "text": "Siemens Simcenter Femap",
    "source": "CISA advisories",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
@@ -146,6 +218,36 @@
    "targets": [
     "US"
    ]
+  },
+  {
+   "text": "Verificación incorrecta de firmas en PowerStudio SCADA WAVE de Circutor",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/verificacion-incorrecta-de-firmas-en-powerstudio-scada-wave-de-circutor",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en D-ESI 100 de DURAG",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-d-esi-100-de-durag",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: alert on critical infrastructure",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Uso de memoria liberada en egOS de Welotec",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-egos-de-welotec",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
   }
  ],
  "actions": {
@@ -154,12 +256,11 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-22T20:46+00:00",
- "sourcesChecked": 857,
+ "checkedAt": "2026-11-23T09:30+00:00",
+ "sourcesChecked": 851,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
-  "INCIBE-CERT avisos: TimeoutError",
-  "INCIBE-CERT avisos SCI: TimeoutError"
+  "INCIBE-CERT avisos: TimeoutError"
  ]
 }
