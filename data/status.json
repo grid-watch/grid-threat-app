@@ -1,54 +1,56 @@
 {
- "id": "2026-11-24",
- "date": "2026-11-24",
+ "id": "2026-11-25",
+ "date": "2026-11-25",
  "auto": true,
  "level": "green",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
   "NL": "yellow",
-  "ES": "yellow",
-  "KR": "yellow",
-  "AU": "yellow",
-  "JP": "yellow",
-  "TW": "yellow",
-  "PH": "yellow",
-  "NZ": "yellow",
-  "FR": "yellow",
-  "GB": "yellow"
+  "ES": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "CISA advisories: critical infrastructure advisory",
  "items": [
   {
-   "text": "Blackout a raffica negli Usa: per Washington non c’è regia hacker - Economy Magazine",
-   "source": "Economy Magazine",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN3JaVXVyblRvSU14VTJUeHlQOHBPRlB2eWdqRENDNHVZOGVqTmxGSVZFUWVUTU5HU3JBcUlkb2VfRzBWZGdhYnI2WVQ2emItaVFRam5qal93eFZzMTVfOEF4Y2FoT1FacTJQZ1lpaHg4Q193M0hyN3RIbEppRmJNT3pUSFZ2RXBuWFB1QkVwb2QtTlJyU0RQQm01NA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "source": "CISA advisories",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "level": "yellow",
+   "why": "CISA advisories: critical infrastructure advisory",
    "targets": [
     "US"
    ]
   },
   {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
+   "text": "Danfoss AK-SM 8xxA Series",
+   "source": "CISA advisories",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "level": "yellow",
+   "why": "CISA advisories: critical infrastructure advisory",
    "targets": [
-    "GB"
+    "US"
    ]
   },
   {
-   "text": "Grok dévoile l’entreprise que la CNIL n’avait pas nommée, Microsoft détaille sa panne géante, la Commission européenne piratée avec ARTEX : on vous raconte la semaine Cyberguerre - Numerama",
-   "source": "Numerama",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxONG5hbEQxd3RRZ0NfTVNGbUZhN0wwaHE1UnZUMzRxdHdWaVFzalFCNU53RU05NTdJTG43SU1sWlNZRk00QlRJcnljdHBMcDUyTlhZMURGdHM5OTIyWmNzU1ZFSk5QNGw5TjRXMkRsa1IxNjdsUmprd29HWDRYUmsxbHpGQ1V3U0d3RnZ3c2ZpdGtFamhMVGZpTnV0d1QwTTNVYzlpREVkWFV4VklaUVZ2MTRkWTl3QmFieWVIMk42VUlHZTc0QmNOY3JETi1qaTVPMkJuakVYQnNrQkUwZE1LMmdXU3gwWG1GTUdoNUwxZ0ExQkE5TGVmV2xoRUNuUnY2YThZYWFNNjY1UzNwLVBjNlJ6TXNyWTZkMXFXTDBzSWtXaTVSYnJjZUxZNUMzS29WRm1wMGF2b2lnTFRDY0Q1b1puemo?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "AutomationDirect C-More EA9 Programming Software",
+   "source": "CISA advisories",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "level": "yellow",
+   "why": "CISA advisories: critical infrastructure advisory",
    "targets": [
-    "FR"
+    "US"
+   ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
    ]
   },
   {
@@ -62,42 +64,6 @@
    ]
   },
   {
-   "text": "​Cyberattack on South Korean Power Utility KEPCO Exposes Data of Over 1.5 Million People - The 420.in",
-   "source": "The 420.in",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWc0ejYtNkJNVGk0RVhBNEZMbS1NZXhlaDQ1YmZrUktGNDgxREl6Q1BCZ1l1VTR0N3JtLTZnZ1lfNW9NZnpmNEZLWm9tM09rNzJUc0xFbVRtcEFXdWh6aTZzbUZpNjBnOGJxUFU1Tk0xaXVKbWQ5NkVMVURwNnZfZ3lXZzVncXVxNkhZQ0RHZ3dIdDVOWUd2U0NPYU13eXE3dUZ1MHJJVzh1Zw?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "KR"
-   ]
-  },
-  {
-   "text": "America's Power Grid Faces A New AI Cyber Threat. Can It Be Stopped? - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGtIbC04dVNDMWdwa1ktcm9fVzljd3dESkFfdFBSTGRnb2ZOZnpfNUlmVVE1cDNFUU54UmlZWXYxeFNhdl9kcUdkVGZLT1hBT1U5SVVzcGptbG91SmlHY0tuaXhNd0l1LVBRNW42UTB1OWZHTU9CMkNpTmJxMEk2LXpkNWFYclczdkNmUXgtaEt6c2ctczlHUkdqWEZMZ3ExT1hDQlhmZ0RIc3ZGTUhVNGZ4bw?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "Taiwan Marines to hold live-fire drill on Dec 8 - Taiwan News",
-   "source": "Taiwan News",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xODJDMG1obnduRENxaHJQNEVwSXdCZFBPQVlMTlRTaXFJcmQ2ekZhaXhwQ0RVWmlNa1hfNEU1Ny16N3c2UWlOMlRlSXYtRXhQa0J3ZzZ6WVA?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
    "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
    "source": "INCIBE-CERT avisos SCI",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
@@ -105,38 +71,6 @@
    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
    "targets": [
     "ES"
-   ]
-  },
-  {
-   "text": "Possible Taiwan takeover not 'invasion': Chinese envoy to Australia - Yeni Safak English",
-   "source": "Yeni Safak English",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNakxhLWVQRVQ2YUp3QmZOVjVmT3FzSnQ3YndqNE5DQ1FfTmkxRWZVV0tVcVNKVllHMEVnVXd0eUJCRlJLZkU3WUdZUXVDd3lRdXFDckdnQTU0R0xVUmJfN1hYRTZSbUR1WW1yM1lHRXlFV3RDLU5vaFlRbmtmLVpqQU5SM2VSN1o0SGRsdXlSTFpUdHVTbl9JYnN3MmVRSzEzZDFLb3ln?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
-   ]
-  },
-  {
-   "text": "The economic cost of a Taiwanese invasion - DW.com",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUm9ac2Y3RjVGSHN0b3NaWmdSSnlQdkNQUDZLZjdfNXN2QnVWRnRWUUJXdlRMZ3VSMEhUMjlZQjAtWkJVV0VUemgyZk9UMWFuSTFLd3NPNlRSTXk0NDJjRlp2aG1FWVB0VWExRXpvbDhVb3dvNFpvLWNCbHZ3WV9hY2NlRHE?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
    ]
   },
   {
@@ -170,21 +104,21 @@
    ]
   },
   {
-   "text": "libumqtt",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "level": "yellow",
-   "why": "CISA advisories: alert on critical infrastructure",
-   "targets": [
-    "US"
-   ]
-  },
-  {
    "text": "Autonomy Logic OpenPLC Runtime",
    "source": "CISA advisories",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
    "level": "yellow",
    "why": "CISA advisories: critical infrastructure advisory",
+   "targets": [
+    "US"
+   ]
+  },
+  {
+   "text": "libumqtt",
+   "source": "CISA advisories",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "level": "yellow",
+   "why": "CISA advisories: alert on critical infrastructure",
    "targets": [
     "US"
    ]
@@ -218,36 +152,6 @@
    "targets": [
     "ES"
    ]
-  },
-  {
-   "text": "Siemens ROS#",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-   "level": "yellow",
-   "why": "CISA advisories: critical infrastructure advisory",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "Siemens Simcenter Femap",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-   "level": "yellow",
-   "why": "CISA advisories: critical infrastructure advisory",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "Siemens RUGGEDCOM APE1808",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-   "level": "yellow",
-   "why": "CISA advisories: critical infrastructure advisory",
-   "targets": [
-    "US"
-   ]
   }
  ],
  "actions": {
@@ -256,11 +160,46 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-24T09:15+00:00",
- "sourcesChecked": 851,
+ "checkedAt": "2026-11-24T20:55+00:00",
+ "sourcesChecked": 614,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
-  "News IE: HTTPError"
+  "News US: HTTPError",
+  "News GB: HTTPError",
+  "News CA: HTTPError",
+  "News AU: HTTPError",
+  "News NZ: HTTPError",
+  "News IE: HTTPError",
+  "News IN: HTTPError",
+  "News SG: HTTPError",
+  "News ZA: HTTPError",
+  "News PH: HTTPError",
+  "News DE: HTTPError",
+  "News AT: HTTPError",
+  "News CH: HTTPError",
+  "News FR: HTTPError",
+  "News BE: HTTPError",
+  "News NL: HTTPError",
+  "News ES: HTTPError",
+  "News PT: HTTPError",
+  "News IT: HTTPError",
+  "News PL: HTTPError",
+  "News UA: HTTPError",
+  "News SE: HTTPError",
+  "News NO: HTTPError",
+  "News FI: HTTPError",
+  "News DK: HTTPError",
+  "News JP: HTTPError",
+  "News KR: HTTPError",
+  "News TW: HTTPError",
+  "News BR: HTTPError",
+  "News MX: HTTPError",
+  "News AR: HTTPError",
+  "News CL: HTTPError",
+  "News IL: HTTPError",
+  "News taiwan: HTTPError",
+  "News apt: HTTPError",
+  "News widespread: HTTPError"
  ]
 }

@@ -1,5 +1,210 @@
 [
  {
+  "id": "2026-11-25",
+  "date": "2026-11-25",
+  "auto": true,
+  "level": "green",
+  "countries": {
+   "US": "yellow",
+   "CA": "yellow",
+   "NL": "yellow",
+   "ES": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "CISA advisories: critical infrastructure advisory",
+  "items": [
+   {
+    "text": "Schneider Electric EcoStruxure Power Build Rapsody software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Danfoss AK-SM 8xxA Series",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "AutomationDirect C-More EA9 Programming Software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Falta de autenticación en cámaras industriales de ifm",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/falta-de-autenticacion-en-camaras-industriales-de-ifm",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "[Control Systems] Moxa security advisory (AV26-1187)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
+    "source": "NCSC-NL",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+    "level": "yellow",
+    "why": "NCSC-NL: critical infrastructure advisory",
+    "targets": [
+     "NL"
+    ]
+   },
+   {
+    "text": "Autonomy Logic OpenPLC Runtime",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "libumqtt",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "level": "yellow",
+    "why": "CISA advisories: alert on critical infrastructure",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en IndustrialPI 4 de Pilz",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-industrialpi-4-de-pilz",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Phoenix Contact",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-phoenix-10",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-24T20:55+00:00",
+  "sourcesChecked": 614,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError",
+   "News US: HTTPError",
+   "News GB: HTTPError",
+   "News CA: HTTPError",
+   "News AU: HTTPError",
+   "News NZ: HTTPError",
+   "News IE: HTTPError",
+   "News IN: HTTPError",
+   "News SG: HTTPError",
+   "News ZA: HTTPError",
+   "News PH: HTTPError",
+   "News DE: HTTPError",
+   "News AT: HTTPError",
+   "News CH: HTTPError",
+   "News FR: HTTPError",
+   "News BE: HTTPError",
+   "News NL: HTTPError",
+   "News ES: HTTPError",
+   "News PT: HTTPError",
+   "News IT: HTTPError",
+   "News PL: HTTPError",
+   "News UA: HTTPError",
+   "News SE: HTTPError",
+   "News NO: HTTPError",
+   "News FI: HTTPError",
+   "News DK: HTTPError",
+   "News JP: HTTPError",
+   "News KR: HTTPError",
+   "News TW: HTTPError",
+   "News BR: HTTPError",
+   "News MX: HTTPError",
+   "News AR: HTTPError",
+   "News CL: HTTPError",
+   "News IL: HTTPError",
+   "News taiwan: HTTPError",
+   "News apt: HTTPError",
+   "News widespread: HTTPError"
+  ]
+ },
+ {
   "id": "2026-11-24",
   "date": "2026-11-24",
   "auto": true,
