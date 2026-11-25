@@ -1,5 +1,300 @@
 [
  {
+  "id": "2026-11-26",
+  "date": "2026-11-26",
+  "auto": true,
+  "level": "yellow",
+  "countries": {
+   "US": "yellow",
+   "CA": "yellow",
+   "FR": "orange",
+   "NL": "yellow",
+   "ES": "yellow",
+   "KR": "yellow",
+   "AU": "yellow",
+   "JP": "yellow",
+   "TW": "yellow",
+   "PH": "yellow",
+   "NZ": "yellow",
+   "AT": "yellow",
+   "BE": "yellow",
+   "GB": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Reported cyber disruption of the power grid",
+  "items": [
+   {
+    "text": "Microsoft-Ausfall: Cyberversicherung zahlt kaum, Firmen bleiben auf Schäden sitzen - Blackout News",
+    "source": "Blackout News",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3cxTDBONC1rQnFXN3BEZHlHQ3RHTWFZa2N5STQ5aEFCdGwwR1I2Y0plNElsZTNudHlqalpqMmpJSXEwSEpldnotb0stZDBSZ0FFeXZkNW1JYjFMRW1pOVZHbElEbGZFbGtydTRwMXpKSXllajhoRzU0N3RfaFpPN2cwaEpjeXZZaWVxS1ZvYnRrZ3FRVWt5Y2xvYjNSR3BVT3VhMDEyenBUbWdwRENXeFdhakctTHZU?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "AT"
+    ]
+   },
+   {
+    "text": "Panne Microsoft 365 : le rapport final confirme un bug, pas une cyberattaque - TheSiteOueb",
+    "source": "TheSiteOueb",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNE9vUGR2ZzU5emUtcUctdmJkd19uMnN5QU1VeWJYX0phQW9hc0E1enhNWC11SUZWNURleURyQU1SV2NJQ01RR3N5d2NWY1RkZklyV0c1OHQtcWw1UzJVUUdjUjlnOV8tTGdDWS00anZDR2JhOFBFYVQ3VUM3WlI3REgwSjNTcDB6ek9mWVQxMjR5WF9Sb2lVTS1SQXhQODZRSnV2MXJGaEloZmFzTE05Z1lsY29GbzhlVk93VFJKQm9maUwwRkJicg?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Pas de cyberattaque: Une faille technique à l'origine de la panne informatique au CHdN - RTL Lëtzebuerg",
+    "source": "RTL Lëtzebuerg",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeFN2X095WS1kbGNJdWtzdmtLVV92aHNWSC1ISmYxazFxaHo5dm1wcTlWNnBVUmU2OXRzS2RmS29HOXhleUw4MXFydW9TVngyM1FGSDNXN19IblFqMkEyRTdJQUhLN09ma2M0Zll0VmRrMm41NUZ1bDh0R3dndFRuel81dDM3SzZCRVprQ0o2RTVqSVMzVlBBcVQ5QlgyVkw0MXlMSkYtM096UkJFMThzXw?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "BE"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Panne Microsoft : plus précis, le rapport final nie toute cyberattaque ou usage de l’IA - Next.ink",
+    "source": "Next.ink",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNE9hTEJ6UF92TXlWckNkYUw3TjVxUDRrX0ZrdmNuTnM2RXR2NmxGSHR2OEI2WGtGWDVTMzlDWWcwWHFfM29zS3VucVhLdVowUlVJOTJiTm05SkFxNmhkX3ZDSTdKazlsYndNMlpIWVdWUjNDU2wtZEdNaGVtR1VtcXpjZFNCZ1dIM2NrZk5ONWhGTzdxbzl3bklHSDFIMkp3VUIxUUdhakRxR2s4?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Panne de Microsoft, arrêt au sol de la FAA, piratage d'Optimizely, panne d'Apple : que se passe-t-il, à quoi s'attendre et que faire - National Cybersecurity Alliance",
+    "source": "National Cybersecurity Alliance",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa1FfcDltUnZfTEZ5TXJUak9jeWExU1o4ZUhhbFVLMDZvamExdmsxTmN5MTF1V3RGbVJlM2lEcHJCalZFTkl1cDh4MjkzZkQydi1kaTI5UXZaeW9GR2xlVVA2VlAzUjB4dWh2WlVOTnJDYmlwMnM5NWxPdk51cDBVa1dCdGFncFFlZVNaX290TVNwcmt0U0Y1bUpjOWE4SXRoX1pGOV8xMEw5TFBvTDZLRk1vR3hLU2VjNW92ZW5LTlFJVmJieU4tTWpYcFFhSzVIRUdENnlORTJvN3NzLUR0dTlreUNuRTJfYnBv?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "[Control systems] Hitachi security advisory (AV26-1208)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1208",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "ELECTRUM GLOBAL HOLDINGS ACQUIRES UNITS OF PACIFIC IMPERIAL MINES IN PRIVATE PLACEMENT - Yahoo! Finance Canada",
+    "source": "Yahoo! Finance Canada",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZEFIOWZ0c1BCZ1lYZXJ0VWF6d3pPSUVDOVJBYkNoRDE4UUZiVHVfRk44LXBZeEVZUFlpNFBnTk9LVjFVTTkyUE84dnlxazFuSUdvTkFqZnV1SDZKSi1HMHg3SFk2Q09iSmtDUXp1R2FfRERwN1JfUVd4ZEl6UWJla1l5TnlsSEVDZXo2ZG1PMTBHZw?oc=5",
+    "level": "yellow",
+    "why": "State hacking group linked to infrastructure in this country",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Army helicopters conduct live-fire exercise in Pingtung - Taiwan News",
+    "source": "Taiwan News",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZEJLSm92V3NETlN0eGJrWVo0Nmw5UnNqMUFLYXFzWmxJR25zVzF5a3dvTHVZYVQwQkNrclFhOGhHWG16dTlQREZjTHdvTFlZYkQ0TkxSUzQ?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Desbordamiento de memoria en productos de Schneider Electric",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-memoria-en-productos-de-schneider-electric",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de memoria liberada en ctrlX OS de Bosch",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-ctrlx-os-de-bosch",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+    "source": "CERT-FR SCADA",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+    "level": "yellow",
+    "why": "CERT-FR SCADA: critical infrastructure advisory",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "Danfoss AK-SM 8xxA Series",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Schneider Electric EcoStruxure Power Build Rapsody software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "AutomationDirect C-More EA9 Programming Software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Falta de autenticación en cámaras industriales de ifm",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/falta-de-autenticacion-en-camaras-industriales-de-ifm",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "​Cyberattack on South Korean Power Utility KEPCO Exposes Data of Over 1.5 Million People - The 420.in",
+    "source": "The 420.in",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWc0ejYtNkJNVGk0RVhBNEZMbS1NZXhlaDQ1YmZrUktGNDgxREl6Q1BCZ1l1VTR0N3JtLTZnZ1lfNW9NZnpmNEZLWm9tM09rNzJUc0xFbVRtcEFXdWh6aTZzbUZpNjBnOGJxUFU1Tk0xaXVKbWQ5NkVMVURwNnZfZ3lXZzVncXVxNkhZQ0RHZ3dIdDVOWUd2U0NPYU13eXE3dUZ1MHJJVzh1Zw?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "KR"
+    ]
+   },
+   {
+    "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "[Control Systems] Moxa security advisory (AV26-1187)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
+    "source": "NCSC-NL",
+    "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
+    "level": "yellow",
+    "why": "NCSC-NL: critical infrastructure advisory",
+    "targets": [
+     "NL"
+    ]
+   },
+   {
+    "text": "Autonomy Logic OpenPLC Runtime",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "libumqtt",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "level": "yellow",
+    "why": "CISA advisories: alert on critical infrastructure",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-25T20:58+00:00",
+  "sourcesChecked": 913,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError"
+  ]
+ },
+ {
   "id": "2026-11-25",
   "date": "2026-11-25",
   "auto": true,

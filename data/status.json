@@ -1,14 +1,21 @@
 {
- "id": "2026-11-25",
- "date": "2026-11-25",
+ "id": "2026-11-26",
+ "date": "2026-11-26",
  "auto": true,
  "level": "yellow",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
-  "NL": "yellow",
-  "KR": "yellow",
   "FR": "orange",
+  "NL": "yellow",
+  "ES": "yellow",
+  "KR": "yellow",
+  "AU": "yellow",
+  "JP": "yellow",
+  "TW": "yellow",
+  "PH": "yellow",
+  "NZ": "yellow",
+  "AT": "yellow",
   "BE": "yellow",
   "GB": "yellow"
  },
@@ -17,13 +24,23 @@
  "headline": "Reported cyber disruption of the power grid",
  "items": [
   {
+   "text": "Microsoft-Ausfall: Cyberversicherung zahlt kaum, Firmen bleiben auf Schäden sitzen - Blackout News",
+   "source": "Blackout News",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3cxTDBONC1rQnFXN3BEZHlHQ3RHTWFZa2N5STQ5aEFCdGwwR1I2Y0plNElsZTNudHlqalpqMmpJSXEwSEpldnotb0stZDBSZ0FFeXZkNW1JYjFMRW1pOVZHbElEbGZFbGtydTRwMXpKSXllajhoRzU0N3RfaFpPN2cwaEpjeXZZaWVxS1ZvYnRrZ3FRVWt5Y2xvYjNSR3BVT3VhMDEyenBUbWdwRENXeFdhakctTHZU?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "AT"
+   ]
+  },
+  {
    "text": "Panne Microsoft 365 : le rapport final confirme un bug, pas une cyberattaque - TheSiteOueb",
    "source": "TheSiteOueb",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNE9vUGR2ZzU5emUtcUctdmJkd19uMnN5QU1VeWJYX0phQW9hc0E1enhNWC11SUZWNURleURyQU1SV2NJQ01RR3N5d2NWY1RkZklyV0c1OHQtcWw1UzJVUUdjUjlnOV8tTGdDWS00anZDR2JhOFBFYVQ3VUM3WlI3REgwSjNTcDB6ek9mWVQxMjR5WF9Sb2lVTS1SQXhQODZRSnV2MXJGaEloZmFzTE05Z1lsY29GbzhlVk93VFJKQm9maUwwRkJicg?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "BE"
+    "FR"
    ]
   },
   {
@@ -33,7 +50,7 @@
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "FR"
+    "BE"
    ]
   },
   {
@@ -67,13 +84,69 @@
    ]
   },
   {
-   "text": "Blackout a raffica negli Usa: per Washington non c’è regia hacker - Economy Magazine",
-   "source": "Economy Magazine",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN3JaVXVyblRvSU14VTJUeHlQOHBPRlB2eWdqRENDNHVZOGVqTmxGSVZFUWVUTU5HU3JBcUlkb2VfRzBWZGdhYnI2WVQ2emItaVFRam5qal93eFZzMTVfOEF4Y2FoT1FacTJQZ1lpaHg4Q193M0hyN3RIbEppRmJNT3pUSFZ2RXBuWFB1QkVwb2QtTlJyU0RQQm01NA?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "[Control systems] Hitachi security advisory (AV26-1208)",
+   "source": "Canadian Centre for Cyber Security",
+   "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1208",
+   "level": "yellow",
+   "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
    "targets": [
-    "US"
+    "CA"
+   ]
+  },
+  {
+   "text": "ELECTRUM GLOBAL HOLDINGS ACQUIRES UNITS OF PACIFIC IMPERIAL MINES IN PRIVATE PLACEMENT - Yahoo! Finance Canada",
+   "source": "Yahoo! Finance Canada",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZEFIOWZ0c1BCZ1lYZXJ0VWF6d3pPSUVDOVJBYkNoRDE4UUZiVHVfRk44LXBZeEVZUFlpNFBnTk9LVjFVTTkyUE84dnlxazFuSUdvTkFqZnV1SDZKSi1HMHg3SFk2Q09iSmtDUXp1R2FfRERwN1JfUVd4ZEl6UWJla1l5TnlsSEVDZXo2ZG1PMTBHZw?oc=5",
+   "level": "yellow",
+   "why": "State hacking group linked to infrastructure in this country",
+   "targets": [
+    "CA"
+   ]
+  },
+  {
+   "text": "Army helicopters conduct live-fire exercise in Pingtung - Taiwan News",
+   "source": "Taiwan News",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZEJLSm92V3NETlN0eGJrWVo0Nmw5UnNqMUFLYXFzWmxJR25zVzF5a3dvTHVZYVQwQkNrclFhOGhHWG16dTlQREZjTHdvTFlZYkQ0TkxSUzQ?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Desbordamiento de memoria en productos de Schneider Electric",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-memoria-en-productos-de-schneider-electric",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Uso de memoria liberada en ctrlX OS de Bosch",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-ctrlx-os-de-bosch",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+   "source": "CERT-FR SCADA",
+   "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+   "level": "yellow",
+   "why": "CERT-FR SCADA: critical infrastructure advisory",
+   "targets": [
+    "FR"
    ]
   },
   {
@@ -107,6 +180,26 @@
    ]
   },
   {
+   "text": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Falta de autenticación en cámaras industriales de ifm",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/falta-de-autenticacion-en-camaras-industriales-de-ifm",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
    "text": "​Cyberattack on South Korean Power Utility KEPCO Exposes Data of Over 1.5 Million People - The 420.in",
    "source": "The 420.in",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWc0ejYtNkJNVGk0RVhBNEZMbS1NZXhlaDQ1YmZrUktGNDgxREl6Q1BCZ1l1VTR0N3JtLTZnZ1lfNW9NZnpmNEZLWm9tM09rNzJUc0xFbVRtcEFXdWh6aTZzbUZpNjBnOGJxUFU1Tk0xaXVKbWQ5NkVMVURwNnZfZ3lXZzVncXVxNkhZQ0RHZ3dIdDVOWUd2U0NPYU13eXE3dUZ1MHJJVzh1Zw?oc=5",
@@ -117,13 +210,13 @@
    ]
   },
   {
-   "text": "America's Power Grid Faces A New AI Cyber Threat. Can It Be Stopped? - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGtIbC04dVNDMWdwa1ktcm9fVzljd3dESkFfdFBSTGRnb2ZOZnpfNUlmVVE1cDNFUU54UmlZWXYxeFNhdl9kcUdkVGZLT1hBT1U5SVVzcGptbG91SmlHY0tuaXhNd0l1LVBRNW42UTB1OWZHTU9CMkNpTmJxMEk2LXpkNWFYclczdkNmUXgtaEt6c2ctczlHUkdqWEZMZ3ExT1hDQlhmZ0RIc3ZGTUhVNGZ4bw?oc=5",
+   "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
    "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
    "targets": [
-    "US"
+    "ES"
    ]
   },
   {
@@ -134,6 +227,16 @@
    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
    "targets": [
     "CA"
+   ]
+  },
+  {
+   "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
    ]
   },
   {
@@ -165,6 +268,16 @@
    "targets": [
     "US"
    ]
+  },
+  {
+   "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+   "targets": [
+    "ES"
+   ]
   }
  ],
  "actions": {
@@ -173,11 +286,10 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-25T09:18+00:00",
- "sourcesChecked": 892,
+ "checkedAt": "2026-11-25T20:58+00:00",
+ "sourcesChecked": 913,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError",
-  "INCIBE-CERT avisos SCI: TimeoutError"
+  "ASD's ACSC advisories: TimeoutError"
  ]
 }
