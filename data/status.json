@@ -1,22 +1,51 @@
 {
- "id": "2026-11-26",
- "date": "2026-11-26",
+ "id": "2026-11-27",
+ "date": "2026-11-27",
  "auto": true,
  "level": "yellow",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
   "FR": "orange",
-  "NL": "yellow",
   "ES": "yellow",
-  "DE": "yellow",
-  "BE": "yellow",
+  "DE": "orange",
+  "UA": "yellow",
   "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Widespread blackout reported",
+ "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Cyberangriff stoppt Smart-Meter-Produktion in drei Werken - Blackout News",
+   "source": "Blackout News",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa0NQcmRuVHB1SXVpWGl0NHNudklpWTY1SmkzRFZRNUpna2hwOHZzNHVRek9xQjNUU01sR3g2bXB6ZFVGX0xtWVZBYXhGQnRpVXY5elFvU0dTelVDMVc3bFduRGtOc3oyTGMyT3BmZ2tnU0hhNGZmNERHLWdOcE1xbUYxUVh6YTcwMmJWU2RycldWSmduYXJhVQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "DE"
+   ]
+  },
+  {
+   "text": "Massive blackout hits occupied Crimea, leaving dozens of communities without power - RBC-Ukraine",
+   "source": "RBC-Ukraine",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUnI5dmJqVC1lNjJsRnNZbWtWOXFnNmltM3NWdFNFUEgtTFV3MmRRSkEwcXNVbmFJYV9ZbXpMODkyUGVSUmNYYzVTWDdpTko2Qy1BVXk4VnlkYUFlWG4zdWhPdVlLODRjUUFUdC1hQVQ1R0pWQTBJcFEzOWN1VDNmWmNWc0JveUM0SlJDVzBTODY0OTZxY2h1bQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "UA"
+   ]
+  },
+  {
+   "text": "« Ce n’est pas une cyberattaque » : l’hôpital de Beauvais victime d’une panne informatique, certaines consultations et hospitalisations reportées - Le Parisien",
+   "source": "Le Parisien",
+   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPalFMMVlaSWRfaUM2OURtV1BpVFVidUlhNFhkczQ0Q1VXdkI2S2JLd2gwcF80X1g3V1dLa0Q3b19fNUd6RDZUazE2ME5oUmhiekZWMWVqZ0Y5bHR6aGg3R3ZTeUxlUmh6SDBjdkpiUnh2N241YUp1cVNsYVJsSFhONU8tdmJnMC1jRFpBRVNTYmRsT2UyUDVtNFhjakZRUkx4SG51Y0Z5QjR4OVgteGZuTnh4bElPVC0xZUZZWloyMGlfb0ZZcnpub0dMaUV1Sng3RjRPNk9BaE5jYkJKYjNrSWt0bEhTbFk3NUE0QjVZR2RDcGoxaHMyNmdINlgtRmU5cGNyZTQ5RVh0OEcwa3NaN1d2TGVkam1TbU5YUG5UV2FzWmdVRmw3TDVWOUN0cUJUZW9WSHZ3?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "FR"
+   ]
+  },
   {
    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
    "source": "Herald.Wales",
@@ -25,6 +54,16 @@
    "why": "Widespread blackout reported",
    "targets": [
     "GB"
+   ]
+  },
+  {
+   "text": "Operation Blackout: US charges over 800 cybercriminals, recovers $17 billion, and seizes 14,000 devices - Mezha",
+   "source": "Mezha",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTll2OXlQX3JRalc0V3NfQ1lYZFBvM1YwUE1zOG5HeEpHZXE2eGdXYVRFX2gtdWlJRjdhaUhwNGVScTVrdHBlOG1pRHJlN0ZSYjl0aFE4WkVqLS1vcnBucmNzbjBuS3NPOXBQWlp1cGFEb1NObFZWckx2YXdIbmc2TXFVbEZpMlkwNkdZRG9iRlB4cXNKZ0FDNGRNbzTSAaIBQVVfeXFMT00wVy1uU1MzNUthYUdvMG9CUFpGblVCWVc3cDd0M3FBWHl4cjd4MDJLVVB5THUwNElZaUNGT2J6S2xhbHVOQVRBUjRYcGlUX3hFTjZ3TmpFWEdxZXphcWRWTmdfNGpESUt0cTNCUlZnWkN4UFZ5NERrV3lGS2NQYlJWMFQtejdzTmFMcjkyZUFtUXRWTmlGS2M5d1ZkMEpTRnhB?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "US"
    ]
   },
   {
@@ -48,23 +87,13 @@
    ]
   },
   {
-   "text": "Pas de cyberattaque: Une faille technique à l'origine de la panne informatique au CHdN - RTL Lëtzebuerg",
-   "source": "RTL Lëtzebuerg",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeFN2X095WS1kbGNJdWtzdmtLVV92aHNWSC1ISmYxazFxaHo5dm1wcTlWNnBVUmU2OXRzS2RmS29HOXhleUw4MXFydW9TVngyM1FGSDNXN19IblFqMkEyRTdJQUhLN09ma2M0Zll0VmRrMm41NUZ1bDh0R3dndFRuel81dDM3SzZCRVprQ0o2RTVqSVMzVlBBcVQ5QlgyVkw0MXlMSkYtM096UkJFMThzXw?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+   "source": "INCIBE-CERT avisos SCI",
+   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+   "level": "yellow",
+   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
    "targets": [
-    "BE"
-   ]
-  },
-  {
-   "text": "Panne Microsoft : plus précis, le rapport final nie toute cyberattaque ou usage de l’IA - next.ink",
-   "source": "next.ink",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNE9hTEJ6UF92TXlWckNkYUw3TjVxUDRrX0ZrdmNuTnM2RXR2NmxGSHR2OEI2WGtGWDVTMzlDWWcwWHFfM29zS3VucVhLdVowUlVJOTJiTm05SkFxNmhkX3ZDSTdKazlsYndNMlpIWVdWUjNDU2wtZEdNaGVtR1VtcXpjZFNCZ1dIM2NrZk5ONWhGTzdxbzl3bklHSDFIMkp3VUIxUUdhakRxR2s4?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
+    "ES"
    ]
   },
   {
@@ -196,46 +225,6 @@
    "targets": [
     "ES"
    ]
-  },
-  {
-   "text": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
-   "source": "NCSC-NL",
-   "url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0508",
-   "level": "yellow",
-   "why": "NCSC-NL: critical infrastructure advisory",
-   "targets": [
-    "NL"
-   ]
-  },
-  {
-   "text": "Autonomy Logic OpenPLC Runtime",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-   "level": "yellow",
-   "why": "CISA advisories: critical infrastructure advisory",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "libumqtt",
-   "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "level": "yellow",
-   "why": "CISA advisories: alert on critical infrastructure",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "Múltiples vulnerabilidades en Mosquitto de Eclipse Foundation",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-mosquitto-de-eclipse-foundation",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
   }
  ],
  "actions": {
@@ -244,11 +233,12 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-26T09:16+00:00",
- "sourcesChecked": 892,
+ "checkedAt": "2026-11-26T20:57+00:00",
+ "sourcesChecked": 906,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError",
-  "INCIBE-CERT avisos: URLError"
+  "INCIBE-CERT avisos: TimeoutError",
+  "News AT: HTTPError"
  ]
 }
