@@ -9,20 +9,24 @@
   "FR": "orange",
   "NL": "yellow",
   "ES": "yellow",
-  "KR": "yellow",
-  "AU": "yellow",
-  "JP": "yellow",
-  "TW": "yellow",
-  "PH": "yellow",
-  "NZ": "yellow",
-  "AT": "yellow",
+  "DE": "yellow",
   "BE": "yellow",
   "GB": "yellow"
  },
  "regions": {},
  "eu": "green",
- "headline": "Reported cyber disruption of the power grid",
+ "headline": "Widespread blackout reported",
  "items": [
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
   {
    "text": "Microsoft-Ausfall: Cyberversicherung zahlt kaum, Firmen bleiben auf Schäden sitzen - Blackout News",
    "source": "Blackout News",
@@ -30,7 +34,7 @@
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
-    "AT"
+    "DE"
    ]
   },
   {
@@ -54,29 +58,9 @@
    ]
   },
   {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "GB"
-   ]
-  },
-  {
-   "text": "Panne Microsoft : plus précis, le rapport final nie toute cyberattaque ou usage de l’IA - Next.ink",
-   "source": "Next.ink",
+   "text": "Panne Microsoft : plus précis, le rapport final nie toute cyberattaque ou usage de l’IA - next.ink",
+   "source": "next.ink",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNE9hTEJ6UF92TXlWckNkYUw3TjVxUDRrX0ZrdmNuTnM2RXR2NmxGSHR2OEI2WGtGWDVTMzlDWWcwWHFfM29zS3VucVhLdVowUlVJOTJiTm05SkFxNmhkX3ZDSTdKazlsYndNMlpIWVdWUjNDU2wtZEdNaGVtR1VtcXpjZFNCZ1dIM2NrZk5ONWhGTzdxbzl3bklHSDFIMkp3VUIxUUdhakRxR2s4?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "FR"
-   ]
-  },
-  {
-   "text": "Panne de Microsoft, arrêt au sol de la FAA, piratage d'Optimizely, panne d'Apple : que se passe-t-il, à quoi s'attendre et que faire - National Cybersecurity Alliance",
-   "source": "National Cybersecurity Alliance",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa1FfcDltUnZfTEZ5TXJUak9jeWExU1o4ZUhhbFVLMDZvamExdmsxTmN5MTF1V3RGbVJlM2lEcHJCalZFTkl1cDh4MjkzZkQydi1kaTI5UXZaeW9GR2xlVVA2VlAzUjB4dWh2WlVOTnJDYmlwMnM5NWxPdk51cDBVa1dCdGFncFFlZVNaX290TVNwcmt0U0Y1bUpjOWE4SXRoX1pGOV8xMEw5TFBvTDZLRk1vR3hLU2VjNW92ZW5LTlFJVmJieU4tTWpYcFFhSzVIRUdENnlORTJvN3NzLUR0dTlreUNuRTJfYnBv?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -101,22 +85,6 @@
    "why": "State hacking group linked to infrastructure in this country",
    "targets": [
     "CA"
-   ]
-  },
-  {
-   "text": "Army helicopters conduct live-fire exercise in Pingtung - Taiwan News",
-   "source": "Taiwan News",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KZEJLSm92V3NETlN0eGJrWVo0Nmw5UnNqMUFLYXFzWmxJR25zVzF5a3dvTHVZYVQwQkNrclFhOGhHWG16dTlQREZjTHdvTFlZYkQ0TkxSUzQ?oc=5",
-   "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
-   "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
    ]
   },
   {
@@ -150,9 +118,9 @@
    ]
   },
   {
-   "text": "Danfoss AK-SM 8xxA Series",
+   "text": "AutomationDirect C-More EA9 Programming Software",
    "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
    "level": "yellow",
    "why": "CISA advisories: critical infrastructure advisory",
    "targets": [
@@ -170,9 +138,9 @@
    ]
   },
   {
-   "text": "AutomationDirect C-More EA9 Programming Software",
+   "text": "Danfoss AK-SM 8xxA Series",
    "source": "CISA advisories",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
    "level": "yellow",
    "why": "CISA advisories: critical infrastructure advisory",
    "targets": [
@@ -197,16 +165,6 @@
    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
    "targets": [
     "ES"
-   ]
-  },
-  {
-   "text": "​Cyberattack on South Korean Power Utility KEPCO Exposes Data of Over 1.5 Million People - The 420.in",
-   "source": "The 420.in",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWc0ejYtNkJNVGk0RVhBNEZMbS1NZXhlaDQ1YmZrUktGNDgxREl6Q1BCZ1l1VTR0N3JtLTZnZ1lfNW9NZnpmNEZLWm9tM09rNzJUc0xFbVRtcEFXdWh6aTZzbUZpNjBnOGJxUFU1Tk0xaXVKbWQ5NkVMVURwNnZfZ3lXZzVncXVxNkhZQ0RHZ3dIdDVOWUd2U0NPYU13eXE3dUZ1MHJJVzh1Zw?oc=5",
-   "level": "yellow",
-   "why": "Cyber attack attempt on energy infrastructure reported",
-   "targets": [
-    "KR"
    ]
   },
   {
@@ -286,10 +244,11 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-25T20:58+00:00",
- "sourcesChecked": 913,
+ "checkedAt": "2026-11-26T09:16+00:00",
+ "sourcesChecked": 892,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError"
+  "ASD's ACSC advisories: TimeoutError",
+  "INCIBE-CERT avisos: URLError"
  ]
 }
