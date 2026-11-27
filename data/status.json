@@ -1,8 +1,8 @@
 {
- "id": "2026-11-27",
- "date": "2026-11-27",
+ "id": "2026-11-28",
+ "date": "2026-11-28",
  "auto": true,
- "level": "yellow",
+ "level": "green",
  "countries": {
   "US": "yellow",
   "CA": "yellow",
@@ -16,8 +16,8 @@
   "NZ": "yellow",
   "IN": "yellow",
   "IL": "yellow",
-  "DE": "orange",
   "CH": "yellow",
+  "DE": "yellow",
   "GB": "yellow",
   "UA": "yellow"
  },
@@ -25,6 +25,36 @@
  "eu": "green",
  "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Apagón mundial por un ciberataque: qué tan posible es este escenario y qué dicen los expertos - Revista Semana",
+   "source": "Revista Semana",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV05VclVpTUkzbTFlYlR0bTFyWjBjQUM5eDJWMnhjYW4wZU5vYk54R040M0VTSWoteUdhM3hhTTkyck9oTUlKekJNUmY1bU5QZXNIUUN6eUJqRzl6bkI5X2FUaFVhdWJJdGRkX0RWODl0MjVhSFNJVk9rMVgyOW1ZaEpwVXVPUzBadnZXVHl6b3phYVdpRmZEcFk4cTNEdnkxS1FZRUFES3RMUUdzemJaZmxYaTVoWVdfTTRLTVN6d1I3Yl9NemNJUXJMZVk2UVVCNHJYallnb3JDVTQ?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "ES"
+   ]
+  },
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
+  {
+   "text": "Bill Gates, Microsoft cofounder: “The ability to carry out a cyberattack that would alter all bank accounts and shut down the power grid exists today” - El Cronista",
+   "source": "El Cronista",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOektLWndCaFFReWh0aFh3bURPdkplMGdMYmU2TWRHQ2pUbnpmOWpNcHk0MzNHRTZ3c1R6WVdqdVhZOW50N0lpUzJxam1fT2xaNngwdV9NbVExX05ZNVBZYWJxSDIxaGw1NW1Rdm53M2paeHhLUFFUTGliZTlHTFd4SGN0aXhwTW1KVnNrU2d6TlJQcnZDWXdKblFSNmhLVzhRVmVKMTY2c09UckQzdExEQ0Z4V25lOVl2anFzZnhsMHNSVFNLOFE3TUJIWG5TeXlWS1BVbXA1dktQdHV3bVFLU2tZZDY4OGhCdkI0WmFMZldtb0FjSDEwZDQ0aWJyMWRTS0NnS0VWbVQ3LW5EWGc?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "US"
+   ]
+  },
   {
    "text": "Iran Hits Israel's Power Grid? Shock Cyberattack Causes Widespread Blackout Across Multiple Cities - The Times of India",
    "source": "The Times of India",
@@ -44,16 +74,6 @@
    "why": "Reported cyber disruption of the power grid",
    "targets": [
     "CH"
-   ]
-  },
-  {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "GB"
    ]
   },
   {
@@ -87,29 +107,9 @@
    ]
   },
   {
-   "text": "Operation Blackout: US charges over 800 cybercriminals, recovers $17 billion, and seizes 14,000 devices - Mezha",
-   "source": "Mezha",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTBXLW5TUzM1S2FhR28wb0JQWkZuVUJZVzdwN3QzcUFYeXhyN3gwMktVUHlMdTA0SVlpQ0ZPYnpLbGFsdU5BVEFSNFhwaVRfeEVONndOakVYR3FlemFxZFZOZ180akRJS3RxM0JSVmdaQ3hQVnk0RGtXeUZLY1BiUlYwVC16N3NOYUxyOTJlQW1RdFZOaUZLYzl3VmQwSlNGeEHSAaIBQVVfeXFMT00wVy1uU1MzNUthYUdvMG9CUFpGblVCWVc3cDd0M3FBWHl4cjd4MDJLVVB5THUwNElZaUNGT2J6S2xhbHVOQVRBUjRYcGlUX3hFTjZ3TmpFWEdxZXphcWRWTmdfNGpESUt0cTNCUlZnWkN4UFZ5NERrV3lGS2NQYlJWMFQtejdzTmFMcjkyZUFtUXRWTmlGS2M5d1ZkMEpTRnhB?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "US"
-   ]
-  },
-  {
-   "text": "Microsoft-Ausfall: Cyberversicherung zahlt kaum, Firmen bleiben auf Schäden sitzen - Blackout News",
-   "source": "Blackout News",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3cxTDBONC1rQnFXN3BEZHlHQ3RHTWFZa2N5STQ5aEFCdGwwR1I2Y0plNElsZTNudHlqalpqMmpJSXEwSEpldnotb0stZDBSZ0FFeXZkNW1JYjFMRW1pOVZHbElEbGZFbGtydTRwMXpKSXllajhoRzU0N3RfaFpPN2cwaEpjeXZZaWVxS1ZvYnRrZ3FRVWt5Y2xvYjNSR3BVT3VhMDEyenBUbWdwRENXeFdhakctTHZU?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
-   "targets": [
-    "DE"
-   ]
-  },
-  {
-   "text": "'Swift seizure of small islands': China's amphibious drill using civilian ships threatens Taiwan - The Times of India",
+   "text": "China 'Rehearses' Taiwan Invasion; Satellite Images Expose PLA's Hostile Shore Landing Tactics - The Times of India",
    "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQbUZzUkwyYjdWeFFZcTRSbHN0ajRWOVR0VTU4ZjRCSTBJYWZ3cmtfLUdaVHIwWXo1Q2xweUcwTmJMSUN5dldMbmFtb2M4cUYxcExYWkttVUtEWWE0T082SEs2dWp4a1ZtMHRwTUFLc3RlNHJaU0FaU1pXWUFXTlNwbWE3a1dDa08xNktXWE1DT2JLZmtzWlJpcE4zUmJ2dXR4VmtUelBTTXdQVGt2YldYemxNSkhDNjQ4djZjcVJIVl9hcGhsa0puVkNkbjRkeXpOVmhIZjRRdG1fU3NrWUpVTzlLN0FBSjBOVmw0QldzenY5UllKTVY2anplb25TNGYzaDhZdEJjc9IBjAJBVV95cUxPeVpwZFZNTlZhZ05fMTNxcHY2M2tpMDFVaHQtaHZRZ1h5eWFObzU5dmpPY1FEcUxfem5KWGVGdEtOdEVPUkMzZUV5NWtrQWxzM1pmd29RTmJLS3Fuejl3RWU4bzU3Zy1UbTFENHpDTDVsVHZlamZsdG9HcFhqTWJjMkY2WDlYZ2U2WTUzek1tamJIRUkydXl2cHMwRm90R0tISjV4OWFCQjZmZlY5SXZ4R290akl3dG55VEs1SjVwdWJtS0NGYk1keGg4bUo0bjVJeEpiWjlLbkowRHI3LXdNZDU4WnoyTVRRdTFWNWhQY29jREVocDg4eXRDRHBpenVYYzJReGhDTDBSMFQ1?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVTZ6V0x6eUV4aGhOQkhnODk0ZkhTbXRRYUJ3NEhTdjFkZUdmNG4xOTVUZmZ2Z3F0SWF0eTdrb2ZrRUdpU05LaGd2ZWlfY1VuYlB1eDgtTlhMcnRVNlEtOF9sb2c5eTlwWE93QWptSVN3YkEtMlF3aHIxQ2dsd2hwWjBwUUVWcmw1dnFoN3RRcGVDWW5QUHpwS2tyMDBTZjZDMFVzZFVWWEFacEJxRDJxODRmYUJPaVdScUJoVlIzOUpqS2JhV09RVkxaandmd2I0dE9rT3hMa3JlOHhXa2tuOVZ4eXZ3d25kTVlrTm1kTXQ1MEp5LTRBU3Z2cVN1c21a0gGGAkFVX3lxTE94T3VobnkxWEE2a3FjRWxiX21fNjVZY3Q5d0NxNy1qMjdNTjRsSDNKdHdOR3FtbzZfcjlOTzZBcmVhTTZQd2plVWp5NFktVGktTHQtTzBlU2ctYnFVeVFVcU5zQk10VkJzTW5tcE8zcFk4dE1xeHJaVnB2RmpTR21yd1Z3TmdrUm9yTzd5QjBfWUViU3pwd281YzFMR3VBbHpfVFBucl95QjFtNnNTbG1ZTGJUalFDQWszQTZhSU1SbzdFSEp5QU5vOVRlRnpzNmVzYXVVb05IcTRSeDhDcDRsdFpheGQ3czhnQ1RKYllrbXU2MHlWZmdEMG5HY1R4YmpuOEM5b1E?oc=5",
    "level": "yellow",
    "why": "Taiwan Strait escalation or major exercise",
    "targets": [
@@ -123,19 +123,13 @@
    ]
   },
   {
-   "text": "Chinese military tests new Taiwan landing tactics in coastal drills - Internazionale",
-   "source": "Internazionale",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWEdaTzExOG9XeEZtMDNCejljQTZiZXRrMkVWOERjMjg4WE83SVFadkt5Q1RrcE0zSmNVMDBJcDFtSi12MHFZX3c2UG15cTctb1RBZ2taRVZCckgzOXZGWFdHbEVOd29SemRYU3lXYjhEbFAySkJFWENpRk1XS25UTUtLWG9xM0dmU2M4Z21jaElYdjRvMG9Ga3RCYnc5OTk2NjZCQWpyNWIyWmVTdzRuMENMV3pkZHRkTm5Ja2pvaG9EakZONXBodnJMbw?oc=5",
+   "text": "Bill Gates, cofundador de Microsoft: “La capacidad de realizar un ciberataque que altere todas las cuentas bancarias y paralice la red eléctrica existe hoy en día” - El Cronista",
+   "source": "El Cronista",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOak5JWGxOQjM2bkxRRUhjOTBGSmRsbkZ0SWwyWk1rYlR4Q3c3WGtPQjNFLVFoRk5Td0lsWV82TGdVQnNKWEhtV3N1QVFONkJOR0J2eG5XSmlYSXRMYlp0WUpmTmlwN0Z0c1NRVjJwOXZPdl91M0NEQ01sdkhQX0VWM2RMM0F6dnYtcW9DSlZCbWt3d3VRVHVmNFlTbGtQSkN0R3BRWDJyeEJ6VlFHZG1PWjVPQWtGU0ItS3Ffbk5yeFZnOG4xVENOS29HckRhWjlfeTZUNVdVTXNiUTdzOFNobFI4SFRWQy1kV24zYlp4NmJGaTR1ZHV2MmVKNG91dnF4NDRNYVl4VUtZU1l3MFVHUGxjSjl5WW9DSzR6M2NjUkRuaFRMLTA0ZW9LdUVQR2vSAcoCQVVfeXFMT1g4SDQ5ei1meDdOeGZ6U2hCZFk5bUI2Q3JaQnp4Vkp5cFdWblEtVjZGdnFBbFhRcVQ0Z2VWeDJOYXREb2p1WnZXcjhMNlJHanNTb2pnSFh3UUoySThwcjZld2V2d2YwYk1HaVA2eW5OZDgxVnJqbkRBMno4N01PVERPc0c3Zkx6SEVlMENpc0Y0QThUbmY3MW1kZUt6dHJ4NjB0T0xwUXhMdWlIUXV5ajk0b0NCaEE3djA0YjlZbThUSGIzTVdSZlNtNE9qODVxM1JLT3RvSmt1RDctYW5hRkFwT2RnUDlIbmpRbllnajRlczdMR0pTcXVMc29PSzY0R010ZHVBazRjNGRCZG8xbjVuc3E3Qy1jZWdpMTZXSDRLU1FBaks4Mml1d0pxWDlrVHVpRVFqYW9PTkxac3kybDBaTlU5QlBFVV9B?oc=5",
    "level": "yellow",
-   "why": "Taiwan Strait escalation or major exercise",
+   "why": "Cyber attack attempt on energy infrastructure reported",
    "targets": [
-    "AU",
-    "US",
-    "JP",
-    "TW",
-    "PH",
-    "KR",
-    "NZ"
+    "ES"
    ]
   },
   {
@@ -155,16 +149,6 @@
    ]
   },
   {
-   "text": "Artex AI Hacking Tool: Microsoft Names Chinese, North Korean State-Linked Hacker Groups - Tech Times",
-   "source": "Tech Times",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbXpiVWctcEhUQ1IxTGFOU21Fb0UxMkpQMGJ5dlVyYS1JcVB0TVlwejNlTlBha1VXTWJLWjNvb1M2MFpSWDhJUXFtcFQyU0Y4dl9CdENHNkJvYTl2WXNRdmhQS3Z1MDZsdHZDaFFWWUJCUGxDZm5RcnBsdUIwenNjWWltc0FiSHZJNUFDMXpBTkJuOWJGNnltVmhTTXFNRm9xNTNJaUQwREg0U0Z2WGlNbHhVWTExeVozZzZ4U3VJOWpvaHJTSlpxTVMxWHlJbWNKc1l1SjFNWQ?oc=5",
-   "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
-   "targets": [
-    "KR"
-   ]
-  },
-  {
    "text": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
    "source": "INCIBE-CERT avisos SCI",
    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
@@ -180,16 +164,6 @@
    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1208",
    "level": "yellow",
    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
-   "targets": [
-    "CA"
-   ]
-  },
-  {
-   "text": "ELECTRUM GLOBAL HOLDINGS ACQUIRES UNITS OF PACIFIC IMPERIAL MINES IN PRIVATE PLACEMENT - Yahoo! Finance Canada",
-   "source": "Yahoo! Finance Canada",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZEFIOWZ0c1BCZ1lYZXJ0VWF6d3pPSUVDOVJBYkNoRDE4UUZiVHVfRk44LXBZeEVZUFlpNFBnTk9LVjFVTTkyUE84dnlxazFuSUdvTkFqZnV1SDZKSi1HMHg3SFk2Q09iSmtDUXp1R2FfRERwN1JfUVd4ZEl6UWJla1l5TnlsSEVDZXo2ZG1PMTBHZw?oc=5",
-   "level": "yellow",
-   "why": "State hacking group linked to infrastructure in this country",
    "targets": [
     "CA"
    ]
@@ -283,16 +257,6 @@
    "targets": [
     "ES"
    ]
-  },
-  {
-   "text": "[Control Systems] Moxa security advisory (AV26-1187)",
-   "source": "Canadian Centre for Cyber Security",
-   "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-moxa-security-advisory-av26-1187",
-   "level": "yellow",
-   "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
-   "targets": [
-    "CA"
-   ]
   }
  ],
  "actions": {
@@ -301,8 +265,8 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-27T09:17+00:00",
- "sourcesChecked": 928,
+ "checkedAt": "2026-11-27T20:58+00:00",
+ "sourcesChecked": 900,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
   "ASD's ACSC advisories: TimeoutError"

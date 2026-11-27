@@ -1,5 +1,279 @@
 [
  {
+  "id": "2026-11-28",
+  "date": "2026-11-28",
+  "auto": true,
+  "level": "green",
+  "countries": {
+   "US": "yellow",
+   "CA": "yellow",
+   "FR": "yellow",
+   "ES": "yellow",
+   "AU": "yellow",
+   "JP": "yellow",
+   "TW": "yellow",
+   "PH": "yellow",
+   "KR": "yellow",
+   "NZ": "yellow",
+   "IN": "yellow",
+   "IL": "yellow",
+   "CH": "yellow",
+   "DE": "yellow",
+   "GB": "yellow",
+   "UA": "yellow"
+  },
+  "regions": {},
+  "eu": "green",
+  "headline": "Reported cyber disruption of the power grid",
+  "items": [
+   {
+    "text": "Apagón mundial por un ciberataque: qué tan posible es este escenario y qué dicen los expertos - Revista Semana",
+    "source": "Revista Semana",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV05VclVpTUkzbTFlYlR0bTFyWjBjQUM5eDJWMnhjYW4wZU5vYk54R040M0VTSWoteUdhM3hhTTkyck9oTUlKekJNUmY1bU5QZXNIUUN6eUJqRzl6bkI5X2FUaFVhdWJJdGRkX0RWODl0MjVhSFNJVk9rMVgyOW1ZaEpwVXVPUzBadnZXVHl6b3phYVdpRmZEcFk4cTNEdnkxS1FZRUFES3RMUUdzemJaZmxYaTVoWVdfTTRLTVN6d1I3Yl9NemNJUXJMZVk2UVVCNHJYallnb3JDVTQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+    "source": "Herald.Wales",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "GB"
+    ]
+   },
+   {
+    "text": "Bill Gates, Microsoft cofounder: “The ability to carry out a cyberattack that would alter all bank accounts and shut down the power grid exists today” - El Cronista",
+    "source": "El Cronista",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOektLWndCaFFReWh0aFh3bURPdkplMGdMYmU2TWRHQ2pUbnpmOWpNcHk0MzNHRTZ3c1R6WVdqdVhZOW50N0lpUzJxam1fT2xaNngwdV9NbVExX05ZNVBZYWJxSDIxaGw1NW1Rdm53M2paeHhLUFFUTGliZTlHTFd4SGN0aXhwTW1KVnNrU2d6TlJQcnZDWXdKblFSNmhLVzhRVmVKMTY2c09UckQzdExEQ0Z4V25lOVl2anFzZnhsMHNSVFNLOFE3TUJIWG5TeXlWS1BVbXA1dktQdHV3bVFLU2tZZDY4OGhCdkI0WmFMZldtb0FjSDEwZDQ0aWJyMWRTS0NnS0VWbVQ3LW5EWGc?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Iran Hits Israel's Power Grid? Shock Cyberattack Causes Widespread Blackout Across Multiple Cities - The Times of India",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOXV0ekh1OFhMSTRrRVJ6TEkwTjExcVVGb0xDQXN2OU43TDVQVUZEYVk0UHUyeDFWc1dtaXcwY0tFMWJPYkkyb2VwWkRCR3FXSWVXY3lGWDRQMS02VVNyRVdKUVAyZ0RNX1hSVGtwOWIwYmJ2LUNjTFFieUdXbmw3Qmp1U1VRempYOE5YOGUwZldnT1hTNTI4eElRRldmLVVIZXJJQkFicTNZRU5QWEphbHQtODVMQjZXWkpGWGlFbkw2Qkw5UUQxMFZKY3pkdWUtdkphcTZrRHdvMDkzOGpaM0lOdHhRZHE5N3ZlNW43bElxS1praDBZaC0yU3JjM2xOX09oY05yNTXSAY4CQVVfeXFMTUxJMk9Vb0p2cGxWSk9SQjhDVnBMZDlxYTc4V2cyMlZUUHBMV1hETzc5cWhDcGE0b1lEdjk3OHlLZEZtaGk1dkdjci1NRFBhTUdyamhoRENvS1N4LTNWazg0LUxBa2ZZQTZIMVhZZW9kTjhSNlJzX294aHB0ZHJfdjdHNkgyVE45MmxvdWlPa2VOVENzQnl4NTJlTkV5MEVMN3FaSThkNjFWV0F3UC12UUd1cVBxTFpzekhUMWZaVlI1eklXTDRSc3pURHVMTkhMWExXaURIM3hnbVNfLWEtcmhwbUNzWlNsTzNhMGljZGtsRWxyclJrQjFsanhEV0ZMR1UzRnFqZ3cyOWlFMlJB?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "IN",
+     "IL"
+    ]
+   },
+   {
+    "text": "Blackout nach Hackerangriff: Das passiert in der Schweiz nach 30 Minuten, 4 Stunden und 3 Tagen ohne Strom - 20 Minuten",
+    "source": "20 Minuten",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3dYZFNJU3hJcTVMSFE2dXRIZDN0bWJIckFac2VTTGRheEVBX0JLZXhCUHk3UHgzWnFGc1h4MW5fNUU3OWFYWjhTaXg2MUtGYkJpMkNFckczM19DakxXa3RsclJFODFPUDR4VUk4cnUwcllLZWhmQWsyRVo3Nk5uME9CY3FOdXo1bHk1TG54dDBiUHluVjhudTlBQjFkYnRFM3Z4eE9pSXM5V2EzTnB3eGZwSGpkREJLMHc?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "CH"
+    ]
+   },
+   {
+    "text": "Cyberangriff stoppt Smart-Meter-Produktion in drei Werken - Blackout News",
+    "source": "Blackout News",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa0NQcmRuVHB1SXVpWGl0NHNudklpWTY1SmkzRFZRNUpna2hwOHZzNHVRek9xQjNUU01sR3g2bXB6ZFVGX0xtWVZBYXhGQnRpVXY5elFvU0dTelVDMVc3bFduRGtOc3oyTGMyT3BmZ2tnU0hhNGZmNERHLWdOcE1xbUYxUVh6YTcwMmJWU2RycldWSmduYXJhVQ?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "DE"
+    ]
+   },
+   {
+    "text": "Massive blackout hits occupied Crimea, leaving dozens of communities without power - RBC-Ukraine",
+    "source": "RBC-Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUnI5dmJqVC1lNjJsRnNZbWtWOXFnNmltM3NWdFNFUEgtTFV3MmRRSkEwcXNVbmFJYV9ZbXpMODkyUGVSUmNYYzVTWDdpTko2Qy1BVXk4VnlkYUFlWG4zdWhPdVlLODRjUUFUdC1hQVQ1R0pWQTBJcFEzOWN1VDNmWmNWc0JveUM0SlJDVzBTODY0OTZxY2h1bQ?oc=5",
+    "level": "orange",
+    "why": "Widespread blackout reported",
+    "targets": [
+     "UA"
+    ]
+   },
+   {
+    "text": "« Ce n’est pas une cyberattaque » : l’hôpital de Beauvais victime d’une panne informatique, certaines consultations et hospitalisations reportées - Le Parisien",
+    "source": "Le Parisien",
+    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPalFMMVlaSWRfaUM2OURtV1BpVFVidUlhNFhkczQ0Q1VXdkI2S2JLd2gwcF80X1g3V1dLa0Q3b19fNUd6RDZUazE2ME5oUmhiekZWMWVqZ0Y5bHR6aGg3R3ZTeUxlUmh6SDBjdkpiUnh2N241YUp1cVNsYVJsSFhONU8tdmJnMC1jRFpBRVNTYmRsT2UyUDVtNFhjakZRUkx4SG51Y0Z5QjR4OVgteGZuTnh4bElPVC0xZUZZWloyMGlfb0ZZcnpub0dMaUV1Sng3RjRPNk9BaE5jYkJKYjNrSWt0bEhTbFk3NUE0QjVZR2RDcGoxaHMyNmdINlgtRmU5cGNyZTQ5RVh0OEcwa3NaN1d2TGVkam1TbU5YUG5UV2FzWmdVRmw3TDVWOUN0cUJUZW9WSHZ3?oc=5",
+    "level": "orange",
+    "why": "Reported cyber disruption of the power grid",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "China 'Rehearses' Taiwan Invasion; Satellite Images Expose PLA's Hostile Shore Landing Tactics - The Times of India",
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVTZ6V0x6eUV4aGhOQkhnODk0ZkhTbXRRYUJ3NEhTdjFkZUdmNG4xOTVUZmZ2Z3F0SWF0eTdrb2ZrRUdpU05LaGd2ZWlfY1VuYlB1eDgtTlhMcnRVNlEtOF9sb2c5eTlwWE93QWptSVN3YkEtMlF3aHIxQ2dsd2hwWjBwUUVWcmw1dnFoN3RRcGVDWW5QUHpwS2tyMDBTZjZDMFVzZFVWWEFacEJxRDJxODRmYUJPaVdScUJoVlIzOUpqS2JhV09RVkxaandmd2I0dE9rT3hMa3JlOHhXa2tuOVZ4eXZ3d25kTVlrTm1kTXQ1MEp5LTRBU3Z2cVN1c21a0gGGAkFVX3lxTE94T3VobnkxWEE2a3FjRWxiX21fNjVZY3Q5d0NxNy1qMjdNTjRsSDNKdHdOR3FtbzZfcjlOTzZBcmVhTTZQd2plVWp5NFktVGktTHQtTzBlU2ctYnFVeVFVcU5zQk10VkJzTW5tcE8zcFk4dE1xeHJaVnB2RmpTR21yd1Z3TmdrUm9yTzd5QjBfWUViU3pwd281YzFMR3VBbHpfVFBucl95QjFtNnNTbG1ZTGJUalFDQWszQTZhSU1SbzdFSEp5QU5vOVRlRnpzNmVzYXVVb05IcTRSeDhDcDRsdFpheGQ3czhnQ1RKYllrbXU2MHlWZmdEMG5HY1R4YmpuOEM5b1E?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Bill Gates, cofundador de Microsoft: “La capacidad de realizar un ciberataque que altere todas las cuentas bancarias y paralice la red eléctrica existe hoy en día” - El Cronista",
+    "source": "El Cronista",
+    "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOak5JWGxOQjM2bkxRRUhjOTBGSmRsbkZ0SWwyWk1rYlR4Q3c3WGtPQjNFLVFoRk5Td0lsWV82TGdVQnNKWEhtV3N1QVFONkJOR0J2eG5XSmlYSXRMYlp0WUpmTmlwN0Z0c1NRVjJwOXZPdl91M0NEQ01sdkhQX0VWM2RMM0F6dnYtcW9DSlZCbWt3d3VRVHVmNFlTbGtQSkN0R3BRWDJyeEJ6VlFHZG1PWjVPQWtGU0ItS3Ffbk5yeFZnOG4xVENOS29HckRhWjlfeTZUNVdVTXNiUTdzOFNobFI4SFRWQy1kV24zYlp4NmJGaTR1ZHV2MmVKNG91dnF4NDRNYVl4VUtZU1l3MFVHUGxjSjl5WW9DSzR6M2NjUkRuaFRMLTA0ZW9LdUVQR2vSAcoCQVVfeXFMT1g4SDQ5ei1meDdOeGZ6U2hCZFk5bUI2Q3JaQnp4Vkp5cFdWblEtVjZGdnFBbFhRcVQ0Z2VWeDJOYXREb2p1WnZXcjhMNlJHanNTb2pnSFh3UUoySThwcjZld2V2d2YwYk1HaVA2eW5OZDgxVnJqbkRBMno4N01PVERPc0c3Zkx6SEVlMENpc0Y0QThUbmY3MW1kZUt6dHJ4NjB0T0xwUXhMdWlIUXV5ajk0b0NCaEE3djA0YjlZbThUSGIzTVdSZlNtNE9qODVxM1JLT3RvSmt1RDctYW5hRkFwT2RnUDlIbmpRbllnajRlczdMR0pTcXVMc29PSzY0R010ZHVBazRjNGRCZG8xbjVuc3E3Qy1jZWdpMTZXSDRLU1FBaks4Mml1d0pxWDlrVHVpRVFqYW9PTkxac3kybDBaTlU5QlBFVV9B?oc=5",
+    "level": "yellow",
+    "why": "Cyber attack attempt on energy infrastructure reported",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Chinese military tests new Taiwan landing tactics in coastal drills - Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZU5SZ2xxNVZFTWlFWHlITkJLNXhSendCb3RYckhpQkhqcDRVeDdRdVJWRl9WWnJWYlZvV2tMM1VaalU2SlRQQTRYNVZzc0Y2SVp0WmJKai1kN3NtSEU1MkxLSkhGN0M2TW9JOHFianYwZEtrNTE2NW81aGlLTWRpc18xd2hwUmI1XzdQVGxON0dJREhldE5R?oc=5",
+    "level": "yellow",
+    "why": "Taiwan Strait escalation or major exercise",
+    "targets": [
+     "AU",
+     "US",
+     "JP",
+     "TW",
+     "PH",
+     "KR",
+     "NZ"
+    ]
+   },
+   {
+    "text": "Desbordamiento de búfer en controladores AK-SM 8xxA de Danfoss",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-bufer-en-controladores-ak-sm-8xxa-de-danfoss",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "[Control systems] Hitachi security advisory (AV26-1208)",
+    "source": "Canadian Centre for Cyber Security",
+    "url": "https://cyber.gc.ca/en/alerts-advisories/control-systems-hitachi-security-advisory-av26-1208",
+    "level": "yellow",
+    "why": "Canadian Centre for Cyber Security: critical infrastructure advisory",
+    "targets": [
+     "CA"
+    ]
+   },
+   {
+    "text": "Desbordamiento de memoria en productos de Schneider Electric",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/desbordamiento-de-memoria-en-productos-de-schneider-electric",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de memoria liberada en ctrlX OS de Bosch",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-memoria-liberada-en-ctrlx-os-de-bosch",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+    "source": "CERT-FR SCADA",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+    "level": "yellow",
+    "why": "CERT-FR SCADA: critical infrastructure advisory",
+    "targets": [
+     "FR"
+    ]
+   },
+   {
+    "text": "AutomationDirect C-More EA9 Programming Software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Schneider Electric EcoStruxure Power Build Rapsody software",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Danfoss AK-SM 8xxA Series",
+    "source": "CISA advisories",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+    "level": "yellow",
+    "why": "CISA advisories: critical infrastructure advisory",
+    "targets": [
+     "US"
+    ]
+   },
+   {
+    "text": "Múltiples vulnerabilidades en productos de Wiesemann & Theis",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/multiples-vulnerabilidades-en-productos-de-wiesemann-theis",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Falta de autenticación en cámaras industriales de ifm",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/falta-de-autenticacion-en-camaras-industriales-de-ifm",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   },
+   {
+    "text": "Uso de credenciales predeterminadas en controladores de refrigeración de Danfoss",
+    "source": "INCIBE-CERT avisos SCI",
+    "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/uso-de-credenciales-predeterminadas-en-controladores-de-refrigeracion-de-danfoss",
+    "level": "yellow",
+    "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
+    "targets": [
+     "ES"
+    ]
+   }
+  ],
+  "actions": {
+   "green": "No material change. Keep supplies rotated.",
+   "yellow": "Strategic warning sign. Top up and rotate water, food and batteries.",
+   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
+   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
+  },
+  "checkedAt": "2026-11-27T20:58+00:00",
+  "sourcesChecked": 900,
+  "sourceErrors": [
+   "ASD's ACSC alerts: TimeoutError",
+   "ASD's ACSC advisories: TimeoutError"
+  ]
+ },
+ {
   "id": "2026-11-27",
   "date": "2026-11-27",
   "auto": true,
