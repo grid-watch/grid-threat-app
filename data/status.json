@@ -6,16 +6,56 @@
  "countries": {
   "US": "yellow",
   "CA": "yellow",
-  "FR": "orange",
+  "FR": "yellow",
   "ES": "yellow",
+  "AU": "yellow",
+  "JP": "yellow",
+  "TW": "yellow",
+  "PH": "yellow",
+  "KR": "yellow",
+  "NZ": "yellow",
+  "IN": "yellow",
+  "IL": "yellow",
   "DE": "orange",
-  "UA": "yellow",
-  "GB": "yellow"
+  "CH": "yellow",
+  "GB": "yellow",
+  "UA": "yellow"
  },
  "regions": {},
  "eu": "green",
  "headline": "Reported cyber disruption of the power grid",
  "items": [
+  {
+   "text": "Iran Hits Israel's Power Grid? Shock Cyberattack Causes Widespread Blackout Across Multiple Cities - The Times of India",
+   "source": "The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOXV0ekh1OFhMSTRrRVJ6TEkwTjExcVVGb0xDQXN2OU43TDVQVUZEYVk0UHUyeDFWc1dtaXcwY0tFMWJPYkkyb2VwWkRCR3FXSWVXY3lGWDRQMS02VVNyRVdKUVAyZ0RNX1hSVGtwOWIwYmJ2LUNjTFFieUdXbmw3Qmp1U1VRempYOE5YOGUwZldnT1hTNTI4eElRRldmLVVIZXJJQkFicTNZRU5QWEphbHQtODVMQjZXWkpGWGlFbkw2Qkw5UUQxMFZKY3pkdWUtdkphcTZrRHdvMDkzOGpaM0lOdHhRZHE5N3ZlNW43bElxS1praDBZaC0yU3JjM2xOX09oY05yNTXSAY4CQVVfeXFMTUxJMk9Vb0p2cGxWSk9SQjhDVnBMZDlxYTc4V2cyMlZUUHBMV1hETzc5cWhDcGE0b1lEdjk3OHlLZEZtaGk1dkdjci1NRFBhTUdyamhoRENvS1N4LTNWazg0LUxBa2ZZQTZIMVhZZW9kTjhSNlJzX294aHB0ZHJfdjdHNkgyVE45MmxvdWlPa2VOVENzQnl4NTJlTkV5MEVMN3FaSThkNjFWV0F3UC12UUd1cVBxTFpzekhUMWZaVlI1eklXTDRSc3pURHVMTkhMWExXaURIM3hnbVNfLWEtcmhwbUNzWlNsTzNhMGljZGtsRWxyclJrQjFsanhEV0ZMR1UzRnFqZ3cyOWlFMlJB?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "IN",
+    "IL"
+   ]
+  },
+  {
+   "text": "Blackout nach Hackerangriff: Das passiert in der Schweiz nach 30 Minuten, 4 Stunden und 3 Tagen ohne Strom - 20 Minuten",
+   "source": "20 Minuten",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3dYZFNJU3hJcTVMSFE2dXRIZDN0bWJIckFac2VTTGRheEVBX0JLZXhCUHk3UHgzWnFGc1h4MW5fNUU3OWFYWjhTaXg2MUtGYkJpMkNFckczM19DakxXa3RsclJFODFPUDR4VUk4cnUwcllLZWhmQWsyRVo3Nk5uME9CY3FOdXo1bHk1TG54dDBiUHluVjhudTlBQjFkYnRFM3Z4eE9pSXM5V2EzTnB3eGZwSGpkREJLMHc?oc=5",
+   "level": "orange",
+   "why": "Reported cyber disruption of the power grid",
+   "targets": [
+    "CH"
+   ]
+  },
+  {
+   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
+   "source": "Herald.Wales",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
+   "level": "orange",
+   "why": "Widespread blackout reported",
+   "targets": [
+    "GB"
+   ]
+  },
   {
    "text": "Cyberangriff stoppt Smart-Meter-Produktion in drei Werken - Blackout News",
    "source": "Blackout News",
@@ -47,19 +87,9 @@
    ]
   },
   {
-   "text": "Inside the ‘Black Sky’ plans for a nationwide blackout - Herald.Wales",
-   "source": "Herald.Wales",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWEyOTd5eElOMGZzZFdFOGJMRUlLcV9DYm9DZlBxV2dLQnJlbVN4cjZ4RzdxZWpZYWJtcV9HblJvS251QUs2MFhILWdyREFKWGVSN0JRSjREbDhRWXFGNWVpN1JxMzlYREI5VktSanJfQlloQjNFTzdxNVBSVUZabkh0UHQ?oc=5",
-   "level": "orange",
-   "why": "Widespread blackout reported",
-   "targets": [
-    "GB"
-   ]
-  },
-  {
    "text": "Operation Blackout: US charges over 800 cybercriminals, recovers $17 billion, and seizes 14,000 devices - Mezha",
    "source": "Mezha",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTll2OXlQX3JRalc0V3NfQ1lYZFBvM1YwUE1zOG5HeEpHZXE2eGdXYVRFX2gtdWlJRjdhaUhwNGVScTVrdHBlOG1pRHJlN0ZSYjl0aFE4WkVqLS1vcnBucmNzbjBuS3NPOXBQWlp1cGFEb1NObFZWckx2YXdIbmc2TXFVbEZpMlkwNkdZRG9iRlB4cXNKZ0FDNGRNbzTSAaIBQVVfeXFMT00wVy1uU1MzNUthYUdvMG9CUFpGblVCWVc3cDd0M3FBWHl4cjd4MDJLVVB5THUwNElZaUNGT2J6S2xhbHVOQVRBUjRYcGlUX3hFTjZ3TmpFWEdxZXphcWRWTmdfNGpESUt0cTNCUlZnWkN4UFZ5NERrV3lGS2NQYlJWMFQtejdzTmFMcjkyZUFtUXRWTmlGS2M5d1ZkMEpTRnhB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTBXLW5TUzM1S2FhR28wb0JQWkZuVUJZVzdwN3QzcUFYeXhyN3gwMktVUHlMdTA0SVlpQ0ZPYnpLbGFsdU5BVEFSNFhwaVRfeEVONndOakVYR3FlemFxZFZOZ180akRJS3RxM0JSVmdaQ3hQVnk0RGtXeUZLY1BiUlYwVC16N3NOYUxyOTJlQW1RdFZOaUZLYzl3VmQwSlNGeEHSAaIBQVVfeXFMT00wVy1uU1MzNUthYUdvMG9CUFpGblVCWVc3cDd0M3FBWHl4cjd4MDJLVVB5THUwNElZaUNGT2J6S2xhbHVOQVRBUjRYcGlUX3hFTjZ3TmpFWEdxZXphcWRWTmdfNGpESUt0cTNCUlZnWkN4UFZ5NERrV3lGS2NQYlJWMFQtejdzTmFMcjkyZUFtUXRWTmlGS2M5d1ZkMEpTRnhB?oc=5",
    "level": "orange",
    "why": "Reported cyber disruption of the power grid",
    "targets": [
@@ -77,13 +107,61 @@
    ]
   },
   {
-   "text": "Panne Microsoft 365 : le rapport final confirme un bug, pas une cyberattaque - TheSiteOueb",
-   "source": "TheSiteOueb",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNE9vUGR2ZzU5emUtcUctdmJkd19uMnN5QU1VeWJYX0phQW9hc0E1enhNWC11SUZWNURleURyQU1SV2NJQ01RR3N5d2NWY1RkZklyV0c1OHQtcWw1UzJVUUdjUjlnOV8tTGdDWS00anZDR2JhOFBFYVQ3VUM3WlI3REgwSjNTcDB6ek9mWVQxMjR5WF9Sb2lVTS1SQXhQODZRSnV2MXJGaEloZmFzTE05Z1lsY29GbzhlVk93VFJKQm9maUwwRkJicg?oc=5",
-   "level": "orange",
-   "why": "Reported cyber disruption of the power grid",
+   "text": "'Swift seizure of small islands': China's amphibious drill using civilian ships threatens Taiwan - The Times of India",
+   "source": "The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQbUZzUkwyYjdWeFFZcTRSbHN0ajRWOVR0VTU4ZjRCSTBJYWZ3cmtfLUdaVHIwWXo1Q2xweUcwTmJMSUN5dldMbmFtb2M4cUYxcExYWkttVUtEWWE0T082SEs2dWp4a1ZtMHRwTUFLc3RlNHJaU0FaU1pXWUFXTlNwbWE3a1dDa08xNktXWE1DT2JLZmtzWlJpcE4zUmJ2dXR4VmtUelBTTXdQVGt2YldYemxNSkhDNjQ4djZjcVJIVl9hcGhsa0puVkNkbjRkeXpOVmhIZjRRdG1fU3NrWUpVTzlLN0FBSjBOVmw0QldzenY5UllKTVY2anplb25TNGYzaDhZdEJjc9IBjAJBVV95cUxPeVpwZFZNTlZhZ05fMTNxcHY2M2tpMDFVaHQtaHZRZ1h5eWFObzU5dmpPY1FEcUxfem5KWGVGdEtOdEVPUkMzZUV5NWtrQWxzM1pmd29RTmJLS3Fuejl3RWU4bzU3Zy1UbTFENHpDTDVsVHZlamZsdG9HcFhqTWJjMkY2WDlYZ2U2WTUzek1tamJIRUkydXl2cHMwRm90R0tISjV4OWFCQjZmZlY5SXZ4R290akl3dG55VEs1SjVwdWJtS0NGYk1keGg4bUo0bjVJeEpiWjlLbkowRHI3LXdNZDU4WnoyTVRRdTFWNWhQY29jREVocDg4eXRDRHBpenVYYzJReGhDTDBSMFQ1?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
    "targets": [
-    "FR"
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Chinese military tests new Taiwan landing tactics in coastal drills - Internazionale",
+   "source": "Internazionale",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWEdaTzExOG9XeEZtMDNCejljQTZiZXRrMkVWOERjMjg4WE83SVFadkt5Q1RrcE0zSmNVMDBJcDFtSi12MHFZX3c2UG15cTctb1RBZ2taRVZCckgzOXZGWFdHbEVOd29SemRYU3lXYjhEbFAySkJFWENpRk1XS25UTUtLWG9xM0dmU2M4Z21jaElYdjRvMG9Ga3RCYnc5OTk2NjZCQWpyNWIyWmVTdzRuMENMV3pkZHRkTm5Ja2pvaG9EakZONXBodnJMbw?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Chinese military tests new Taiwan landing tactics in coastal drills - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZU5SZ2xxNVZFTWlFWHlITkJLNXhSendCb3RYckhpQkhqcDRVeDdRdVJWRl9WWnJWYlZvV2tMM1VaalU2SlRQQTRYNVZzc0Y2SVp0WmJKai1kN3NtSEU1MkxLSkhGN0M2TW9JOHFianYwZEtrNTE2NW81aGlLTWRpc18xd2hwUmI1XzdQVGxON0dJREhldE5R?oc=5",
+   "level": "yellow",
+   "why": "Taiwan Strait escalation or major exercise",
+   "targets": [
+    "AU",
+    "US",
+    "JP",
+    "TW",
+    "PH",
+    "KR",
+    "NZ"
+   ]
+  },
+  {
+   "text": "Artex AI Hacking Tool: Microsoft Names Chinese, North Korean State-Linked Hacker Groups - Tech Times",
+   "source": "Tech Times",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbXpiVWctcEhUQ1IxTGFOU21Fb0UxMkpQMGJ5dlVyYS1JcVB0TVlwejNlTlBha1VXTWJLWjNvb1M2MFpSWDhJUXFtcFQyU0Y4dl9CdENHNkJvYTl2WXNRdmhQS3Z1MDZsdHZDaFFWWUJCUGxDZm5RcnBsdUIwenNjWWltc0FiSHZJNUFDMXpBTkJuOWJGNnltVmhTTXFNRm9xNTNJaUQwREg0U0Z2WGlNbHhVWTExeVozZzZ4U3VJOWpvaHJTSlpxTVMxWHlJbWNKc1l1SjFNWQ?oc=5",
+   "level": "yellow",
+   "why": "State hacking group linked to infrastructure in this country",
+   "targets": [
+    "KR"
    ]
   },
   {
@@ -215,16 +293,6 @@
    "targets": [
     "CA"
    ]
-  },
-  {
-   "text": "Condición de carrera en OpenPLC Runtime de Autonomy Logic",
-   "source": "INCIBE-CERT avisos SCI",
-   "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos-sci/condicion-de-carrera-en-openplc-runtime-de-autonomy-logic",
-   "level": "yellow",
-   "why": "INCIBE-CERT avisos SCI: critical infrastructure advisory",
-   "targets": [
-    "ES"
-   ]
   }
  ],
  "actions": {
@@ -233,12 +301,10 @@
   "orange": "Operational warning sign. Fill water, charge everything, fuel the car, get cash.",
   "red": "Possible widespread outage. Switch to your household plan and tune to your local emergency broadcaster."
  },
- "checkedAt": "2026-11-26T20:57+00:00",
- "sourcesChecked": 906,
+ "checkedAt": "2026-11-27T09:17+00:00",
+ "sourcesChecked": 928,
  "sourceErrors": [
   "ASD's ACSC alerts: TimeoutError",
-  "ASD's ACSC advisories: TimeoutError",
-  "INCIBE-CERT avisos: TimeoutError",
-  "News AT: HTTPError"
+  "ASD's ACSC advisories: TimeoutError"
  ]
 }
